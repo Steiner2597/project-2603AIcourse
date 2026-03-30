@@ -1,0 +1,156 @@
+{
+  "run_dir": "runs/final/7 ds-chat+gpt5mini/260326045055_ds-chat+gpt5mini_seed44",
+  "group": "7 ds-chat+gpt5mini",
+  "run_name": "260326045055_ds-chat+gpt5mini_seed44",
+  "seed": 44,
+  "provider_tag": "ds-chat+gpt5mini",
+  "status": "completed",
+  "started_at": "2026-03-26T04:50:55",
+  "finished_at": "2026-03-26T06:15:22",
+  "wall_clock_sec": 5067.0,
+  "quality": {
+    "best_score_ratio": 0.05283866598004676,
+    "ours_gap_pct": 5.283866598004676,
+    "improve_ratio_first_to_last_best": 0.05491499569145166
+  },
+  "events": {
+    "total_eval_events": 557,
+    "total_llm_events": 64,
+    "llm_request_done": 32,
+    "llm_request_error": 0,
+    "accepted": 346,
+    "dedup_expr_hit": 134,
+    "eval_errors": 1
+  },
+  "llm_time": {
+    "sum_elapsed_sec": 728.428,
+    "avg_elapsed_sec": 22.763375
+  },
+  "by_model": {
+    "deepseek-chat": {
+      "requests": 16,
+      "prompt_chars": 30681,
+      "response_chars": 13549,
+      "elapsed_sec": 138.126,
+      "scenarios": {
+        "pessimistic_3p5": {
+          "chars_per_token": 3.5,
+          "input_tokens_est": 8766.0,
+          "output_tokens_est": 3871.1428571428573,
+          "cost_input_miss_usd": 0.00245448,
+          "cost_input_hit_usd": 0.000245448,
+          "cost_output_usd": 0.0016258800000000001
+        },
+        "default_4p0": {
+          "chars_per_token": 4.0,
+          "input_tokens_est": 7670.25,
+          "output_tokens_est": 3387.25,
+          "cost_input_miss_usd": 0.00214767,
+          "cost_input_hit_usd": 0.00021476699999999999,
+          "cost_output_usd": 0.001422645
+        },
+        "optimistic_4p5": {
+          "chars_per_token": 4.5,
+          "input_tokens_est": 6818.0,
+          "output_tokens_est": 3010.8888888888887,
+          "cost_input_miss_usd": 0.00190904,
+          "cost_input_hit_usd": 0.000190904,
+          "cost_output_usd": 0.0012645733333333333
+        }
+      }
+    },
+    "gpt-5-mini": {
+      "requests": 16,
+      "prompt_chars": 36635,
+      "response_chars": 19112,
+      "elapsed_sec": 590.302,
+      "scenarios": {
+        "pessimistic_3p5": {
+          "chars_per_token": 3.5,
+          "input_tokens_est": 10467.142857142857,
+          "output_tokens_est": 5460.571428571428,
+          "cost_input_usd": 0.0026167857142857143,
+          "cost_output_usd": 0.010921142857142857
+        },
+        "default_4p0": {
+          "chars_per_token": 4.0,
+          "input_tokens_est": 9158.75,
+          "output_tokens_est": 4778.0,
+          "cost_input_usd": 0.0022896875,
+          "cost_output_usd": 0.009556
+        },
+        "optimistic_4p5": {
+          "chars_per_token": 4.5,
+          "input_tokens_est": 8141.111111111111,
+          "output_tokens_est": 4247.111111111111,
+          "cost_input_usd": 0.0020352777777777778,
+          "cost_output_usd": 0.008494222222222222
+        }
+      }
+    }
+  },
+  "by_phase": {
+    "proposal": {
+      "requests": 16,
+      "elapsed_sec": 138.126
+    },
+    "refine": {
+      "requests": 16,
+      "elapsed_sec": 590.302
+    }
+  },
+  "by_generation": {
+    "1": {
+      "requests": 4,
+      "elapsed_sec": 64.957
+    },
+    "2": {
+      "requests": 4,
+      "elapsed_sec": 97.159
+    },
+    "3": {
+      "requests": 4,
+      "elapsed_sec": 67.487
+    },
+    "4": {
+      "requests": 4,
+      "elapsed_sec": 80.71000000000001
+    },
+    "5": {
+      "requests": 4,
+      "elapsed_sec": 83.118
+    },
+    "6": {
+      "requests": 4,
+      "elapsed_sec": 119.464
+    },
+    "7": {
+      "requests": 4,
+      "elapsed_sec": 101.055
+    },
+    "8": {
+      "requests": 4,
+      "elapsed_sec": 114.478
+    }
+  },
+  "cost_totals": {
+    "pessimistic_3p5": {
+      "cost_input_miss_usd": 0.00245448,
+      "cost_input_hit_usd": 0.000245448,
+      "cost_output_usd": 0.012547022857142856,
+      "cost_input_usd": 0.0026167857142857143
+    },
+    "default_4p0": {
+      "cost_input_miss_usd": 0.00214767,
+      "cost_input_hit_usd": 0.00021476699999999999,
+      "cost_output_usd": 0.010978645,
+      "cost_input_usd": 0.0022896875
+    },
+    "optimistic_4p5": {
+      "cost_input_miss_usd": 0.00190904,
+      "cost_input_hit_usd": 0.000190904,
+      "cost_output_usd": 0.009758795555555555,
+      "cost_input_usd": 0.0020352777777777778
+    }
+  }
+}

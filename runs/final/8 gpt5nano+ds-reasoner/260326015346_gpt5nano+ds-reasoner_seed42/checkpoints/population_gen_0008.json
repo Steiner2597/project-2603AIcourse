@@ -1,0 +1,244 @@
+{
+  "generation": 8,
+  "timestamp": "2026-03-26T03:44:07",
+  "island_count": 2,
+  "population_size": 16,
+  "islands": [
+    {
+      "island": 0,
+      "size": 16,
+      "candidates": [
+        {
+          "expr": "0.5 * max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)) + 0.5 * (0.5 * -abs(max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)) + 0.5 * max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after))",
+          "score": 0.04987495918189923,
+          "novelty": 1.0,
+          "stability": 0.9994390569167722,
+          "behavior_signature": "585cf7222214f98f143d0a55bff0f3ddef95a5e84606a82545911b091aa04ffe"
+        },
+        {
+          "expr": "-abs(0.5 * max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)) + 0.5 * (0.5 * -abs(max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)) + 0.5 * max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)))",
+          "score": 0.04987495918189923,
+          "novelty": 0.5,
+          "stability": 0.9998003555668579,
+          "behavior_signature": "585cf7222214f98f143d0a55bff0f3ddef95a5e84606a82545911b091aa04ffe"
+        },
+        {
+          "expr": "-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after))",
+          "score": 0.05006967129000721,
+          "novelty": 1.0,
+          "stability": 0.9996140705043611,
+          "behavior_signature": "cef6f36e065a8b5c4e97ac5f4ec8120230f70305c3cd94b33388367b1761d383"
+        },
+        {
+          "expr": "max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)))",
+          "score": 0.05006967129000721,
+          "novelty": 0.125,
+          "stability": 0.9998887251171227,
+          "behavior_signature": "cef6f36e065a8b5c4e97ac5f4ec8120230f70305c3cd94b33388367b1761d383"
+        },
+        {
+          "expr": "0.5 * -abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) + 0.5 * (0.5 * -abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) + 0.5 * (0.5 * -abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) + 0.5 * max(-abs(max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)), -abs(after))))",
+          "score": 0.05007550593449572,
+          "novelty": 1.0,
+          "stability": 0.9985411617517421,
+          "behavior_signature": "fa89844eb68cb4aca5a1a18f738b5cd7bf6968a63e284a9ab85a00781345a16e"
+        },
+        {
+          "expr": "0.5 * -abs(max(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after) - 0.5 * fill, -abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)))) + 0.5 * -abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after))",
+          "score": 0.05007792577155142,
+          "novelty": 1.0,
+          "stability": 0.9995776663783341,
+          "behavior_signature": "1326274983dffb0188e8ea88c949bffb947cea3d039923a7388aa2beee78a7db"
+        },
+        {
+          "expr": "max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), 0.5 * max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)) + 0.5 * (0.5 * -abs(max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)) + 0.5 * max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)))",
+          "score": 0.05015520377827748,
+          "novelty": 1.0,
+          "stability": 0.9996910748182674,
+          "behavior_signature": "27c687396b92d54a5fba8981d3aa0520582d6c58773d278031ab2bf261b06ee1"
+        },
+        {
+          "expr": "0.6 * max(-abs(max(0.65 * sqrt(stdev_remaining) - 0.95 * item + 0.82 * after + 0.52 * exact_fit, -after)), -abs(after))",
+          "score": 0.05027982152659025,
+          "novelty": 1.0,
+          "stability": 0.9999577593286301,
+          "behavior_signature": "63196b97ceb211a94795c67e3ad33319d88e59ab54bb9b2a39d63ab049e5fa02"
+        },
+        {
+          "expr": "0.5 * -abs(max(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after) - 0.5 * fill, -abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)))) + 0.5 * (0.5 * max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)) + 0.5 * (0.5 * -abs(max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)) + 0.5 * max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)))",
+          "score": 0.05043824967797252,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "26f99c9e75a44607a4c16ca3c17619dba6609ca319f5d02f753f301a8a1696ed"
+        },
+        {
+          "expr": "0.5 * max(-abs(-abs(max(max(-2.273 * after + 1.068 * bin_rank + 0.097 * after, max(0.35 * stdev_remaining + 0.6 * after - 1.4 * item + 1.1 * exact_fit, -after) - 0.5 * after), max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)))), max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after))) + 0.5 * (0.5 * max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)) + 0.5 * (0.5 * -abs(max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)) + 0.5 * max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)))",
+          "score": 0.05044523521123443,
+          "novelty": 1.0,
+          "stability": 0.9998741800509425,
+          "behavior_signature": "620c20fb7e7cb1f39d2895cbab2ddd44f30b38d3de694201537a15628168d16f"
+        },
+        {
+          "expr": "-abs(max(-abs(-abs(max(max(-2.273 * after + 1.068 * bin_rank + 0.097 * after, max(0.35 * stdev_remaining + 0.6 * after - 1.4 * item + 1.1 * exact_fit, -after) - 0.5 * after), max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)))), max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after))))",
+          "score": 0.05068024964731029,
+          "novelty": 0.5,
+          "stability": 0.9998581562623122,
+          "behavior_signature": "e9310cbdcfcec4448d14328fffde67f980eaf6b0ee388c486c6b53f8b62ee205"
+        },
+        {
+          "expr": "max(max(-abs(-abs(max(max(-2.273 * after + 1.068 * bin_rank + 0.097 * after, max(0.35 * stdev_remaining + 0.6 * after - 1.4 * item + 1.1 * exact_fit, -after) - 0.5 * after), max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)))), max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after))), -abs(after))",
+          "score": 0.05068024964731029,
+          "novelty": 0.3333333333333333,
+          "stability": 0.9999042583712211,
+          "behavior_signature": "e9310cbdcfcec4448d14328fffde67f980eaf6b0ee388c486c6b53f8b62ee205"
+        },
+        {
+          "expr": "-abs(0.5 * -abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) + 0.5 * max(-abs(max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)), -abs(after))) + 2.0 * mean_remaining",
+          "score": 0.050758076797222274,
+          "novelty": 0.3333333333333333,
+          "stability": 0.9999114137558502,
+          "behavior_signature": "e4018eddc9e4948c0728d9bdf2cbabd674719e44833033811760be13f07e4d24"
+        },
+        {
+          "expr": "max(-abs(0.5 * -abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) + 0.5 * max(-abs(max(0.4 * stdev_remaining - 1.2 * item + 0.85 * after + 0.9 * exact_fit, -after)), -abs(after))), -abs(after))",
+          "score": 0.050758076797222274,
+          "novelty": 0.25,
+          "stability": 1.0,
+          "behavior_signature": "e4018eddc9e4948c0728d9bdf2cbabd674719e44833033811760be13f07e4d24"
+        },
+        {
+          "expr": "max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)) - 0.1 * after",
+          "score": 0.05153630915062209,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "35797c07993f70daf579cfede9bcec93196dfa065d8bd5c262deedc59320699c"
+        },
+        {
+          "expr": "-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) - 0.1 * remaining",
+          "score": 0.05153630915062209,
+          "novelty": 0.5,
+          "stability": 0.9999863034590352,
+          "behavior_signature": "35797c07993f70daf579cfede9bcec93196dfa065d8bd5c262deedc59320699c"
+        }
+      ]
+    },
+    {
+      "island": 1,
+      "size": 16,
+      "candidates": [
+        {
+          "expr": "-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) + 0.1 * stdev_remaining",
+          "score": 0.05006967129000721,
+          "novelty": 0.16666666666666666,
+          "stability": 0.9999709506959448,
+          "behavior_signature": "cef6f36e065a8b5c4e97ac5f4ec8120230f70305c3cd94b33388367b1761d383"
+        },
+        {
+          "expr": "-abs(max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)))",
+          "score": 0.05006967129000721,
+          "novelty": 0.14285714285714285,
+          "stability": 0.9999193564924471,
+          "behavior_signature": "cef6f36e065a8b5c4e97ac5f4ec8120230f70305c3cd94b33388367b1761d383"
+        },
+        {
+          "expr": "0.5 * (-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) + 0.1 * stdev_remaining) + 0.5 * max(0.5 * max(max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -1.869 * remaining + 0.32 * fill + -0.175 * mean_remaining + 1.334 * after) - 0.5 * after, -abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining) - 0.5 * remaining) + 0.5 * (max(-abs(remaining - mean_remaining), 0.25 * fill - 0.6 * stdev_remaining + 0.8 * exact_fit - abs(after)) - 1.0 * fill), max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)))",
+          "score": 0.05013094579981113,
+          "novelty": 1.0,
+          "stability": 0.9906571722710986,
+          "behavior_signature": "dd7362b62f7967d2612aedc1dc1b9932baeb7432bf8b2e50a8945d097cf4c443"
+        },
+        {
+          "expr": "max(-abs(max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after))), max(0.5 * max(max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -1.869 * remaining + 0.32 * fill + -0.175 * mean_remaining + 1.334 * after) - 0.5 * after, -abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining) - 0.5 * remaining) + 0.5 * (max(-abs(remaining - mean_remaining), 0.25 * fill - 0.6 * stdev_remaining + 0.8 * exact_fit - abs(after)) - 1.0 * fill), max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after))))",
+          "score": 0.05013094579981113,
+          "novelty": 0.5,
+          "stability": 1.0,
+          "behavior_signature": "88acfada22603cf9849cbc427d10c325610d571d2709e4f000cb64b18c886040"
+        },
+        {
+          "expr": "-abs(max(0.5 * max(max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -1.869 * remaining + 0.32 * fill + -0.175 * mean_remaining + 1.334 * after) - 0.5 * after, -abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining) - 0.5 * remaining) + 0.5 * (max(-abs(remaining - mean_remaining), 0.25 * fill - 0.6 * stdev_remaining + 0.8 * exact_fit - abs(after)) - 1.0 * fill), max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after))))",
+          "score": 0.05013094579981113,
+          "novelty": 0.3333333333333333,
+          "stability": 1.0,
+          "behavior_signature": "88acfada22603cf9849cbc427d10c325610d571d2709e4f000cb64b18c886040"
+        },
+        {
+          "expr": "-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) + 0.1 * stdev_remaining - 0.5 * exact_fit",
+          "score": 0.050168551349215273,
+          "novelty": 1.0,
+          "stability": 0.9995087701069545,
+          "behavior_signature": "5952c824056b782cace8f8ef2cf9c9c14ea5ccc458bfa2a23df89abbf4165c0a"
+        },
+        {
+          "expr": "-abs(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)) + 0.1 * stdev_remaining)",
+          "score": 0.05292886891146903,
+          "novelty": 1.0,
+          "stability": 0.9998741884800431,
+          "behavior_signature": "e0ed0f344e53074c07cab689c9e93b03560dfc2c7a6bdf2caeb5bd3513d403ed"
+        },
+        {
+          "expr": "-abs(max(-abs(remaining - mean_remaining), 0.25 * fill - 0.6 * stdev_remaining + 0.8 * exact_fit - abs(after)) - 1.0 * fill + 2.0 * fill)",
+          "score": 0.06220799130901598,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "399e3ebccc4103354987f9dde010aad6da84f3c39cf9a0efbcd51f35af986f27"
+        },
+        {
+          "expr": "max(-abs(remaining - mean_remaining), 0.25 * fill - 0.6 * stdev_remaining + 0.8 * exact_fit - abs(after)) - 1.0 * fill + 2.0 * fill + 1.0 * item",
+          "score": 0.06220799130901598,
+          "novelty": 0.16666666666666666,
+          "stability": 1.0,
+          "behavior_signature": "353894378816fb49180103c057994940c917b1a525f7a77c80aec720d8ad582d"
+        },
+        {
+          "expr": "-abs(max(0.4 * fill - 0.6 * stdev_remaining + 1.0 * exact_fit - abs(after), -abs(remaining - mean_remaining) - 0.3 * bin_rank) - 0.8 * fill - 0.1 * remaining)",
+          "score": 0.06222270830837434,
+          "novelty": 0.3333333333333333,
+          "stability": 1.0,
+          "behavior_signature": "239cb086dd6772699093e3683eef8c4f8fa792237288db31b4aa112489db47ce"
+        },
+        {
+          "expr": "max(0.4 * fill - 0.6 * stdev_remaining + 1.0 * exact_fit - abs(after), -abs(remaining - mean_remaining) - 0.3 * bin_rank) - 0.8 * fill - 0.5 * remaining",
+          "score": 0.06235291664170769,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "951d7245b5258cc38f179cd583ebd0b28d9aebbd5daf980644a78c1fa35f765b"
+        },
+        {
+          "expr": "0.5 * (0.5 * max(max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -1.869 * remaining + 0.32 * fill + -0.175 * mean_remaining + 1.334 * after) - 0.5 * after, -abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining) - 0.5 * remaining) + 0.5 * (max(-abs(remaining - mean_remaining), 0.25 * fill - 0.6 * stdev_remaining + 0.8 * exact_fit - abs(after)) - 1.0 * fill)) + 0.5 * (0.5 * max(max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -1.869 * remaining + 0.32 * fill + -0.175 * mean_remaining + 1.334 * after) - 0.5 * after, -abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining) - 0.5 * remaining) + 0.5 * (max(-abs(remaining - mean_remaining), 0.25 * fill - 0.6 * stdev_remaining + 0.8 * exact_fit - abs(after)) - 1.0 * fill)) - 1.0 * remaining",
+          "score": 0.062432896895080005,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "74a1da1d1c43a2ced5e3407c26dbb6f3174ff3eaf2769e375ccbb206269ba5af"
+        },
+        {
+          "expr": "0.203 * item + -1.85 * bin_rank + 2.016 * item + -1.97 * item + -2.069 * exact_fit - abs(after)",
+          "score": 0.06283981375389439,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "206feef6adcdd3146954bd3e1abd808d1d07a03fffab93db4fe19d5c6c1c3bcf"
+        },
+        {
+          "expr": "2.368 * bin_rank + 0.339 * remaining + 1.564 * bin_rank - abs(after)",
+          "score": 0.06396970971051183,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "27d61dc7d7d735af9b51115f7417a72ee78d5692640a05f67b631c48de93d9f6"
+        },
+        {
+          "expr": "max(0.4 * fill - 0.6 * stdev_remaining + 1.0 * exact_fit - abs(after), -abs(remaining - mean_remaining) - 0.3 * bin_rank) - 0.8 * fill + 1.0 * after",
+          "score": 0.06890064634370681,
+          "novelty": 1.0,
+          "stability": 0.9935500808463796,
+          "behavior_signature": "16d358e8d711bf1556d2b1552fe3fd1579ea2c84866eb6a7808d6245bf65ad48"
+        },
+        {
+          "expr": "-abs(max(-abs(max(0.6 * sqrt(stdev_remaining) - 1.0 * item + 0.8 * after + 0.5 * exact_fit, -after)), -abs(after)) + 0.2 * remaining)",
+          "score": 0.07849316105834626,
+          "novelty": 1.0,
+          "stability": 0.9980877403659297,
+          "behavior_signature": "146a075de6b51cf85dc8333cc64d7e5ca639a15c1f005ca0c2547d5290245ae4"
+        }
+      ]
+    }
+  ]
+}

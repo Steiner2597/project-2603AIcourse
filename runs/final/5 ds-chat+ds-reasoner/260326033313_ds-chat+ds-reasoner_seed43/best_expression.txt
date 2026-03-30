@@ -1,0 +1,1 @@
+max(-(after * after), -2.5 * fill + 0.3 * exact_fit - 1.2 * item) + 0.4 * stdev_remaining - 0.1 * mean_remaining

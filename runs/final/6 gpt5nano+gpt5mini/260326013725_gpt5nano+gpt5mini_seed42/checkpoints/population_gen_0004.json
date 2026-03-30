@@ -1,0 +1,244 @@
+{
+  "generation": 4,
+  "timestamp": "2026-03-26T02:31:45",
+  "island_count": 2,
+  "population_size": 16,
+  "islands": [
+    {
+      "island": 0,
+      "size": 16,
+      "candidates": [
+        {
+          "expr": "max(max(-1.551 * after + -0.009 * slack_rank + -0.166 * mean_remaining + -0.013 * remaining + 2.226 * slack_rank, -after), -abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after)))) + 0.5 * fill",
+          "score": 0.05587451572941202,
+          "novelty": 1.0,
+          "stability": 0.998689745607984,
+          "behavior_signature": "3495a6d876c7e4605457d70f999fc0381f0d5ce5082ef37da21970262fbdb8e5"
+        },
+        {
+          "expr": "-abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after))) + 0.2 * fill",
+          "score": 0.05594209575922916,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "68572ce703ca85798d54e1d199ef68f5382067cdc16b1fdd47a54afcdeb67759"
+        },
+        {
+          "expr": "0.5 * -abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after))) + 0.5 * (-abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after))) + 0.2 * fill)",
+          "score": 0.05595791854403929,
+          "novelty": 1.0,
+          "stability": 0.9999250542935537,
+          "behavior_signature": "cf6c38f59e89e0851857da932ebac7c03ba36d0a40c2eece8f9433a947b2aed6"
+        },
+        {
+          "expr": "-abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after)))",
+          "score": 0.05600445910682929,
+          "novelty": 1.0,
+          "stability": 0.99939791542282,
+          "behavior_signature": "3fbe32e1ddef0b1f884e37ca03da788ac498062587ebd23bc122b2f0673e9faf"
+        },
+        {
+          "expr": "-abs(max(max(-1.551 * after + -0.009 * slack_rank + -0.166 * mean_remaining + -0.013 * remaining + 2.226 * slack_rank, -after), -abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after)))))",
+          "score": 0.05600445910682929,
+          "novelty": 1.0,
+          "stability": 0.9985802373773839,
+          "behavior_signature": "32313eaab29a2f2c4eef6e5fab1a209471ba4ea85e1d54a586e5694f6027f0b0"
+        },
+        {
+          "expr": "-abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after))) + 0.2 * fill - 1.0 * exact_fit",
+          "score": 0.05644535427193873,
+          "novelty": 1.0,
+          "stability": 0.9990234788749421,
+          "behavior_signature": "d507120fd871a3faf62a15c249fda4016f3d1eb90336194794c2c40b01479b16"
+        },
+        {
+          "expr": "-abs(-abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after))) - 1.0 * exact_fit)",
+          "score": 0.05653928560529074,
+          "novelty": 0.5,
+          "stability": 0.9995642393044322,
+          "behavior_signature": "9023163f115ae23d95cb59b110b12cd6c212e86833247ad11c654a8ad82a9410"
+        },
+        {
+          "expr": "max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after)) + 1.0 * stdev_remaining",
+          "score": 0.056734923274296856,
+          "novelty": 0.25,
+          "stability": 0.9999823163688417,
+          "behavior_signature": "f1a44d16f6f74c7104d6b89ac5fc0d111fe4af5f214cfd88d930490584555ad4"
+        },
+        {
+          "expr": "-abs(max(0.25 * stdev_remaining + 0.35 * after - 0.95 * item, -abs(after))) - 1.5 * exact_fit + 0.18 * fill",
+          "score": 0.056820104430424165,
+          "novelty": 1.0,
+          "stability": 0.9998363523030454,
+          "behavior_signature": "a8587ba4818e18937de0a7db08f71318973d2009a7faed2b671891ff62b1d2aa"
+        },
+        {
+          "expr": "max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after)) + 2.0 * fill - 0.2 * after",
+          "score": 0.059203933779640526,
+          "novelty": 1.0,
+          "stability": 0.9992241172590473,
+          "behavior_signature": "6f2169f410c4775e5a78b9d4189507002d50b63bb4c0080a86c679da42809360"
+        },
+        {
+          "expr": "0.5 * -abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after))) + 0.5 * -abs(max(0.228 * stdev_remaining + 0.413 * after + -0.351 * item + -0.959 * item, -after)) - 0.1 * item",
+          "score": 0.05957184580401568,
+          "novelty": 0.5,
+          "stability": 0.9999625762508888,
+          "behavior_signature": "642569b5d3f8ad2464c486bd953e450ae6b11fda93555445c4d09431aa4bb0ff"
+        },
+        {
+          "expr": "max(-abs(1.208 * fill + -1.384 * remaining + 0.883 * slack_rank - abs(after)), max(0.5 * max(0.794 * mean_remaining + 0.077 * global_tightness + -0.824 * fill + 0.864 * fill, -after) + 0.5 * max(0.228 * stdev_remaining + 0.413 * after + -0.351 * item + -0.959 * item, -after), -abs(after))) - 0.2 * fill",
+          "score": 0.06205903929639049,
+          "novelty": 1.0,
+          "stability": 0.9998736821705754,
+          "behavior_signature": "7c95a99fddc2ef8e2e371308c96cdc26741a748cb32b10a3049b446bf8ae4726"
+        },
+        {
+          "expr": "-0.267 * mean_remaining + -1.452 * remaining + -0.748 * remaining + 1.102 * item + -0.57 * exact_fit",
+          "score": 0.062495593883763835,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "e9b56c9e58e57e4d3c2db6a04969f18febb49483287f39eca6929f9c491ff3eb"
+        },
+        {
+          "expr": "1.754 * global_tightness + -2.338 * global_tightness + -0.909 * global_tightness + -1.396 * global_tightness + -1.979 * bin_rank + -1.797 * remaining - abs(after)",
+          "score": 0.062495593883763835,
+          "novelty": 0.1,
+          "stability": 1.0,
+          "behavior_signature": "0a29b071a1baa8d875b69d07e79777c95fbbf1ca120d1de302841739d8ed951c"
+        },
+        {
+          "expr": "max(max(-1.551 * after + -0.009 * slack_rank + -0.166 * mean_remaining + -0.013 * remaining + 2.226 * slack_rank, -after), -abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after)))) - 0.5 * after",
+          "score": 0.06253301903346443,
+          "novelty": 1.0,
+          "stability": 0.9999473708076251,
+          "behavior_signature": "96943154aced146af90d168654fc384e2f79854278222bb25bb70247808ac924"
+        },
+        {
+          "expr": "-abs(max(max(0.5 * max(0.794 * mean_remaining + 0.077 * global_tightness + -0.824 * fill + 0.864 * fill, -after) + 0.5 * max(0.228 * stdev_remaining + 0.413 * after + -0.351 * item + -0.959 * item, -after), -abs(after)), -abs(max(0.25 * stdev_remaining + 0.4 * after - 1.0 * item, -abs(after)))))",
+          "score": 0.08244148849799562,
+          "novelty": 0.5,
+          "stability": 0.9998205695408616,
+          "behavior_signature": "edbcb4c44125b1227a0ed554b9600c7a36a7ccc383efd558fd7feed0823382bf"
+        }
+      ]
+    },
+    {
+      "island": 1,
+      "size": 16,
+      "candidates": [
+        {
+          "expr": "-abs(max(max(-(after * after), 2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -0.656 * mean_remaining + -2.116 * remaining + 0.575 * slack_rank - abs(after)))",
+          "score": 0.06217610355391393,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "2f88362c704b4c30a6b21a629b32ff1dd5a2878034338b695650a60a9690b9a3"
+        },
+        {
+          "expr": "0.5 * -abs(max(max(-(after * after), 2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -0.656 * mean_remaining + -2.116 * remaining + 0.575 * slack_rank - abs(after))) + 0.5 * max(0.5 * (-1.869 * remaining + 0.32 * fill + -0.175 * mean_remaining + 1.334 * after) + 0.5 * (-1.562 * stdev_remaining + 0.613 * bin_rank + 0.627 * item - abs(after)) + 1.0 * exact_fit, -abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining))",
+          "score": 0.06217610355391393,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "d7d94a2be30079be60a7129b3c741b73389be8edfb1d18e0fc67804a35b54989"
+        },
+        {
+          "expr": "0.5 * -abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining) + 0.5 * (max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -abs(after)) + 0.2 * after)",
+          "score": 0.062257795883550404,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "0f46ca76c33e99b214ba07f666257602e68716ccd4240cb9bbfe19ddf629e020"
+        },
+        {
+          "expr": "-abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining)",
+          "score": 0.06228080744211005,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "5d2e5ef36de946151eea811dd611f8a96b791085d36626ff925cad841af09a87"
+        },
+        {
+          "expr": "-abs(max(0.5 * (-1.869 * remaining + 0.32 * fill + -0.175 * mean_remaining + 1.334 * after) + 0.5 * (-1.562 * stdev_remaining + 0.613 * bin_rank + 0.627 * item - abs(after)) + 1.0 * exact_fit, -abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining)))",
+          "score": 0.06228080744211005,
+          "novelty": 0.5,
+          "stability": 1.0,
+          "behavior_signature": "007fd836e755d09fb72a0c079bde9f566a3051369982e2d82d902f969d8870f5"
+        },
+        {
+          "expr": "max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -abs(after)) + 0.2 * after + 0.1 * after",
+          "score": 0.06234983828674891,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "64b6350c5b5c2971260110e5fe9437bce1456ae535f6ccc31f7560bf17ed7945"
+        },
+        {
+          "expr": "max(max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -abs(after)) + 0.2 * after, -abs(after))",
+          "score": 0.06234983828674891,
+          "novelty": 0.5,
+          "stability": 1.0,
+          "behavior_signature": "66a8f78578ec6f06bbe85094587ef912b0077ba605c9b80ab84b6bc01758b200"
+        },
+        {
+          "expr": "0.5 * max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining)) + 0.5 * max(0.5 * (-1.869 * remaining + 0.32 * fill + -0.175 * mean_remaining + 1.334 * after) + 0.5 * (-1.562 * stdev_remaining + 0.613 * bin_rank + 0.627 * item - abs(after)) + 1.0 * exact_fit, -abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining))",
+          "score": 0.06237394469701202,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "addc6b3daaa5e2a6cdb089c81fa0ca0e57eff48089461756285aa7b22f0e0592"
+        },
+        {
+          "expr": "max(-abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining), max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining)))",
+          "score": 0.06237394469701202,
+          "novelty": 0.5,
+          "stability": 0.999752233142568,
+          "behavior_signature": "5e288d9faf3919a5e4a892da212490393d55b5c84eda39a32e5f5ab9097c12aa"
+        },
+        {
+          "expr": "max(max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -abs(after)) + 0.2 * after, 0.5 * -abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining) + 0.5 * (max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.2 * after + 0.1 * exact_fit))",
+          "score": 0.062384804396809726,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "ff7227f166ea571ff39bca920976e15b1fcd735cf6ceb55afa4672ca6a4f2255"
+        },
+        {
+          "expr": "-abs(0.5 * -abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining) + 0.5 * (0.5 * (-1.869 * remaining + 0.32 * fill + -0.175 * mean_remaining + 1.334 * after) + 0.5 * (-1.562 * stdev_remaining + 0.613 * bin_rank + 0.627 * item - abs(after)) + 1.0 * exact_fit))",
+          "score": 0.06243133689725128,
+          "novelty": 0.5,
+          "stability": 1.0,
+          "behavior_signature": "a7dde1b1618907cbb3166b69b07f984acf3e412ad5a233b80bdc3fd991be0e4b"
+        },
+        {
+          "expr": "-abs(0.5 * -abs(max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.5 * remaining) + 0.5 * (max(1.699 * mean_remaining + 1.329 * slack_rank + -0.077 * fill + -1.127 * remaining, -after) - 0.2 * after + 0.1 * exact_fit))",
+          "score": 0.06245917251729838,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "41bd75b100bed80d519d3285fba97c171e8dc228e8f85426d05b8911f0d0d645"
+        },
+        {
+          "expr": "-abs(max(-abs(2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining), -abs(after)) + 0.2 * after)",
+          "score": 0.06248004662008224,
+          "novelty": 1.0,
+          "stability": 0.9999844529780321,
+          "behavior_signature": "9722e809289fced2f2290dba02caafa4a41f63c3fae76a9a47c10c9da5765084"
+        },
+        {
+          "expr": "0.307 * global_tightness + 0.545 * mean_remaining + 0.922 * bin_rank + -2.181 * mean_remaining + 0.703 * mean_remaining - abs(after)",
+          "score": 0.0627580208370861,
+          "novelty": 0.5,
+          "stability": 1.0,
+          "behavior_signature": "cedbf62331a536fee7636ab1265146fa31c66d8a7549e00ddec6873804d5d7ae"
+        },
+        {
+          "expr": "1.064 * mean_remaining + -0.381 * exact_fit + 1.758 * bin_rank + -1.24 * bin_rank + -0.989 * slack_rank",
+          "score": 0.06509053366123843,
+          "novelty": 1.0,
+          "stability": 0.9996305827729282,
+          "behavior_signature": "f3560e6f1ae81a348a473085e45dd7ea80c9f815a3246f4bf48f79bef5ce2e23"
+        },
+        {
+          "expr": "-max(5.0 * exact_fit, -1.5 * stdev_remaining - 0.8 * abs(after) - 0.25 * mean_remaining + 0.35 * bin_rank)",
+          "score": 0.06753318479889858,
+          "novelty": 1.0,
+          "stability": 1.0,
+          "behavior_signature": "665eeb5520a767545e30ea12ef21b23499e5f7fee2577a138f52942064d54d0b"
+        }
+      ]
+    }
+  ]
+}

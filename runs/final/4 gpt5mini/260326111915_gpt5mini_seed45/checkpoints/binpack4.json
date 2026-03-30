@@ -1,0 +1,195 @@
+{
+  "source": "binpack4",
+  "summary": {
+    "instances": 20,
+    "avg_bins": 418.1,
+    "avg_gap": 17.55,
+    "avg_gap_ratio": 0.04380145659189057
+  },
+  "instances": [
+    {
+      "name": "u1000_00",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 418,
+      "optimal_bins": 399,
+      "gap": 19.0,
+      "gap_ratio": 0.047619047619047616
+    },
+    {
+      "name": "u1000_01",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 424,
+      "optimal_bins": 406,
+      "gap": 18.0,
+      "gap_ratio": 0.04433497536945813
+    },
+    {
+      "name": "u1000_02",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 432,
+      "optimal_bins": 411,
+      "gap": 21.0,
+      "gap_ratio": 0.051094890510948905
+    },
+    {
+      "name": "u1000_03",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 432,
+      "optimal_bins": 411,
+      "gap": 21.0,
+      "gap_ratio": 0.051094890510948905
+    },
+    {
+      "name": "u1000_04",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 414,
+      "optimal_bins": 397,
+      "gap": 17.0,
+      "gap_ratio": 0.042821158690176324
+    },
+    {
+      "name": "u1000_05",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 417,
+      "optimal_bins": 399,
+      "gap": 18.0,
+      "gap_ratio": 0.045112781954887216
+    },
+    {
+      "name": "u1000_06",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 413,
+      "optimal_bins": 395,
+      "gap": 18.0,
+      "gap_ratio": 0.04556962025316456
+    },
+    {
+      "name": "u1000_07",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 421,
+      "optimal_bins": 404,
+      "gap": 17.0,
+      "gap_ratio": 0.04207920792079208
+    },
+    {
+      "name": "u1000_08",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 414,
+      "optimal_bins": 399,
+      "gap": 15.0,
+      "gap_ratio": 0.03759398496240601
+    },
+    {
+      "name": "u1000_09",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 414,
+      "optimal_bins": 397,
+      "gap": 17.0,
+      "gap_ratio": 0.042821158690176324
+    },
+    {
+      "name": "u1000_10",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 417,
+      "optimal_bins": 400,
+      "gap": 17.0,
+      "gap_ratio": 0.0425
+    },
+    {
+      "name": "u1000_11",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 420,
+      "optimal_bins": 401,
+      "gap": 19.0,
+      "gap_ratio": 0.04738154613466334
+    },
+    {
+      "name": "u1000_12",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 410,
+      "optimal_bins": 393,
+      "gap": 17.0,
+      "gap_ratio": 0.043256997455470736
+    },
+    {
+      "name": "u1000_13",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 412,
+      "optimal_bins": 396,
+      "gap": 16.0,
+      "gap_ratio": 0.04040404040404041
+    },
+    {
+      "name": "u1000_14",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 413,
+      "optimal_bins": 394,
+      "gap": 19.0,
+      "gap_ratio": 0.048223350253807105
+    },
+    {
+      "name": "u1000_15",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 419,
+      "optimal_bins": 402,
+      "gap": 17.0,
+      "gap_ratio": 0.04228855721393035
+    },
+    {
+      "name": "u1000_16",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 421,
+      "optimal_bins": 404,
+      "gap": 17.0,
+      "gap_ratio": 0.04207920792079208
+    },
+    {
+      "name": "u1000_17",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 418,
+      "optimal_bins": 404,
+      "gap": 14.0,
+      "gap_ratio": 0.034653465346534656
+    },
+    {
+      "name": "u1000_18",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 415,
+      "optimal_bins": 399,
+      "gap": 16.0,
+      "gap_ratio": 0.040100250626566414
+    },
+    {
+      "name": "u1000_19",
+      "source": "binpack4",
+      "capacity": 150.0,
+      "bins_used": 418,
+      "optimal_bins": 400,
+      "gap": 18.0,
+      "gap_ratio": 0.045
+    }
+  ],
+  "baselines": {
+    "ff_gap_ratio": 0.052298090963001455,
+    "bf_gap_ratio": 0.049419333357386235
+  }
+}
