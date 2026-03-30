@@ -1,1 +1,0 @@
-max(0.5 * max(0.794 * mean_remaining + 0.077 * global_tightness + -0.824 * fill + 0.864 * fill, -after) + 0.5 * max(0.228 * stdev_remaining + 0.413 * after + -0.351 * item + -0.959 * item, -after) + 0.2 * after + 0.2 * after - 1.0 * stdev_remaining, -abs(max(-(after * after), 2.327 * mean_remaining + 2.205 * bin_rank + -1.93 * remaining + -0.496 * remaining)) + 0.2 * after)

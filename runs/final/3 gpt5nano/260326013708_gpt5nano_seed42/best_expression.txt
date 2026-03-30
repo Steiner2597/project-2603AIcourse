@@ -1,1 +1,0 @@
-max(-abs(after), -0.18 * stdev_remaining - 0.55 * fill + 0.32 * mean_remaining - 0.28 * item)

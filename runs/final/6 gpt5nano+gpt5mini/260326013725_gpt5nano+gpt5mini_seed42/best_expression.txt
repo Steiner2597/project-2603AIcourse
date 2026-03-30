@@ -1,1 +1,0 @@
-0.5 * -abs(-abs(max(max(-1.2 * after + -0.3 * mean_remaining + -0.4 * remaining, -after), -abs(max(0.3 * stdev_remaining + 0.5 * after - 1.0 * item, -abs(after)))))) + 0.5 * (-abs(max(0.25 * stdev_remaining + 0.4 * after - 0.5 * item, -abs(after))) + 0.4 * fill) + 0.1 * exact_fit + 0.1261 * bin_rank

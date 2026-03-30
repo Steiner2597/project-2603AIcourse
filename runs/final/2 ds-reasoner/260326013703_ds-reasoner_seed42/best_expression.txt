@@ -1,1 +1,0 @@
-max(-abs(-abs(max(0.228 * stdev_remaining + 0.413 * after + -0.351 * item + -0.959 * item, -after)) + 0.5 * after + 0.1 * remaining - 0.2 * item) - 0.1 * fill, -abs(after)) + 0.1261 * bin_rank

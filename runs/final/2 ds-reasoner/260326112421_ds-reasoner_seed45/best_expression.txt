@@ -1,1 +1,0 @@
--abs(max(-1.0 * exact_fit - 0.5251 * mean_remaining, -after) - 1.0122 * fill)

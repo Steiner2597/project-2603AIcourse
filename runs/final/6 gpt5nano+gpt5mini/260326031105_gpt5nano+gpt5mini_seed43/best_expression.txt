@@ -1,1 +1,0 @@
-0.6 * -abs(max(-(after * after), -1.9 * slack_rank + -0.02 * bin_rank + 1.85 * exact_fit - 2.05 * item - 2.0 * fill) + 2.0 * after) - 1.1 * mean_remaining - 0.12 * exact_fit - 0.18 * after

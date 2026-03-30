@@ -1,1 +1,0 @@
-0.5 * (-abs(-abs(max(2.424 * fill + 0.254 * after + -0.7651 * item + 0.956 * global_tightness + -2.285 * fill, -after)) + 0.2 * after) - 0.2 * fill + 0.1 * remaining) + 0.5 * -abs(-abs(-abs(max(2.424 * fill + 0.254 * after + -0.804 * item + 0.956 * global_tightness + -2.285 * fill, -after)) + 0.2 * after) - 0.2 * fill)

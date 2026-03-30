@@ -1,1 +1,0 @@
-max(1.5 * exact_fit + 0.6 * (0.5069 * (1.0 * item - 2.0 * slack_rank + 0.25 * remaining + 0.2 * mean_remaining) + 0.5 * max(1.8 * fill + 0.3 * after - 0.7 * item + 0.9 * global_tightness, -0.6 * after)), 0.8 * -stdev_remaining - 1.2 * fill)

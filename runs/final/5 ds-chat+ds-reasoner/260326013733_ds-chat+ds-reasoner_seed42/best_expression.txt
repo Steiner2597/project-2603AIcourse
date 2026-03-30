@@ -1,1 +1,0 @@
-max(0.5 * (item + 0.7 * exact_fit - 0.3 * fill - 0.9 * remaining) + 0.5 * (1.1 * fill - abs(after) - 0.6 * after), -abs(mean_remaining + 1.2 * stdev_remaining - 0.5 * remaining)) + 0.1261 * bin_rank

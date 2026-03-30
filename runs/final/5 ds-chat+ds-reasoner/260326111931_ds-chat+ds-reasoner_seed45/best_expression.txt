@@ -1,1 +1,0 @@
-max(-1.1 * item + 2.0 * stdev_remaining - 1.0 * global_tightness + 0.2 * mean_remaining, -after) - 0.6 * fill + 0.4 * exact_fit
