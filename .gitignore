@@ -1,0 +1,18 @@
+# Secrets / local env
+.env
+.env.*
+!.env.example
+
+# Local editor/workspace state
+.vscode/
+.idea/
+
+# Local Python env & caches
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Assignment private materials
+作业要求/
+
+#others

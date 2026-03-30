@@ -37,7 +37,7 @@ def main(
     dataset: str = typer.Option("synthetic", "--dataset", "-d", help="synthetic|orlib"),
         size: str = typer.Option("small", "--size", "-s", help="small/medium/large (ignored for orlib; all binpack1-8 will run)"),
     generations: int = typer.Option(30, "--generations", "-g", min=1),
-    population: int = typer.Option(48, "--population", "-p", min=8),
+    population: int = typer.Option(48, "--population", "-p", min=1),
     islands: int = typer.Option(4, "--islands", "-i", min=1),
     seed: int = typer.Option(42, "--seed"),
     compare: bool = typer.Option(False, "--compare", help="Generate FF/BF/Ours comparison table"),
