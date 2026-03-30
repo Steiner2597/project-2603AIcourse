@@ -16,5 +16,5 @@ __pycache__/
 作业要求/
 
 #others
-./runs
-docs
+runs/
+docs/
