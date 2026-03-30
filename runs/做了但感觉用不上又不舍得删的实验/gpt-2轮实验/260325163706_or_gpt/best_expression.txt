@@ -1,1 +1,0 @@
-max(max(-1.9 * item + 0.6 * remaining + 0.8 * mean_remaining + 0.5 * stdev_remaining + 0.8 * fill - 0.4 * after + 0.3 * exact_fit, -after) + 0.5 * fill, max(-1.6 * item + 0.75 * remaining + 0.95 * mean_remaining - 0.25 * stdev_remaining + 0.9 * fill - 0.5 * after + 0.35 * exact_fit, -after))

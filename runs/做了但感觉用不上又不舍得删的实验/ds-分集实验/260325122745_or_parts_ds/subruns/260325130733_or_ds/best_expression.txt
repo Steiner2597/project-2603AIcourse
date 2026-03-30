@@ -1,1 +1,0 @@
-max(-0.7 * item + 1.1 * after - 0.4 * fill, -after) + 0.5516 * (mean_remaining - abs(remaining - mean_remaining))

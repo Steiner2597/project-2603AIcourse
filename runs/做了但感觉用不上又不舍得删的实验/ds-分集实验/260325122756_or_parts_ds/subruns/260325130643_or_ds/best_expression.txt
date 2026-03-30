@@ -1,1 +1,0 @@
-max(0.6 * (max(-2.1 * global_tightness + 0.95 * exact_fit - 0.35 * bin_rank + 0.25 * slack_rank, -after) + 0.15 * after - 0.08 * remaining), max(0.85 * exact_fit - 1.6 * mean_remaining, -after) + 0.25 * sqrt(abs(remaining - stdev_remaining)))

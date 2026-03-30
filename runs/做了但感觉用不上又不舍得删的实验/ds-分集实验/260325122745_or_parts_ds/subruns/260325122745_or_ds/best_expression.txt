@@ -1,1 +1,0 @@
-2.303 * item + 0.748 * fill - 0.28 * remaining - 0.665 * stdev_remaining + sqrt(abs(mean_remaining - after)) - 2.0 * fill + 2.0 * mean_remaining + 0.1 * remaining

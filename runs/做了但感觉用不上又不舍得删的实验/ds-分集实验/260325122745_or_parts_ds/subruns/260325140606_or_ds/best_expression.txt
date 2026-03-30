@@ -1,1 +1,0 @@
--abs(-abs(max(1.8 * after + -0.9 * item, -after) - 0.8 * remaining + 0.3 * sqrt(abs(mean_remaining - remaining)) + 0.2 * exact_fit - 0.15 * abs(fill - remaining))) + 0.5 * sqrt(abs(slack_rank - global_tightness))

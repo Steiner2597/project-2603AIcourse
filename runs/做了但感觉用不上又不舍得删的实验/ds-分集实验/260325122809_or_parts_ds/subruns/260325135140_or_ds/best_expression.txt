@@ -1,1 +1,0 @@
-0.5 * (max(1.811 * slack_rank + 1.368 * after + -1.461 * mean_remaining, -after) + 2.0 * exact_fit - 1.0 * mean_remaining) + 0.5 * max(2.495 * item + 0.879 * bin_rank + -1.888 * after, 1.62 * fill + 1.766 * remaining + -0.49 * mean_remaining + 0.942 * exact_fit - abs(after) - 0.693 * after - 0.5 * sqrt(abs(remaining)) + 0.4 * (fill - mean_remaining))

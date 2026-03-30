@@ -1,1 +1,0 @@
--abs(max(-0.9 * mean_remaining + -0.85 * stdev_remaining + -1.35 * global_tightness + 1.52 * remaining + -2.4 * item, -after))

@@ -1,1 +1,0 @@
-min(after, mean_remaining) * (exact_fit - item) + max(remaining, fill) - 0.2 * abs(slack_rank - bin_rank) + 0.5 * after
