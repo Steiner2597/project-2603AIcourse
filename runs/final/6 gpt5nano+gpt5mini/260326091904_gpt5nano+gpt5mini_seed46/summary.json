@@ -1,0 +1,271 @@
+{
+  "run_dir": "runs\\260326091904_gpt5nano+gpt5mini_seed46",
+  "generated_at": "2026-03-26T10:53:02",
+  "score_unit": "ratio",
+  "total": {
+    "eval_events": 560,
+    "llm_events": 64,
+    "accepted": 346,
+    "dedup_expr_hit": 150,
+    "eval_errors": 0,
+    "llm_request_start": 32,
+    "llm_request_done": 32,
+    "llm_request_error": 0
+  },
+  "by_generation_island": [
+    {
+      "generation": 0,
+      "island": 0,
+      "total_eval_events": 43,
+      "accepted": 21,
+      "dedup_expr_hit": 5,
+      "error": 0,
+      "avg_score_accepted": 0.08008438546354171,
+      "llm_requests": 0,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": null
+    },
+    {
+      "generation": 0,
+      "island": 1,
+      "total_eval_events": 53,
+      "accepted": 21,
+      "dedup_expr_hit": 14,
+      "error": 0,
+      "avg_score_accepted": 0.08675360451690185,
+      "llm_requests": 0,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": null
+    },
+    {
+      "generation": 1,
+      "island": 0,
+      "total_eval_events": 38,
+      "accepted": 19,
+      "dedup_expr_hit": 14,
+      "error": 0,
+      "avg_score_accepted": 0.06383874443502151,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 33.0995
+    },
+    {
+      "generation": 1,
+      "island": 1,
+      "total_eval_events": 39,
+      "accepted": 19,
+      "dedup_expr_hit": 9,
+      "error": 0,
+      "avg_score_accepted": 0.06897383813444469,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 42.2155
+    },
+    {
+      "generation": 2,
+      "island": 0,
+      "total_eval_events": 33,
+      "accepted": 19,
+      "dedup_expr_hit": 11,
+      "error": 0,
+      "avg_score_accepted": 0.06012127094191766,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 38.335499999999996
+    },
+    {
+      "generation": 2,
+      "island": 1,
+      "total_eval_events": 26,
+      "accepted": 19,
+      "dedup_expr_hit": 5,
+      "error": 0,
+      "avg_score_accepted": 0.07122512324609064,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 27.703
+    },
+    {
+      "generation": 3,
+      "island": 0,
+      "total_eval_events": 20,
+      "accepted": 19,
+      "dedup_expr_hit": 1,
+      "error": 0,
+      "avg_score_accepted": 0.06120999786185996,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 36.4055
+    },
+    {
+      "generation": 3,
+      "island": 1,
+      "total_eval_events": 28,
+      "accepted": 19,
+      "dedup_expr_hit": 9,
+      "error": 0,
+      "avg_score_accepted": 0.07165056361748581,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 33.225
+    },
+    {
+      "generation": 4,
+      "island": 0,
+      "total_eval_events": 26,
+      "accepted": 19,
+      "dedup_expr_hit": 7,
+      "error": 0,
+      "avg_score_accepted": 0.05584736314379759,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 49.1005
+    },
+    {
+      "generation": 4,
+      "island": 1,
+      "total_eval_events": 26,
+      "accepted": 19,
+      "dedup_expr_hit": 6,
+      "error": 0,
+      "avg_score_accepted": 0.06181830740044708,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 49.135000000000005
+    },
+    {
+      "generation": 5,
+      "island": 0,
+      "total_eval_events": 30,
+      "accepted": 19,
+      "dedup_expr_hit": 10,
+      "error": 0,
+      "avg_score_accepted": 0.058450909129468875,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 32.923
+    },
+    {
+      "generation": 5,
+      "island": 1,
+      "total_eval_events": 26,
+      "accepted": 19,
+      "dedup_expr_hit": 6,
+      "error": 0,
+      "avg_score_accepted": 0.06042069263955112,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 30.134
+    },
+    {
+      "generation": 6,
+      "island": 0,
+      "total_eval_events": 36,
+      "accepted": 19,
+      "dedup_expr_hit": 14,
+      "error": 0,
+      "avg_score_accepted": 0.06134733614363499,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 18.865000000000002
+    },
+    {
+      "generation": 6,
+      "island": 1,
+      "total_eval_events": 31,
+      "accepted": 19,
+      "dedup_expr_hit": 12,
+      "error": 0,
+      "avg_score_accepted": 0.061735601486411766,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 31.9445
+    },
+    {
+      "generation": 7,
+      "island": 0,
+      "total_eval_events": 28,
+      "accepted": 19,
+      "dedup_expr_hit": 9,
+      "error": 0,
+      "avg_score_accepted": 0.05480348529209014,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 42.5305
+    },
+    {
+      "generation": 7,
+      "island": 1,
+      "total_eval_events": 27,
+      "accepted": 19,
+      "dedup_expr_hit": 8,
+      "error": 0,
+      "avg_score_accepted": 0.06510571477163522,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 37.7415
+    },
+    {
+      "generation": 8,
+      "island": 0,
+      "total_eval_events": 29,
+      "accepted": 19,
+      "dedup_expr_hit": 8,
+      "error": 0,
+      "avg_score_accepted": 0.05580001446266689,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 32.021
+    },
+    {
+      "generation": 8,
+      "island": 1,
+      "total_eval_events": 21,
+      "accepted": 19,
+      "dedup_expr_hit": 2,
+      "error": 0,
+      "avg_score_accepted": 0.05542492779817045,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 44.655
+    }
+  ],
+  "baseline_comparison": {
+    "rows": [
+      {
+        "method": "FunSearch-Lite (Ours)",
+        "avg_bins": 138.7375,
+        "gap_ratio": 0.049162759477362795,
+        "score": 0.049162759477362795,
+        "gap_pct": 4.916275947736279,
+        "delta_vs_bf_pp": 1.3332834406401037,
+        "delta_vs_ff_pp": 1.4728740627450367,
+        "rel_improve_vs_bf_pct": 21.334039054335427,
+        "rel_improve_vs_ff_pct": 23.052738788865597
+      },
+      {
+        "method": "Best-Fit (BF)",
+        "avg_bins": 140.225,
+        "gap_ratio": 0.062495593883763835,
+        "score": 0.062495593883763835,
+        "gap_pct": 6.249559388376383,
+        "delta_vs_bf_pp": 0.0,
+        "delta_vs_ff_pp": 0.139590622104933,
+        "rel_improve_vs_bf_pct": 0.0,
+        "rel_improve_vs_ff_pct": 2.1848073981036045
+      },
+      {
+        "method": "First-Fit (FF)",
+        "avg_bins": 140.53125,
+        "gap_ratio": 0.06389150010481316,
+        "score": 0.06389150010481316,
+        "gap_pct": 6.389150010481316,
+        "delta_vs_bf_pp": -0.139590622104933,
+        "delta_vs_ff_pp": 0.0,
+        "rel_improve_vs_bf_pct": -2.2336074182214984,
+        "rel_improve_vs_ff_pct": 0.0
+      }
+    ],
+    "winner": "FunSearch-Lite (Ours)"
+  }
+}

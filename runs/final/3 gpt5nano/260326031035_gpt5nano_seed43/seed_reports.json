@@ -1,0 +1,118 @@
+{
+  "run_dir": "runs/final/3 gpt5nano/260326031035_gpt5nano_seed43",
+  "group": "3 gpt5nano",
+  "run_name": "260326031035_gpt5nano_seed43",
+  "seed": 43,
+  "provider_tag": "gpt5nano",
+  "status": "completed",
+  "started_at": "2026-03-26T03:10:35",
+  "finished_at": "2026-03-26T04:50:09",
+  "wall_clock_sec": 5974.0,
+  "quality": {
+    "best_score_ratio": 0.062002275451992585,
+    "ours_gap_pct": 6.200227545199258,
+    "improve_ratio_first_to_last_best": 0.006862019112008869
+  },
+  "events": {
+    "total_eval_events": 693,
+    "total_llm_events": 64,
+    "llm_request_done": 32,
+    "llm_request_error": 0,
+    "accepted": 346,
+    "dedup_expr_hit": 194,
+    "eval_errors": 1
+  },
+  "llm_time": {
+    "sum_elapsed_sec": 1197.8680000000002,
+    "avg_elapsed_sec": 37.433375000000005
+  },
+  "by_model": {
+    "gpt-5-nano": {
+      "requests": 32,
+      "prompt_chars": 57464,
+      "response_chars": 24376,
+      "elapsed_sec": 1197.8680000000002,
+      "scenarios": {
+        "pessimistic_3p5": {
+          "chars_per_token": 3.5,
+          "input_tokens_est": 16418.285714285714,
+          "output_tokens_est": 6964.571428571428,
+          "cost_input_usd": 0.0008209142857142857,
+          "cost_output_usd": 0.0027858285714285717
+        },
+        "default_4p0": {
+          "chars_per_token": 4.0,
+          "input_tokens_est": 14366.0,
+          "output_tokens_est": 6094.0,
+          "cost_input_usd": 0.0007183000000000001,
+          "cost_output_usd": 0.0024376
+        },
+        "optimistic_4p5": {
+          "chars_per_token": 4.5,
+          "input_tokens_est": 12769.777777777777,
+          "output_tokens_est": 5416.888888888889,
+          "cost_input_usd": 0.0006384888888888889,
+          "cost_output_usd": 0.0021667555555555554
+        }
+      }
+    }
+  },
+  "by_phase": {
+    "proposal": {
+      "requests": 16,
+      "elapsed_sec": 569.449
+    },
+    "refine": {
+      "requests": 16,
+      "elapsed_sec": 628.419
+    }
+  },
+  "by_generation": {
+    "1": {
+      "requests": 4,
+      "elapsed_sec": 113.365
+    },
+    "2": {
+      "requests": 4,
+      "elapsed_sec": 98.56
+    },
+    "3": {
+      "requests": 4,
+      "elapsed_sec": 130.853
+    },
+    "4": {
+      "requests": 4,
+      "elapsed_sec": 144.233
+    },
+    "5": {
+      "requests": 4,
+      "elapsed_sec": 177.408
+    },
+    "6": {
+      "requests": 4,
+      "elapsed_sec": 202.585
+    },
+    "7": {
+      "requests": 4,
+      "elapsed_sec": 166.55499999999998
+    },
+    "8": {
+      "requests": 4,
+      "elapsed_sec": 164.30900000000003
+    }
+  },
+  "cost_totals": {
+    "pessimistic_3p5": {
+      "cost_input_usd": 0.0008209142857142857,
+      "cost_output_usd": 0.0027858285714285717
+    },
+    "default_4p0": {
+      "cost_input_usd": 0.0007183000000000001,
+      "cost_output_usd": 0.0024376
+    },
+    "optimistic_4p5": {
+      "cost_input_usd": 0.0006384888888888889,
+      "cost_output_usd": 0.0021667555555555554
+    }
+  }
+}

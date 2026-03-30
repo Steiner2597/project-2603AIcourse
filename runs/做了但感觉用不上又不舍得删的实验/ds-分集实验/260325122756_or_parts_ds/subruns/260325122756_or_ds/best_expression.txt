@@ -1,0 +1,1 @@
+max(-2.022 * global_tightness + 0.966 * exact_fit + -2.244 * global_tightness + -0.304 * bin_rank + 0.309 * slack_rank, -after)

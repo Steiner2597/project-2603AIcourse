@@ -1,0 +1,2 @@
+[console_scripts]
+funsearch-lite = funsearch_lite.cli:run

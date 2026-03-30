@@ -1,0 +1,103 @@
+Metadata-Version: 2.4
+Name: funsearch-lite
+Version: 0.1.0
+Summary: Sample-efficient and diversity-driven LLM-guided evolutionary search for online bin packing heuristics
+Author: CS5491 Team
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: typer>=0.12.3
+Requires-Dist: openai>=1.40.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: tqdm>=4.66.0
+Requires-Dist: matplotlib>=3.8.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2.0; extra == "dev"
+
+# FunSearch-Lite
+
+FunSearch-Lite 是一个紧凑版的 LLM 引导进化搜索系统，用于自动设计在线装箱（Online Bin Packing）启发式函数。
+
+当前实现重点强化了三类算法能力：
+
+- 功能级去重：表达式哈希 + 行为签名哈希。
+- 多样性驱动搜索：多岛并行进化 + 周期迁移。
+- 成本感知模型协作：可选的生成模型 / 精炼模型双阶段流程。
+
+## 1) 安装
+
+```bash
+pip install -e .
+```
+
+## 2) API 配置（可选）
+
+将 `.env.example` 复制为 `.env`，并填入你的配置。
+
+```bash
+copy .env.example .env
+```
+
+如果不提供 API Key，仍可运行 demo 模式与模板进化搜索。
+
+若使用课程提供的网关（与 `test_your_api_key.py` 一致），建议配置：
+
+- `OPENAI_API_KEY=<你的 key>`
+- `HOST_URL=https://api.bltcy.ai`（或 `https://hk-api.gptbest.vip`）
+- `OPENAI_GENERATOR_MODEL=gpt-5-nano`
+- `OPENAI_REFINER_MODEL=gpt-5-nano`
+
+## 3) 快速开始
+
+```bash
+python run.py --demo
+python run.py --api gpt -g 20 -p 40 -i 4
+python run.py --api ds -d orlib -s medium
+python run.py --demo --compare -g 10 -p 24 -i 3
+python -m funsearch_lite.cli --api gpt --compare -g 6 -p 20 -i 2
+python -m funsearch_lite.cli --api gpt --host-url https://api.bltcy.ai --gen-model gpt-5-nano --ref-model gpt-5-nano -g 6 -p 20 -i 2
+```
+
+### 3.1 Windows 一键命令（复制一次直接跑）
+
+如果你遇到“看起来卡死、看不到进度”的情况，建议使用下面的一键命令。
+
+CMD（推荐）
+
+```bat
+cd /d D:\SE\workspace\cs5491project\funsearch-1 && conda run -n 5491project python -m pip install -e . && set PYTHONUNBUFFERED=1 && conda run -n 5491project python -u -m funsearch_lite.cli --api ds --dataset orlib --size small --generations 2 --population 12 --islands 2 --gen-model deepseek-chat --ref-model deepseek-chat --llm-seeds 1 --llm-topk 1 --log-interval 1
+```
+
+PowerShell
+
+```powershell
+Set-Location "D:\SE\workspace\cs5491project\funsearch-1"; conda run -n 5491project python -m pip install -e .; $env:PYTHONUNBUFFERED="1"; conda run -n 5491project python -u -m funsearch_lite.cli --api ds --dataset orlib --size small --generations 2 --population 12 --islands 2 --gen-model deepseek-chat --ref-model deepseek-chat --llm-seeds 1 --llm-topk 1 --log-interval 1
+```
+
+说明：
+
+- 以上命令会先确保当前环境已安装本项目，再启动无缓冲输出。
+- 运行时会看到 `[search]`、`[llm]`、`[gen x/y]` 日志，便于判断程序处于正常执行。
+- 想跑约 5 分钟实验，可把 `--size small --generations 2 --population 12` 改为 `--size medium --generations 8 --population 24`。
+
+## 4) 输出结果
+
+每次运行会在 `runs/` 下生成一个结果目录，包含：
+
+- `metrics.json`：进化轨迹和汇总指标。
+- `best_expression.txt`：当前最优启发式表达式。
+- `curve.png`：每代最优值与平均值曲线图。
+- `comparison_table.md` / `comparison_table.csv`：FF / BF / 本方法对比表。
+
+## 5) 核心思路
+
+在在线装箱场景中，每个到达物品都要在当前可放置的箱子中选一个。候选启发式会对每个可行箱子打分，并选择分数最高的箱子放入。
+
+分数函数由安全算术表达式构成，可使用如下特征：
+
+- `item`、`remaining`、`after`（放入后剩余容量）
+- `fill`（当前装载率）
+- `mean_remaining`、`stdev_remaining`
+- `exact_fit`（是否恰好装满，0/1）
+
+优化目标是在标准数据集上最小化平均用箱数。

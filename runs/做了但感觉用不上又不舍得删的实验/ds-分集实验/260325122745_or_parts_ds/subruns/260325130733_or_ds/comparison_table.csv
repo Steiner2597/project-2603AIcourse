@@ -1,0 +1,4 @@
+method,avg_bins,gap_to_opt_pct,delta_vs_bf_pp,delta_vs_ff_pp,rel_improve_vs_bf_pct,rel_improve_vs_ff_pct
+FunSearch-Lite (Ours),415.700000,3.7802,1.1618,1.4497,23.5085,27.7190
+Best-Fit (BF),420.350000,4.9419,0.0000,0.2879,0.0000,5.5045
+First-Fit (FF),421.500000,5.2298,-0.2879,0.0000,-5.8252,0.0000

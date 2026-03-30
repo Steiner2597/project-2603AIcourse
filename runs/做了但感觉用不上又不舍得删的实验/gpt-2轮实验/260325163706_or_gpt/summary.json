@@ -1,0 +1,175 @@
+{
+  "run_dir": "runs\\260325163706_or_gpt",
+  "generated_at": "2026-03-25T17:17:11",
+  "score_unit": "ratio",
+  "total": {
+    "eval_events": 273,
+    "llm_events": 32,
+    "accepted": 144,
+    "dedup_expr_hit": 68,
+    "eval_errors": 1,
+    "llm_request_start": 16,
+    "llm_request_done": 16,
+    "llm_request_error": 0
+  },
+  "by_generation_island": [
+    {
+      "generation": 0,
+      "island": 0,
+      "total_eval_events": 48,
+      "accepted": 16,
+      "dedup_expr_hit": 8,
+      "error": 0,
+      "avg_score_accepted": 0.08064481536227336,
+      "llm_requests": 0,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": null
+    },
+    {
+      "generation": 0,
+      "island": 1,
+      "total_eval_events": 43,
+      "accepted": 16,
+      "dedup_expr_hit": 11,
+      "error": 0,
+      "avg_score_accepted": 0.08459608134367858,
+      "llm_requests": 0,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": null
+    },
+    {
+      "generation": 1,
+      "island": 0,
+      "total_eval_events": 21,
+      "accepted": 14,
+      "dedup_expr_hit": 3,
+      "error": 0,
+      "avg_score_accepted": 0.07233341249729072,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 35.698
+    },
+    {
+      "generation": 1,
+      "island": 1,
+      "total_eval_events": 34,
+      "accepted": 14,
+      "dedup_expr_hit": 11,
+      "error": 0,
+      "avg_score_accepted": 0.08231801435535938,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 29.5925
+    },
+    {
+      "generation": 2,
+      "island": 0,
+      "total_eval_events": 19,
+      "accepted": 14,
+      "dedup_expr_hit": 4,
+      "error": 0,
+      "avg_score_accepted": 0.06820381410751641,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 35.6495
+    },
+    {
+      "generation": 2,
+      "island": 1,
+      "total_eval_events": 21,
+      "accepted": 14,
+      "dedup_expr_hit": 5,
+      "error": 0,
+      "avg_score_accepted": 0.06606264385122308,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 31.07
+    },
+    {
+      "generation": 3,
+      "island": 0,
+      "total_eval_events": 23,
+      "accepted": 14,
+      "dedup_expr_hit": 8,
+      "error": 0,
+      "avg_score_accepted": 0.05942539749044613,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 36.863
+    },
+    {
+      "generation": 3,
+      "island": 1,
+      "total_eval_events": 24,
+      "accepted": 14,
+      "dedup_expr_hit": 8,
+      "error": 0,
+      "avg_score_accepted": 0.06764517742246515,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 31.8105
+    },
+    {
+      "generation": 4,
+      "island": 0,
+      "total_eval_events": 18,
+      "accepted": 14,
+      "dedup_expr_hit": 4,
+      "error": 0,
+      "avg_score_accepted": 0.06265873349811259,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 33.6105
+    },
+    {
+      "generation": 4,
+      "island": 1,
+      "total_eval_events": 22,
+      "accepted": 14,
+      "dedup_expr_hit": 6,
+      "error": 1,
+      "avg_score_accepted": 0.06739466695803528,
+      "llm_requests": 2,
+      "llm_errors": 0,
+      "llm_avg_elapsed_sec": 39.1505
+    }
+  ],
+  "baseline_comparison": {
+    "rows": [
+      {
+        "method": "FunSearch-Lite (Ours)",
+        "avg_bins": 139.375,
+        "gap_ratio": 0.055173084748992254,
+        "score": 0.055173084748992254,
+        "gap_pct": 5.517308474899226,
+        "delta_vs_bf_pp": 0.7322509134771575,
+        "delta_vs_ff_pp": 0.8718415355820905,
+        "rel_improve_vs_bf_pct": 11.716840627822151,
+        "rel_improve_vs_ff_pct": 13.645657625065088
+      },
+      {
+        "method": "Best-Fit (BF)",
+        "avg_bins": 140.225,
+        "gap_ratio": 0.062495593883763835,
+        "score": 0.062495593883763835,
+        "gap_pct": 6.249559388376383,
+        "delta_vs_bf_pp": 0.0,
+        "delta_vs_ff_pp": 0.139590622104933,
+        "rel_improve_vs_bf_pct": 0.0,
+        "rel_improve_vs_ff_pct": 2.1848073981036045
+      },
+      {
+        "method": "First-Fit (FF)",
+        "avg_bins": 140.53125,
+        "gap_ratio": 0.06389150010481316,
+        "score": 0.06389150010481316,
+        "gap_pct": 6.389150010481316,
+        "delta_vs_bf_pp": -0.139590622104933,
+        "delta_vs_ff_pp": 0.0,
+        "rel_improve_vs_bf_pct": -2.2336074182214984,
+        "rel_improve_vs_ff_pct": 0.0
+      }
+    ],
+    "winner": "FunSearch-Lite (Ours)"
+  }
+}

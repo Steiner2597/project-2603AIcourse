@@ -1,0 +1,1 @@
+max(-abs(1.5 * item + 0.9 * mean_remaining - 0.7 * stdev_remaining + 1.8 * exact_fit - abs(after)), 0.6 * max(0.5 * mean_remaining + 0.5 * fill - 0.3 * item, -after) + 0.4568 * max(stdev_remaining - 0.8 * fill, -after)) + 0.15 * (mean_remaining - fill) + 1.5 * exact_fit - 0.1 * mean_remaining

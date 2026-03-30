@@ -1,0 +1,215 @@
+﻿【统一参数基线（全部实验严格一致）】
+- dataset: orlib
+- generations: 8
+- population: 16
+- islands: 2
+- llm-seeds: 1
+- llm-topk: 2
+- behavior-repeat-cap: 1
+- behavior-eval-cap: 1
+- behavior-repeat-cap-final: 2
+- behavior-eval-cap-final: 3
+- novelty-weight-final: 0.2
+- stability-weight-final: 1.0
+- restart-ratio: 0.18
+- stagnation-ratio-threshold: 0.40
+- stagnation-restart-boost: 1.5
+- stagnation-llm-boost: 1
+- anneal + compare 开启
+
+说明：
+1. 下方“单次命令”固定 seed=42。
+2. 下方“脚本一键版”不写 seed，会自动顺序跑 42、43、44。
+3. 如需公平对比，请只改模型/provider，不改其他参数。
+
+---------------------------------
+
+deepseek-chat（单模型）
+
+单次命令（seed=42）：
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api ds --gen-provider ds --ref-provider ds ^
+    --gen-model deepseek-chat --ref-model deepseek-chat ^
+    --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 45 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+脚本一键版（CMD，自动 42/43/44）：
+scripts\run_three_seeds.cmd --api ds --gen-provider ds --ref-provider ds --gen-model deepseek-chat --ref-model deepseek-chat --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+脚本一键版（PowerShell，自动 42/43/44）：
+.\scripts\run_three_seeds.ps1 --api ds --gen-provider ds --ref-provider ds --gen-model deepseek-chat --ref-model deepseek-chat --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+---------------------------------
+
+deepseek-reasoner（单模型）
+
+单次命令（seed=42）：
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api ds --gen-provider ds --ref-provider ds ^
+    --gen-model deepseek-reasoner --ref-model deepseek-reasoner ^
+    --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 45 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+脚本一键版（CMD，自动 42/43/44）：
+scripts\run_three_seeds.cmd --api ds --gen-provider ds --ref-provider ds --gen-model deepseek-reasoner --ref-model deepseek-reasoner --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+脚本一键版（PowerShell，自动 42/43/44）：
+.\scripts\run_three_seeds.ps1 --api ds --gen-provider ds --ref-provider ds --gen-model deepseek-reasoner --ref-model deepseek-reasoner --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+---------------------------------
+
+gpt-5-nano（单模型）
+
+单次命令（seed=42）：
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api gpt --gen-provider gpt --ref-provider gpt ^
+    --gen-model gpt-5-nano --ref-model gpt-5-nano ^
+    --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 45 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+脚本一键版（CMD，自动 42/43/44）：
+scripts\run_three_seeds.cmd --api gpt --gen-provider gpt --ref-provider gpt --gen-model gpt-5-nano --ref-model gpt-5-nano --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+脚本一键版（PowerShell，自动 42/43/44）：
+.\scripts\run_three_seeds.ps1 --api gpt --gen-provider gpt --ref-provider gpt --gen-model gpt-5-nano --ref-model gpt-5-nano --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+---------------------------------
+
+gpt-5-mini（单模型）
+
+单次命令（seed=42）：
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api gpt --gen-provider gpt --ref-provider gpt ^
+    --gen-model gpt-5-mini --ref-model gpt-5-mini ^
+    --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 45 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+脚本一键版（CMD，自动 42/43/44）：
+scripts\run_three_seeds.cmd --api gpt --gen-provider gpt --ref-provider gpt --gen-model gpt-5-mini --ref-model gpt-5-mini --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+脚本一键版（PowerShell，自动 42/43/44）：
+.\scripts\run_three_seeds.ps1 --api gpt --gen-provider gpt --ref-provider gpt --gen-model gpt-5-mini --ref-model gpt-5-mini --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+---------------------------------
+
+多模型协作：gpt-5-nano + gpt-5-mini
+
+单次命令（seed=42）：
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api gpt --gen-provider gpt --ref-provider gpt ^
+    --gen-model gpt-5-nano --ref-model gpt-5-mini ^
+    --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 45 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+脚本一键版（CMD，自动 42/43/44）：
+scripts\run_three_seeds.cmd --api gpt --gen-provider gpt --ref-provider gpt --gen-model gpt-5-nano --ref-model gpt-5-mini --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+脚本一键版（PowerShell，自动 42/43/44）：
+.\scripts\run_three_seeds.ps1 --api gpt --gen-provider gpt --ref-provider gpt --gen-model gpt-5-nano --ref-model gpt-5-mini --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+---------------------------------
+
+多模型协作：ds-chat + ds-reasoner
+
+单次命令（seed=42）：
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api ds --gen-provider ds --ref-provider ds ^
+    --gen-model deepseek-chat --ref-model deepseek-reasoner ^
+    --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 45 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+脚本一键版（CMD，自动 42/43/44）：
+scripts\run_three_seeds.cmd --api ds --gen-provider ds --ref-provider ds --gen-model deepseek-chat --ref-model deepseek-reasoner --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+脚本一键版（PowerShell，自动 42/43/44）：
+.\scripts\run_three_seeds.ps1 --api ds --gen-provider ds --ref-provider ds --gen-model deepseek-chat --ref-model deepseek-reasoner --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+---------------------------------
+
+多模型协作：ds-chat + gpt-5-mini
+
+单次命令（seed=42）：
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api ds --gen-provider ds --ref-provider gpt ^
+    --gen-model deepseek-chat --ref-model gpt-5-mini ^
+    --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 45 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+脚本一键版（CMD，自动 42/43/44）：
+scripts\run_three_seeds.cmd --api ds --gen-provider ds --ref-provider gpt --gen-model deepseek-chat --ref-model gpt-5-mini --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+脚本一键版（PowerShell，自动 42/43/44）：
+.\scripts\run_three_seeds.ps1 --api ds --gen-provider ds --ref-provider gpt --gen-model deepseek-chat --ref-model gpt-5-mini --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+---------------------------------
+
+多模型协作：gpt-5-nano + ds-reasoner
+
+单次命令（seed=42）：
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api gpt --gen-provider gpt --ref-provider ds ^
+    --gen-model gpt-5-nano --ref-model deepseek-reasoner ^
+    --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 45 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+脚本一键版（CMD，自动 42/43/44）：
+scripts\run_three_seeds.cmd --api gpt --gen-provider gpt --ref-provider ds --gen-model gpt-5-nano --ref-model deepseek-reasoner --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare
+
+脚本一键版（PowerShell，自动 42/43/44）：
+.\scripts\run_three_seeds.ps1 --api gpt --gen-provider gpt --ref-provider ds --gen-model gpt-5-nano --ref-model deepseek-reasoner --dataset orlib --generations 8 --population 16 --islands 2 --llm-seeds 1 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 --anneal --compare

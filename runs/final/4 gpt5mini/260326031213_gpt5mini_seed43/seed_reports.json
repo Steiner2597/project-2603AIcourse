@@ -1,0 +1,118 @@
+{
+  "run_dir": "runs/final/4 gpt5mini/260326031213_gpt5mini_seed43",
+  "group": "4 gpt5mini",
+  "run_name": "260326031213_gpt5mini_seed43",
+  "seed": 43,
+  "provider_tag": "gpt5mini",
+  "status": "completed",
+  "started_at": "2026-03-26T03:12:13",
+  "finished_at": "2026-03-26T04:51:50",
+  "wall_clock_sec": 5977.0,
+  "quality": {
+    "best_score_ratio": 0.062458168734063235,
+    "ours_gap_pct": 6.245816873406324,
+    "improve_ratio_first_to_last_best": 0.0005982088644056282
+  },
+  "events": {
+    "total_eval_events": 745,
+    "total_llm_events": 64,
+    "llm_request_done": 32,
+    "llm_request_error": 0,
+    "accepted": 346,
+    "dedup_expr_hit": 224,
+    "eval_errors": 0
+  },
+  "llm_time": {
+    "sum_elapsed_sec": 1115.963,
+    "avg_elapsed_sec": 34.87384375
+  },
+  "by_model": {
+    "gpt-5-mini": {
+      "requests": 32,
+      "prompt_chars": 76538,
+      "response_chars": 25250,
+      "elapsed_sec": 1115.963,
+      "scenarios": {
+        "pessimistic_3p5": {
+          "chars_per_token": 3.5,
+          "input_tokens_est": 21868.0,
+          "output_tokens_est": 7214.285714285715,
+          "cost_input_usd": 0.005467,
+          "cost_output_usd": 0.01442857142857143
+        },
+        "default_4p0": {
+          "chars_per_token": 4.0,
+          "input_tokens_est": 19134.5,
+          "output_tokens_est": 6312.5,
+          "cost_input_usd": 0.004783625,
+          "cost_output_usd": 0.012625
+        },
+        "optimistic_4p5": {
+          "chars_per_token": 4.5,
+          "input_tokens_est": 17008.444444444445,
+          "output_tokens_est": 5611.111111111111,
+          "cost_input_usd": 0.004252111111111111,
+          "cost_output_usd": 0.011222222222222222
+        }
+      }
+    }
+  },
+  "by_phase": {
+    "proposal": {
+      "requests": 16,
+      "elapsed_sec": 530.0799999999999
+    },
+    "refine": {
+      "requests": 16,
+      "elapsed_sec": 585.883
+    }
+  },
+  "by_generation": {
+    "1": {
+      "requests": 4,
+      "elapsed_sec": 149.748
+    },
+    "2": {
+      "requests": 4,
+      "elapsed_sec": 130.16899999999998
+    },
+    "3": {
+      "requests": 4,
+      "elapsed_sec": 159.861
+    },
+    "4": {
+      "requests": 4,
+      "elapsed_sec": 175.906
+    },
+    "5": {
+      "requests": 4,
+      "elapsed_sec": 155.641
+    },
+    "6": {
+      "requests": 4,
+      "elapsed_sec": 119.21000000000001
+    },
+    "7": {
+      "requests": 4,
+      "elapsed_sec": 112.20499999999998
+    },
+    "8": {
+      "requests": 4,
+      "elapsed_sec": 113.22300000000001
+    }
+  },
+  "cost_totals": {
+    "pessimistic_3p5": {
+      "cost_input_usd": 0.005467,
+      "cost_output_usd": 0.01442857142857143
+    },
+    "default_4p0": {
+      "cost_input_usd": 0.004783625,
+      "cost_output_usd": 0.012625
+    },
+    "optimistic_4p5": {
+      "cost_input_usd": 0.004252111111111111,
+      "cost_output_usd": 0.011222222222222222
+    }
+  }
+}

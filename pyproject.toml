@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "funsearch-lite"
+version = "0.1.0"
+description = "Sample-efficient and diversity-driven LLM-guided evolutionary search for online bin packing heuristics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "CS5491 Team" }
+]
+dependencies = [
+  "typer>=0.12.3",
+  "openai>=1.40.0",
+  "python-dotenv>=1.0.1",
+  "tqdm>=4.66.0",
+  "matplotlib>=3.8.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2.0"
+]
+
+[project.scripts]
+funsearch-lite = "funsearch_lite.cli:run"
+funsearch-summary = "funsearch_lite.summarize:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

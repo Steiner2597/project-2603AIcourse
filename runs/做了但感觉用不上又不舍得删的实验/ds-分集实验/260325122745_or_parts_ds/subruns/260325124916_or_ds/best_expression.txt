@@ -1,0 +1,1 @@
+-abs(-abs(max(2.1 * after + -1.8 * fill + 1.7 * exact_fit - 0.7569 * remaining - abs(after), -after - 0.6 * stdev_remaining) + 0.1 * mean_remaining)) - 0.2 * mean_remaining

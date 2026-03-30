@@ -1,0 +1,1 @@
+max(1.79 * item + -1.103 * mean_remaining + 2.368 * slack_rank + 1.255 * global_tightness - abs(after), max(-2.136 * mean_remaining + -1.841 * after + 0.787 * remaining + 2.129 * exact_fit + 0.755 * bin_rank + -2.079 * global_tightness, -after)) + 0.5 * after

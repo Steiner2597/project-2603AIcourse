@@ -1,0 +1,1 @@
+max(0.94 * exact_fit + -1.88 * fill + -0.44 * stdev_remaining, -after) + 0.26 * (mean_remaining + 0.5 * global_tightness) - 0.2 * fill

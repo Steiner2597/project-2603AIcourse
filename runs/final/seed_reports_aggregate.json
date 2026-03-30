@@ -1,0 +1,5502 @@
+{
+  "generated_at": "2026-03-26T14:37:12",
+  "final_root": "runs/final",
+  "run_count": 40,
+  "runs": [
+    {
+      "run_dir": "runs/final/1 ds-chat/260326013656_ds-chat_seed42",
+      "group": "1 ds-chat",
+      "run_name": "260326013656_ds-chat_seed42",
+      "seed": 42,
+      "provider_tag": "ds-chat",
+      "status": "completed",
+      "started_at": "2026-03-26T01:36:56",
+      "finished_at": "2026-03-26T02:59:41",
+      "wall_clock_sec": 4965.0,
+      "quality": {
+        "best_score_ratio": 0.05107963487656318,
+        "ours_gap_pct": 5.107963487656318,
+        "improve_ratio_first_to_last_best": 0.16633248486757782
+      },
+      "events": {
+        "total_eval_events": 611,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 176,
+        "eval_errors": 1
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 428.135,
+        "avg_elapsed_sec": 13.37921875
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 32,
+          "prompt_chars": 63020,
+          "response_chars": 37316,
+          "elapsed_sec": 428.135,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 18005.714285714286,
+              "output_tokens_est": 10661.714285714286,
+              "cost_input_miss_usd": 0.0050416,
+              "cost_input_hit_usd": 0.00050416,
+              "cost_output_usd": 0.00447792
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 15755.0,
+              "output_tokens_est": 9329.0,
+              "cost_input_miss_usd": 0.0044114,
+              "cost_input_hit_usd": 0.00044113999999999997,
+              "cost_output_usd": 0.003918179999999999
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 14004.444444444445,
+              "output_tokens_est": 8292.444444444445,
+              "cost_input_miss_usd": 0.003921244444444445,
+              "cost_input_hit_usd": 0.00039212444444444445,
+              "cost_output_usd": 0.003482826666666667
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 215.93400000000003
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 212.201
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 34.763000000000005
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 49.507000000000005
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 44.965999999999994
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 46.38
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 60.675
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 69.635
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 56.275999999999996
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 65.93299999999999
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.0050416,
+          "cost_input_hit_usd": 0.00050416,
+          "cost_output_usd": 0.00447792
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0044114,
+          "cost_input_hit_usd": 0.00044113999999999997,
+          "cost_output_usd": 0.003918179999999999
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.003921244444444445,
+          "cost_input_hit_usd": 0.00039212444444444445,
+          "cost_output_usd": 0.003482826666666667
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/1 ds-chat/260326030020_ds-chat_seed43",
+      "group": "1 ds-chat",
+      "run_name": "260326030020_ds-chat_seed43",
+      "seed": 43,
+      "provider_tag": "ds-chat",
+      "status": "completed",
+      "started_at": "2026-03-26T03:00:20",
+      "finished_at": "2026-03-26T04:22:47",
+      "wall_clock_sec": 4947.0,
+      "quality": {
+        "best_score_ratio": 0.05119238554633217,
+        "ours_gap_pct": 5.119238554633217,
+        "improve_ratio_first_to_last_best": 0.1792811969331664
+      },
+      "events": {
+        "total_eval_events": 677,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 191,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 303.535,
+        "avg_elapsed_sec": 9.48546875
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 32,
+          "prompt_chars": 53932,
+          "response_chars": 26948,
+          "elapsed_sec": 303.535,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 15409.142857142857,
+              "output_tokens_est": 7699.428571428572,
+              "cost_input_miss_usd": 0.00431456,
+              "cost_input_hit_usd": 0.00043145600000000004,
+              "cost_output_usd": 0.0032337599999999996
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 13483.0,
+              "output_tokens_est": 6737.0,
+              "cost_input_miss_usd": 0.0037752400000000005,
+              "cost_input_hit_usd": 0.000377524,
+              "cost_output_usd": 0.00282954
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 11984.888888888889,
+              "output_tokens_est": 5988.444444444444,
+              "cost_input_miss_usd": 0.0033557688888888894,
+              "cost_input_hit_usd": 0.0003355768888888889,
+              "cost_output_usd": 0.0025151466666666665
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 171.858
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 131.677
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 28.841
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 29.207
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 35.997
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 39.085
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 43.197
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 43.626
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 32.981
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 50.601
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.00431456,
+          "cost_input_hit_usd": 0.00043145600000000004,
+          "cost_output_usd": 0.0032337599999999996
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0037752400000000005,
+          "cost_input_hit_usd": 0.000377524,
+          "cost_output_usd": 0.00282954
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0033557688888888894,
+          "cost_input_hit_usd": 0.0003355768888888889,
+          "cost_output_usd": 0.0025151466666666665
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/1 ds-chat/260326042325_ds-chat_seed44",
+      "group": "1 ds-chat",
+      "run_name": "260326042325_ds-chat_seed44",
+      "seed": 44,
+      "provider_tag": "ds-chat",
+      "status": "completed",
+      "started_at": "2026-03-26T04:23:25",
+      "finished_at": "2026-03-26T05:39:54",
+      "wall_clock_sec": 4589.0,
+      "quality": {
+        "best_score_ratio": 0.04975362499904361,
+        "ours_gap_pct": 4.975362499904361,
+        "improve_ratio_first_to_last_best": 0.10961125788084666
+      },
+      "events": {
+        "total_eval_events": 569,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 147,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 267.30999999999995,
+        "avg_elapsed_sec": 8.353437499999998
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 32,
+          "prompt_chars": 55815,
+          "response_chars": 26094,
+          "elapsed_sec": 267.30999999999995,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 15947.142857142857,
+              "output_tokens_est": 7455.428571428572,
+              "cost_input_miss_usd": 0.004465200000000001,
+              "cost_input_hit_usd": 0.00044652,
+              "cost_output_usd": 0.0031312799999999997
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 13953.75,
+              "output_tokens_est": 6523.5,
+              "cost_input_miss_usd": 0.0039070500000000005,
+              "cost_input_hit_usd": 0.000390705,
+              "cost_output_usd": 0.0027398699999999997
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 12403.333333333334,
+              "output_tokens_est": 5798.666666666667,
+              "cost_input_miss_usd": 0.0034729333333333337,
+              "cost_input_hit_usd": 0.00034729333333333336,
+              "cost_output_usd": 0.00243544
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 149.65999999999997
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 117.64999999999998
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 29.692999999999998
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 25.078000000000003
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 31.8
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 29.652
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 32.808
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 37.631
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 38.632000000000005
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 42.016
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.004465200000000001,
+          "cost_input_hit_usd": 0.00044652,
+          "cost_output_usd": 0.0031312799999999997
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0039070500000000005,
+          "cost_input_hit_usd": 0.000390705,
+          "cost_output_usd": 0.0027398699999999997
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0034729333333333337,
+          "cost_input_hit_usd": 0.00034729333333333336,
+          "cost_output_usd": 0.00243544
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/1 ds-chat/260326091606_ds-chat_seed46",
+      "group": "1 ds-chat",
+      "run_name": "260326091606_ds-chat_seed46",
+      "seed": 46,
+      "provider_tag": "ds-chat",
+      "status": "completed",
+      "started_at": "2026-03-26T09:16:06",
+      "finished_at": "2026-03-26T10:40:05",
+      "wall_clock_sec": 5039.0,
+      "quality": {
+        "best_score_ratio": 0.048514713704373116,
+        "ours_gap_pct": 4.851471370437312,
+        "improve_ratio_first_to_last_best": 0.03845732877711796
+      },
+      "events": {
+        "total_eval_events": 579,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 150,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 483.13000000000005,
+        "avg_elapsed_sec": 15.097812500000002
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 32,
+          "prompt_chars": 86513,
+          "response_chars": 41468,
+          "elapsed_sec": 483.13000000000005,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 24718.0,
+              "output_tokens_est": 11848.0,
+              "cost_input_miss_usd": 0.006921040000000001,
+              "cost_input_hit_usd": 0.000692104,
+              "cost_output_usd": 0.0049761599999999994
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 21628.25,
+              "output_tokens_est": 10367.0,
+              "cost_input_miss_usd": 0.006055910000000001,
+              "cost_input_hit_usd": 0.000605591,
+              "cost_output_usd": 0.004354139999999999
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 19225.11111111111,
+              "output_tokens_est": 9215.111111111111,
+              "cost_input_miss_usd": 0.0053830311111111116,
+              "cost_input_hit_usd": 0.000538303111111111,
+              "cost_output_usd": 0.003870346666666667
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 287.266
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 195.86399999999998
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 30.834
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 37.442
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 54.040000000000006
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 35.488
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 49.013999999999996
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 52.247
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 130.011
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 94.054
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.006921040000000001,
+          "cost_input_hit_usd": 0.000692104,
+          "cost_output_usd": 0.0049761599999999994
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.006055910000000001,
+          "cost_input_hit_usd": 0.000605591,
+          "cost_output_usd": 0.004354139999999999
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0053830311111111116,
+          "cost_input_hit_usd": 0.000538303111111111,
+          "cost_output_usd": 0.003870346666666667
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/1 ds-chat/260326111814_ds-chat_seed45",
+      "group": "1 ds-chat",
+      "run_name": "260326111814_ds-chat_seed45",
+      "seed": 45,
+      "provider_tag": "ds-chat",
+      "status": "completed",
+      "started_at": "2026-03-26T11:18:14",
+      "finished_at": "2026-03-26T12:41:55",
+      "wall_clock_sec": 5021.0,
+      "quality": {
+        "best_score_ratio": 0.04883246145307278,
+        "ours_gap_pct": 4.883246145307278,
+        "improve_ratio_first_to_last_best": 0.12979442636661223
+      },
+      "events": {
+        "total_eval_events": 610,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 162,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 357.585,
+        "avg_elapsed_sec": 11.17453125
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 32,
+          "prompt_chars": 60547,
+          "response_chars": 26379,
+          "elapsed_sec": 357.585,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 17299.14285714286,
+              "output_tokens_est": 7536.857142857143,
+              "cost_input_miss_usd": 0.004843760000000001,
+              "cost_input_hit_usd": 0.000484376,
+              "cost_output_usd": 0.00316548
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 15136.75,
+              "output_tokens_est": 6594.75,
+              "cost_input_miss_usd": 0.00423829,
+              "cost_input_hit_usd": 0.000423829,
+              "cost_output_usd": 0.0027697950000000002
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 13454.888888888889,
+              "output_tokens_est": 5862.0,
+              "cost_input_miss_usd": 0.0037673688888888892,
+              "cost_input_hit_usd": 0.0003767368888888889,
+              "cost_output_usd": 0.00246204
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 175.76899999999998
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 181.816
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 32.966
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 31.476
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 35.153000000000006
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 39.532000000000004
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 49.671
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 45.782
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 56.80800000000001
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 66.197
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.004843760000000001,
+          "cost_input_hit_usd": 0.000484376,
+          "cost_output_usd": 0.00316548
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.00423829,
+          "cost_input_hit_usd": 0.000423829,
+          "cost_output_usd": 0.0027697950000000002
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0037673688888888892,
+          "cost_input_hit_usd": 0.0003767368888888889,
+          "cost_output_usd": 0.00246204
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/2 ds-reasoner/260326013703_ds-reasoner_seed42",
+      "group": "2 ds-reasoner",
+      "run_name": "260326013703_ds-reasoner_seed42",
+      "seed": 42,
+      "provider_tag": "ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T01:37:03",
+      "finished_at": "2026-03-26T03:51:44",
+      "wall_clock_sec": 8081.0,
+      "quality": {
+        "best_score_ratio": 0.05272016240211046,
+        "ours_gap_pct": 5.2720162402110455,
+        "improve_ratio_first_to_last_best": 0.1383660656702681
+      },
+      "events": {
+        "total_eval_events": 596,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 170,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 3539.3810000000003,
+        "avg_elapsed_sec": 110.60565625000001
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 32,
+          "prompt_chars": 59369,
+          "response_chars": 11242,
+          "elapsed_sec": 3539.3810000000003,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 16962.571428571428,
+              "output_tokens_est": 3212.0,
+              "cost_input_miss_usd": 0.009329414285714285,
+              "cost_input_hit_usd": 0.00237476,
+              "cost_output_usd": 0.0070342799999999995
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 14842.25,
+              "output_tokens_est": 2810.5,
+              "cost_input_miss_usd": 0.008163237500000002,
+              "cost_input_hit_usd": 0.0020779150000000005,
+              "cost_output_usd": 0.006154995
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 13193.111111111111,
+              "output_tokens_est": 2498.222222222222,
+              "cost_input_miss_usd": 0.007256211111111112,
+              "cost_input_hit_usd": 0.0018470355555555557,
+              "cost_output_usd": 0.005471106666666666
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 1700.933
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 1838.4480000000003
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 377.181
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 471.892
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 453.48900000000003
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 437.504
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 490.95799999999997
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 525.595
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 338.927
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 443.83500000000004
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.009329414285714285,
+          "cost_input_hit_usd": 0.00237476,
+          "cost_output_usd": 0.0070342799999999995
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.008163237500000002,
+          "cost_input_hit_usd": 0.0020779150000000005,
+          "cost_output_usd": 0.006154995
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.007256211111111112,
+          "cost_input_hit_usd": 0.0018470355555555557,
+          "cost_output_usd": 0.005471106666666666
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/2 ds-reasoner/260326035225_ds-reasoner_seed43",
+      "group": "2 ds-reasoner",
+      "run_name": "260326035225_ds-reasoner_seed43",
+      "seed": 43,
+      "provider_tag": "ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T03:52:25",
+      "finished_at": "2026-03-26T06:11:23",
+      "wall_clock_sec": 8338.0,
+      "quality": {
+        "best_score_ratio": 0.06220869286103039,
+        "ours_gap_pct": 6.220869286103039,
+        "improve_ratio_first_to_last_best": 0.0029633967686526945
+      },
+      "events": {
+        "total_eval_events": 687,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 200,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 3654.3460000000005,
+        "avg_elapsed_sec": 114.19831250000001
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 32,
+          "prompt_chars": 48538,
+          "response_chars": 9906,
+          "elapsed_sec": 3654.3460000000005,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 13868.0,
+              "output_tokens_est": 2830.285714285714,
+              "cost_input_miss_usd": 0.0076274,
+              "cost_input_hit_usd": 0.0019415200000000002,
+              "cost_output_usd": 0.006198325714285714
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 12134.5,
+              "output_tokens_est": 2476.5,
+              "cost_input_miss_usd": 0.006673975,
+              "cost_input_hit_usd": 0.0016988300000000001,
+              "cost_output_usd": 0.005423535
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 10786.222222222223,
+              "output_tokens_est": 2201.3333333333335,
+              "cost_input_miss_usd": 0.005932422222222223,
+              "cost_input_hit_usd": 0.0015100711111111114,
+              "cost_output_usd": 0.00482092
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 2084.027
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 1570.3190000000002
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 345.33400000000006
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 516.201
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 429.65700000000004
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 493.74
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 473.073
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 458.005
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 585.355
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 352.981
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.0076274,
+          "cost_input_hit_usd": 0.0019415200000000002,
+          "cost_output_usd": 0.006198325714285714
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.006673975,
+          "cost_input_hit_usd": 0.0016988300000000001,
+          "cost_output_usd": 0.005423535
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.005932422222222223,
+          "cost_input_hit_usd": 0.0015100711111111114,
+          "cost_output_usd": 0.00482092
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/2 ds-reasoner/260326061200_ds-reasoner_seed44",
+      "group": "2 ds-reasoner",
+      "run_name": "260326061200_ds-reasoner_seed44",
+      "seed": 44,
+      "provider_tag": "ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T06:12:00",
+      "finished_at": "2026-03-26T09:42:05",
+      "wall_clock_sec": 12605.0,
+      "quality": {
+        "best_score_ratio": 0.04949292502930529,
+        "ours_gap_pct": 4.949292502930529,
+        "improve_ratio_first_to_last_best": 0.07862044081220243
+      },
+      "events": {
+        "total_eval_events": 586,
+        "total_llm_events": 68,
+        "llm_request_done": 32,
+        "llm_request_error": 1,
+        "accepted": 348,
+        "dedup_expr_hit": 155,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 3454.953,
+        "avg_elapsed_sec": 107.96728125
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 32,
+          "prompt_chars": 68455,
+          "response_chars": 12096,
+          "elapsed_sec": 3454.953,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 19558.571428571428,
+              "output_tokens_est": 3456.0,
+              "cost_input_miss_usd": 0.010757214285714287,
+              "cost_input_hit_usd": 0.0027382,
+              "cost_output_usd": 0.00756864
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 17113.75,
+              "output_tokens_est": 3024.0,
+              "cost_input_miss_usd": 0.0094125625,
+              "cost_input_hit_usd": 0.002395925,
+              "cost_output_usd": 0.0066225599999999996
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 15212.222222222223,
+              "output_tokens_est": 2688.0,
+              "cost_input_miss_usd": 0.008366722222222223,
+              "cost_input_hit_usd": 0.002129711111111111,
+              "cost_output_usd": 0.005886720000000001
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 1787.663
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 1667.29
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 303.986
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 336.491
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 559.303
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 475.029
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 447.215
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 399.83299999999997
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 434.204
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 498.892
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.010757214285714287,
+          "cost_input_hit_usd": 0.0027382,
+          "cost_output_usd": 0.00756864
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0094125625,
+          "cost_input_hit_usd": 0.002395925,
+          "cost_output_usd": 0.0066225599999999996
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.008366722222222223,
+          "cost_input_hit_usd": 0.002129711111111111,
+          "cost_output_usd": 0.005886720000000001
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/2 ds-reasoner/260326091750_ds-reasoner_seed46",
+      "group": "2 ds-reasoner",
+      "run_name": "260326091750_ds-reasoner_seed46",
+      "seed": 46,
+      "provider_tag": "ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T09:17:50",
+      "finished_at": "2026-03-26T11:49:57",
+      "wall_clock_sec": 9127.0,
+      "quality": {
+        "best_score_ratio": 0.04882940947210573,
+        "ours_gap_pct": 4.882940947210573,
+        "improve_ratio_first_to_last_best": 0.032657104319011275
+      },
+      "events": {
+        "total_eval_events": 588,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 163,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 4476.303,
+        "avg_elapsed_sec": 139.88446875
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 32,
+          "prompt_chars": 82739,
+          "response_chars": 12746,
+          "elapsed_sec": 4476.303,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 23639.714285714286,
+              "output_tokens_est": 3641.714285714286,
+              "cost_input_miss_usd": 0.013001842857142858,
+              "cost_input_hit_usd": 0.0033095600000000005,
+              "cost_output_usd": 0.007975354285714286
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 20684.75,
+              "output_tokens_est": 3186.5,
+              "cost_input_miss_usd": 0.011376612500000001,
+              "cost_input_hit_usd": 0.002895865,
+              "cost_output_usd": 0.006978435
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 18386.444444444445,
+              "output_tokens_est": 2832.4444444444443,
+              "cost_input_miss_usd": 0.010112544444444446,
+              "cost_input_hit_usd": 0.002574102222222223,
+              "cost_output_usd": 0.006203053333333333
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 2405.0440000000003
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 2071.259
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 423.095
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 537.02
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 617.3240000000001
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 590.2339999999999
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 747.483
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 496.568
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 572.672
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 491.90700000000004
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.013001842857142858,
+          "cost_input_hit_usd": 0.0033095600000000005,
+          "cost_output_usd": 0.007975354285714286
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.011376612500000001,
+          "cost_input_hit_usd": 0.002895865,
+          "cost_output_usd": 0.006978435
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.010112544444444446,
+          "cost_input_hit_usd": 0.002574102222222223,
+          "cost_output_usd": 0.006203053333333333
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/2 ds-reasoner/260326112421_ds-reasoner_seed45",
+      "group": "2 ds-reasoner",
+      "run_name": "260326112421_ds-reasoner_seed45",
+      "seed": 45,
+      "provider_tag": "ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T11:24:21",
+      "finished_at": "2026-03-26T14:01:22",
+      "wall_clock_sec": 9421.0,
+      "quality": {
+        "best_score_ratio": 0.04941023438948467,
+        "ours_gap_pct": 4.941023438948467,
+        "improve_ratio_first_to_last_best": 0.2019310886904634
+      },
+      "events": {
+        "total_eval_events": 631,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 175,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 5049.103999999998,
+        "avg_elapsed_sec": 157.78449999999995
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 32,
+          "prompt_chars": 54761,
+          "response_chars": 10181,
+          "elapsed_sec": 5049.103999999998,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 15646.0,
+              "output_tokens_est": 2908.8571428571427,
+              "cost_input_miss_usd": 0.008605300000000001,
+              "cost_input_hit_usd": 0.00219044,
+              "cost_output_usd": 0.006370397142857142
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 13690.25,
+              "output_tokens_est": 2545.25,
+              "cost_input_miss_usd": 0.007529637500000001,
+              "cost_input_hit_usd": 0.0019166350000000003,
+              "cost_output_usd": 0.0055740975
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 12169.111111111111,
+              "output_tokens_est": 2262.4444444444443,
+              "cost_input_miss_usd": 0.006693011111111112,
+              "cost_input_hit_usd": 0.0017036755555555558,
+              "cost_output_usd": 0.004954753333333333
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 2660.7839999999997
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 2388.3199999999997
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 610.0740000000001
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 644.1550000000001
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 563.986
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 699.341
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 552.497
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 747.756
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 507.103
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 724.192
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.008605300000000001,
+          "cost_input_hit_usd": 0.00219044,
+          "cost_output_usd": 0.006370397142857142
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.007529637500000001,
+          "cost_input_hit_usd": 0.0019166350000000003,
+          "cost_output_usd": 0.0055740975
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.006693011111111112,
+          "cost_input_hit_usd": 0.0017036755555555558,
+          "cost_output_usd": 0.004954753333333333
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/3 gpt5nano/260326013708_gpt5nano_seed42",
+      "group": "3 gpt5nano",
+      "run_name": "260326013708_gpt5nano_seed42",
+      "seed": 42,
+      "provider_tag": "gpt5nano",
+      "status": "completed",
+      "started_at": "2026-03-26T01:37:08",
+      "finished_at": "2026-03-26T03:09:59",
+      "wall_clock_sec": 5571.0,
+      "quality": {
+        "best_score_ratio": 0.050229563641370455,
+        "ours_gap_pct": 5.022956364137046,
+        "improve_ratio_first_to_last_best": 0.18045653173865875
+      },
+      "events": {
+        "total_eval_events": 599,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 178,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1113.5390000000002,
+        "avg_elapsed_sec": 34.79809375000001
+      },
+      "by_model": {
+        "gpt-5-nano": {
+          "requests": 32,
+          "prompt_chars": 65508,
+          "response_chars": 19166,
+          "elapsed_sec": 1113.5390000000002,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 18716.571428571428,
+              "output_tokens_est": 5476.0,
+              "cost_input_usd": 0.0009358285714285714,
+              "cost_output_usd": 0.0021904
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 16377.0,
+              "output_tokens_est": 4791.5,
+              "cost_input_usd": 0.00081885,
+              "cost_output_usd": 0.0019166
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 14557.333333333334,
+              "output_tokens_est": 4259.111111111111,
+              "cost_input_usd": 0.0007278666666666668,
+              "cost_output_usd": 0.0017036444444444446
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 541.3080000000001
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 572.231
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 155.18900000000002
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 122.487
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 133.067
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 141.963
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 109.59400000000001
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 105.546
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 188.895
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 156.798
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0009358285714285714,
+          "cost_output_usd": 0.0021904
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.00081885,
+          "cost_output_usd": 0.0019166
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0007278666666666668,
+          "cost_output_usd": 0.0017036444444444446
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/3 gpt5nano/260326031035_gpt5nano_seed43",
+      "group": "3 gpt5nano",
+      "run_name": "260326031035_gpt5nano_seed43",
+      "seed": 43,
+      "provider_tag": "gpt5nano",
+      "status": "completed",
+      "started_at": "2026-03-26T03:10:35",
+      "finished_at": "2026-03-26T04:50:09",
+      "wall_clock_sec": 5974.0,
+      "quality": {
+        "best_score_ratio": 0.062002275451992585,
+        "ours_gap_pct": 6.200227545199258,
+        "improve_ratio_first_to_last_best": 0.006862019112008869
+      },
+      "events": {
+        "total_eval_events": 693,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 194,
+        "eval_errors": 1
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1197.8680000000002,
+        "avg_elapsed_sec": 37.433375000000005
+      },
+      "by_model": {
+        "gpt-5-nano": {
+          "requests": 32,
+          "prompt_chars": 57464,
+          "response_chars": 24376,
+          "elapsed_sec": 1197.8680000000002,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 16418.285714285714,
+              "output_tokens_est": 6964.571428571428,
+              "cost_input_usd": 0.0008209142857142857,
+              "cost_output_usd": 0.0027858285714285717
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 14366.0,
+              "output_tokens_est": 6094.0,
+              "cost_input_usd": 0.0007183000000000001,
+              "cost_output_usd": 0.0024376
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 12769.777777777777,
+              "output_tokens_est": 5416.888888888889,
+              "cost_input_usd": 0.0006384888888888889,
+              "cost_output_usd": 0.0021667555555555554
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 569.449
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 628.419
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 113.365
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 98.56
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 130.853
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 144.233
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 177.408
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 202.585
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 166.55499999999998
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 164.30900000000003
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0008209142857142857,
+          "cost_output_usd": 0.0027858285714285717
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.0007183000000000001,
+          "cost_output_usd": 0.0024376
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0006384888888888889,
+          "cost_output_usd": 0.0021667555555555554
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/3 gpt5nano/260326045050_gpt5nano_seed44",
+      "group": "3 gpt5nano",
+      "run_name": "260326045050_gpt5nano_seed44",
+      "seed": 44,
+      "provider_tag": "gpt5nano",
+      "status": "completed",
+      "started_at": "2026-03-26T04:50:50",
+      "finished_at": "2026-03-26T06:23:16",
+      "wall_clock_sec": 5546.0,
+      "quality": {
+        "best_score_ratio": 0.052724555275681505,
+        "ours_gap_pct": 5.272455527568151,
+        "improve_ratio_first_to_last_best": 0.018459154121205096
+      },
+      "events": {
+        "total_eval_events": 577,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 161,
+        "eval_errors": 3
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1182.0560000000003,
+        "avg_elapsed_sec": 36.93925000000001
+      },
+      "by_model": {
+        "gpt-5-nano": {
+          "requests": 32,
+          "prompt_chars": 108259,
+          "response_chars": 25552,
+          "elapsed_sec": 1182.0560000000003,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 30931.14285714286,
+              "output_tokens_est": 7300.571428571428,
+              "cost_input_usd": 0.0015465571428571428,
+              "cost_output_usd": 0.0029202285714285715
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 27064.75,
+              "output_tokens_est": 6388.0,
+              "cost_input_usd": 0.0013532375000000001,
+              "cost_output_usd": 0.0025552
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 24057.555555555555,
+              "output_tokens_est": 5678.222222222223,
+              "cost_input_usd": 0.0012028777777777777,
+              "cost_output_usd": 0.0022712888888888894
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 450.855
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 731.201
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 108.38799999999999
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 167.082
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 148.628
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 189.198
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 170.548
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 147.558
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 119.654
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 131.0
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0015465571428571428,
+          "cost_output_usd": 0.0029202285714285715
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.0013532375000000001,
+          "cost_output_usd": 0.0025552
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0012028777777777777,
+          "cost_output_usd": 0.0022712888888888894
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/3 gpt5nano/260326091818_gpt5nano_seed46",
+      "group": "3 gpt5nano",
+      "run_name": "260326091818_gpt5nano_seed46",
+      "seed": 46,
+      "provider_tag": "gpt5nano",
+      "status": "completed",
+      "started_at": "2026-03-26T09:18:18",
+      "finished_at": "2026-03-26T10:59:04",
+      "wall_clock_sec": 6046.0,
+      "quality": {
+        "best_score_ratio": 0.0488577246912234,
+        "ours_gap_pct": 4.88577246912234,
+        "improve_ratio_first_to_last_best": 0.0314644435836082
+      },
+      "events": {
+        "total_eval_events": 569,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 143,
+        "eval_errors": 1
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1488.98,
+        "avg_elapsed_sec": 46.530625
+      },
+      "by_model": {
+        "gpt-5-nano": {
+          "requests": 32,
+          "prompt_chars": 82939,
+          "response_chars": 32531,
+          "elapsed_sec": 1488.98,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 23696.85714285714,
+              "output_tokens_est": 9294.57142857143,
+              "cost_input_usd": 0.001184842857142857,
+              "cost_output_usd": 0.0037178285714285723
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 20734.75,
+              "output_tokens_est": 8132.75,
+              "cost_input_usd": 0.0010367375,
+              "cost_output_usd": 0.0032531000000000005
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 18430.88888888889,
+              "output_tokens_est": 7229.111111111111,
+              "cost_input_usd": 0.0009215444444444446,
+              "cost_output_usd": 0.0028916444444444444
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 592.1159999999999
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 896.8639999999999
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 86.767
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 124.80600000000001
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 184.927
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 206.163
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 139.81799999999998
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 203.07700000000003
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 292.07899999999995
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 251.343
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.001184842857142857,
+          "cost_output_usd": 0.0037178285714285723
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.0010367375,
+          "cost_output_usd": 0.0032531000000000005
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0009215444444444446,
+          "cost_output_usd": 0.0028916444444444444
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/3 gpt5nano/260326111835_gpt5nano_seed45",
+      "group": "3 gpt5nano",
+      "run_name": "260326111835_gpt5nano_seed45",
+      "seed": 45,
+      "provider_tag": "gpt5nano",
+      "status": "completed",
+      "started_at": "2026-03-26T11:18:35",
+      "finished_at": "2026-03-26T12:53:42",
+      "wall_clock_sec": 5707.0,
+      "quality": {
+        "best_score_ratio": 0.050093874455575796,
+        "ours_gap_pct": 5.0093874455575795,
+        "improve_ratio_first_to_last_best": 0.13518038907312147
+      },
+      "events": {
+        "total_eval_events": 607,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 160,
+        "eval_errors": 2
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1100.4409999999998,
+        "avg_elapsed_sec": 34.388781249999994
+      },
+      "by_model": {
+        "gpt-5-nano": {
+          "requests": 32,
+          "prompt_chars": 52965,
+          "response_chars": 19327,
+          "elapsed_sec": 1100.4409999999998,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 15132.857142857143,
+              "output_tokens_est": 5522.0,
+              "cost_input_usd": 0.0007566428571428572,
+              "cost_output_usd": 0.0022088000000000003
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 13241.25,
+              "output_tokens_est": 4831.75,
+              "cost_input_usd": 0.0006620625,
+              "cost_output_usd": 0.0019327
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 11770.0,
+              "output_tokens_est": 4294.888888888889,
+              "cost_input_usd": 0.0005885,
+              "cost_output_usd": 0.0017179555555555555
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 464.16100000000006
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 636.2800000000001
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 135.269
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 138.549
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 128.005
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 109.614
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 154.548
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 138.223
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 161.42000000000002
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 134.813
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0007566428571428572,
+          "cost_output_usd": 0.0022088000000000003
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.0006620625,
+          "cost_output_usd": 0.0019327
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0005885,
+          "cost_output_usd": 0.0017179555555555555
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/4 gpt5mini/260326013713_gpt5mini_seed42",
+      "group": "4 gpt5mini",
+      "run_name": "260326013713_gpt5mini_seed42",
+      "seed": 42,
+      "provider_tag": "gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T01:37:13",
+      "finished_at": "2026-03-26T03:11:33",
+      "wall_clock_sec": 5660.0,
+      "quality": {
+        "best_score_ratio": 0.049571624352049856,
+        "ours_gap_pct": 4.957162435204985,
+        "improve_ratio_first_to_last_best": 0.18451033642414752
+      },
+      "events": {
+        "total_eval_events": 595,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 172,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1189.3949999999998,
+        "avg_elapsed_sec": 37.16859374999999
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 32,
+          "prompt_chars": 65740,
+          "response_chars": 35699,
+          "elapsed_sec": 1189.3949999999998,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 18782.85714285714,
+              "output_tokens_est": 10199.714285714286,
+              "cost_input_usd": 0.004695714285714286,
+              "cost_output_usd": 0.020399428571428572
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 16435.0,
+              "output_tokens_est": 8924.75,
+              "cost_input_usd": 0.00410875,
+              "cost_output_usd": 0.0178495
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 14608.888888888889,
+              "output_tokens_est": 7933.111111111111,
+              "cost_input_usd": 0.003652222222222222,
+              "cost_output_usd": 0.015866222222222223
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 563.696
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 625.699
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 104.69000000000001
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 139.476
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 132.23
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 150.483
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 177.178
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 146.61400000000003
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 155.749
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 182.975
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.004695714285714286,
+          "cost_output_usd": 0.020399428571428572
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.00410875,
+          "cost_output_usd": 0.0178495
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.003652222222222222,
+          "cost_output_usd": 0.015866222222222223
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/4 gpt5mini/260326031213_gpt5mini_seed43",
+      "group": "4 gpt5mini",
+      "run_name": "260326031213_gpt5mini_seed43",
+      "seed": 43,
+      "provider_tag": "gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T03:12:13",
+      "finished_at": "2026-03-26T04:51:50",
+      "wall_clock_sec": 5977.0,
+      "quality": {
+        "best_score_ratio": 0.062458168734063235,
+        "ours_gap_pct": 6.245816873406324,
+        "improve_ratio_first_to_last_best": 0.0005982088644056282
+      },
+      "events": {
+        "total_eval_events": 745,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 224,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1115.963,
+        "avg_elapsed_sec": 34.87384375
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 32,
+          "prompt_chars": 76538,
+          "response_chars": 25250,
+          "elapsed_sec": 1115.963,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 21868.0,
+              "output_tokens_est": 7214.285714285715,
+              "cost_input_usd": 0.005467,
+              "cost_output_usd": 0.01442857142857143
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 19134.5,
+              "output_tokens_est": 6312.5,
+              "cost_input_usd": 0.004783625,
+              "cost_output_usd": 0.012625
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 17008.444444444445,
+              "output_tokens_est": 5611.111111111111,
+              "cost_input_usd": 0.004252111111111111,
+              "cost_output_usd": 0.011222222222222222
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 530.0799999999999
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 585.883
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 149.748
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 130.16899999999998
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 159.861
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 175.906
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 155.641
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 119.21000000000001
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 112.20499999999998
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 113.22300000000001
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.005467,
+          "cost_output_usd": 0.01442857142857143
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.004783625,
+          "cost_output_usd": 0.012625
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.004252111111111111,
+          "cost_output_usd": 0.011222222222222222
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/4 gpt5mini/260326045229_gpt5mini_seed44",
+      "group": "4 gpt5mini",
+      "run_name": "260326045229_gpt5mini_seed44",
+      "seed": 44,
+      "provider_tag": "gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T04:52:29",
+      "finished_at": "2026-03-26T06:22:03",
+      "wall_clock_sec": 5374.0,
+      "quality": {
+        "best_score_ratio": 0.051611081590548225,
+        "ours_gap_pct": 5.161108159054822,
+        "improve_ratio_first_to_last_best": 0.03516703875352788
+      },
+      "events": {
+        "total_eval_events": 578,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 143,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 950.978,
+        "avg_elapsed_sec": 29.7180625
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 32,
+          "prompt_chars": 83900,
+          "response_chars": 32748,
+          "elapsed_sec": 950.978,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 23971.428571428572,
+              "output_tokens_est": 9356.57142857143,
+              "cost_input_usd": 0.0059928571428571435,
+              "cost_output_usd": 0.01871314285714286
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 20975.0,
+              "output_tokens_est": 8187.0,
+              "cost_input_usd": 0.00524375,
+              "cost_output_usd": 0.016374
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 18644.444444444445,
+              "output_tokens_est": 7277.333333333333,
+              "cost_input_usd": 0.0046611111111111115,
+              "cost_output_usd": 0.014554666666666665
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 438.231
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 512.747
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 103.21199999999999
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 112.472
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 117.07799999999999
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 131.651
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 118.33500000000001
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 135.687
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 111.559
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 120.98400000000001
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0059928571428571435,
+          "cost_output_usd": 0.01871314285714286
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.00524375,
+          "cost_output_usd": 0.016374
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0046611111111111115,
+          "cost_output_usd": 0.014554666666666665
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/4 gpt5mini/260326091827_gpt5mini_seed46",
+      "group": "4 gpt5mini",
+      "run_name": "260326091827_gpt5mini_seed46",
+      "seed": 46,
+      "provider_tag": "gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T09:18:27",
+      "finished_at": "2026-03-26T10:50:22",
+      "wall_clock_sec": 5515.0,
+      "quality": {
+        "best_score_ratio": 0.0491849588133214,
+        "ours_gap_pct": 4.91849588133214,
+        "improve_ratio_first_to_last_best": 0.025613436721812242
+      },
+      "events": {
+        "total_eval_events": 585,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 157,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 972.8329999999999,
+        "avg_elapsed_sec": 30.401031249999996
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 32,
+          "prompt_chars": 76186,
+          "response_chars": 27308,
+          "elapsed_sec": 972.8329999999999,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 21767.428571428572,
+              "output_tokens_est": 7802.285714285715,
+              "cost_input_usd": 0.005441857142857143,
+              "cost_output_usd": 0.01560457142857143
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 19046.5,
+              "output_tokens_est": 6827.0,
+              "cost_input_usd": 0.004761625,
+              "cost_output_usd": 0.013654
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 16930.222222222223,
+              "output_tokens_est": 6068.444444444444,
+              "cost_input_usd": 0.004232555555555555,
+              "cost_output_usd": 0.012136888888888888
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 479.715
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 493.11799999999994
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 116.55600000000001
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 106.201
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 140.14
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 150.623
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 115.667
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 117.038
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 109.45200000000001
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 117.156
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.005441857142857143,
+          "cost_output_usd": 0.01560457142857143
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.004761625,
+          "cost_output_usd": 0.013654
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.004232555555555555,
+          "cost_output_usd": 0.012136888888888888
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/4 gpt5mini/260326111915_gpt5mini_seed45",
+      "group": "4 gpt5mini",
+      "run_name": "260326111915_gpt5mini_seed45",
+      "seed": 45,
+      "provider_tag": "gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T11:19:15",
+      "finished_at": "2026-03-26T12:53:04",
+      "wall_clock_sec": 5629.0,
+      "quality": {
+        "best_score_ratio": 0.0533628652548517,
+        "ours_gap_pct": 5.3362865254851695,
+        "improve_ratio_first_to_last_best": 0.13969731687070333
+      },
+      "events": {
+        "total_eval_events": 658,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 194,
+        "eval_errors": 2
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 948.7840000000002,
+        "avg_elapsed_sec": 29.649500000000007
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 32,
+          "prompt_chars": 45519,
+          "response_chars": 25285,
+          "elapsed_sec": 948.7840000000002,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 13005.42857142857,
+              "output_tokens_est": 7224.285714285715,
+              "cost_input_usd": 0.0032513571428571426,
+              "cost_output_usd": 0.014448571428571429
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 11379.75,
+              "output_tokens_est": 6321.25,
+              "cost_input_usd": 0.0028449375,
+              "cost_output_usd": 0.0126425
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 10115.333333333334,
+              "output_tokens_est": 5618.888888888889,
+              "cost_input_usd": 0.0025288333333333335,
+              "cost_output_usd": 0.011237777777777777
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 469.659
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 479.125
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 111.484
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 96.62800000000001
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 128.33499999999998
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 125.58800000000001
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 128.094
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 104.20899999999999
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 108.11099999999999
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 146.33499999999998
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0032513571428571426,
+          "cost_output_usd": 0.014448571428571429
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.0028449375,
+          "cost_output_usd": 0.0126425
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0025288333333333335,
+          "cost_output_usd": 0.011237777777777777
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/5 ds-chat+ds-reasoner/260326013733_ds-chat+ds-reasoner_seed42",
+      "group": "5 ds-chat+ds-reasoner",
+      "run_name": "260326013733_ds-chat+ds-reasoner_seed42",
+      "seed": 42,
+      "provider_tag": "ds-chat+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T01:37:33",
+      "finished_at": "2026-03-26T03:32:35",
+      "wall_clock_sec": 6902.0,
+      "quality": {
+        "best_score_ratio": 0.05592357111992845,
+        "ours_gap_pct": 5.592357111992845,
+        "improve_ratio_first_to_last_best": 0.08532002993924198
+      },
+      "events": {
+        "total_eval_events": 630,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 192,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 2300.6130000000003,
+        "avg_elapsed_sec": 71.89415625000001
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 37101,
+          "response_chars": 15423,
+          "elapsed_sec": 177.248,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 10600.285714285714,
+              "output_tokens_est": 4406.571428571428,
+              "cost_input_miss_usd": 0.00296808,
+              "cost_input_hit_usd": 0.00029680799999999997,
+              "cost_output_usd": 0.0018507599999999997
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 9275.25,
+              "output_tokens_est": 3855.75,
+              "cost_input_miss_usd": 0.0025970700000000004,
+              "cost_input_hit_usd": 0.00025970699999999997,
+              "cost_output_usd": 0.001619415
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 8244.666666666666,
+              "output_tokens_est": 3427.3333333333335,
+              "cost_input_miss_usd": 0.002308506666666667,
+              "cost_input_hit_usd": 0.00023085066666666664,
+              "cost_output_usd": 0.00143948
+            }
+          }
+        },
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 45088,
+          "response_chars": 6264,
+          "elapsed_sec": 2123.3650000000002,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 12882.285714285714,
+              "output_tokens_est": 1789.7142857142858,
+              "cost_input_miss_usd": 0.007085257142857143,
+              "cost_input_hit_usd": 0.0018035200000000003,
+              "cost_output_usd": 0.003919474285714286
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 11272.0,
+              "output_tokens_est": 1566.0,
+              "cost_input_miss_usd": 0.0061996,
+              "cost_input_hit_usd": 0.0015780800000000002,
+              "cost_output_usd": 0.00342954
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 10019.555555555555,
+              "output_tokens_est": 1392.0,
+              "cost_input_miss_usd": 0.0055107555555555555,
+              "cost_input_hit_usd": 0.0014027377777777778,
+              "cost_output_usd": 0.00304848
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 177.248
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 2123.3650000000002
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 279.298
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 311.668
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 232.00100000000003
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 406.8159999999999
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 270.83000000000004
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 248.135
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 260.253
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 291.61199999999997
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.010053337142857144,
+          "cost_input_hit_usd": 0.0021003280000000003,
+          "cost_output_usd": 0.0057702342857142855
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.008796670000000001,
+          "cost_input_hit_usd": 0.001837787,
+          "cost_output_usd": 0.005048955
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.007819262222222222,
+          "cost_input_hit_usd": 0.0016335884444444444,
+          "cost_output_usd": 0.00448796
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/5 ds-chat+ds-reasoner/260326033313_ds-chat+ds-reasoner_seed43",
+      "group": "5 ds-chat+ds-reasoner",
+      "run_name": "260326033313_ds-chat+ds-reasoner_seed43",
+      "seed": 43,
+      "provider_tag": "ds-chat+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T03:33:13",
+      "finished_at": "2026-03-26T05:20:56",
+      "wall_clock_sec": 6463.0,
+      "quality": {
+        "best_score_ratio": 0.04872392578277775,
+        "ours_gap_pct": 4.872392578277775,
+        "improve_ratio_first_to_last_best": 0.2190876351142745
+      },
+      "events": {
+        "total_eval_events": 671,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 181,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1726.606,
+        "avg_elapsed_sec": 53.9564375
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 27574,
+          "response_chars": 13027,
+          "elapsed_sec": 136.577,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 7878.285714285715,
+              "output_tokens_est": 3722.0,
+              "cost_input_miss_usd": 0.0022059200000000005,
+              "cost_input_hit_usd": 0.000220592,
+              "cost_output_usd": 0.00156324
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6893.5,
+              "output_tokens_est": 3256.75,
+              "cost_input_miss_usd": 0.0019301800000000003,
+              "cost_input_hit_usd": 0.000193018,
+              "cost_output_usd": 0.001367835
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6127.555555555556,
+              "output_tokens_est": 2894.8888888888887,
+              "cost_input_miss_usd": 0.0017157155555555558,
+              "cost_input_hit_usd": 0.00017157155555555555,
+              "cost_output_usd": 0.0012158533333333332
+            }
+          }
+        },
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 31513,
+          "response_chars": 4902,
+          "elapsed_sec": 1590.0289999999998,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 9003.714285714286,
+              "output_tokens_est": 1400.5714285714287,
+              "cost_input_miss_usd": 0.004952042857142858,
+              "cost_input_hit_usd": 0.0012605200000000002,
+              "cost_output_usd": 0.003067251428571429
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 7878.25,
+              "output_tokens_est": 1225.5,
+              "cost_input_miss_usd": 0.0043330375,
+              "cost_input_hit_usd": 0.001102955,
+              "cost_output_usd": 0.002683845
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 7002.888888888889,
+              "output_tokens_est": 1089.3333333333333,
+              "cost_input_miss_usd": 0.003851588888888889,
+              "cost_input_hit_usd": 0.0009804044444444444,
+              "cost_output_usd": 0.00238564
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 136.577
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 1590.0289999999998
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 103.20299999999999
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 384.58799999999997
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 242.503
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 315.06100000000004
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 134.798
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 134.04000000000002
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 199.13799999999998
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 213.27499999999998
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.007157962857142859,
+          "cost_input_hit_usd": 0.0014811120000000001,
+          "cost_output_usd": 0.004630491428571429
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0062632175,
+          "cost_input_hit_usd": 0.0012959730000000002,
+          "cost_output_usd": 0.00405168
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.005567304444444445,
+          "cost_input_hit_usd": 0.0011519759999999999,
+          "cost_output_usd": 0.003601493333333333
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/5 ds-chat+ds-reasoner/260326052134_ds-chat+ds-reasoner_seed44",
+      "group": "5 ds-chat+ds-reasoner",
+      "run_name": "260326052134_ds-chat+ds-reasoner_seed44",
+      "seed": 44,
+      "provider_tag": "ds-chat+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T05:21:34",
+      "finished_at": "2026-03-26T06:57:49",
+      "wall_clock_sec": 5775.0,
+      "quality": {
+        "best_score_ratio": 0.04931250594478542,
+        "ours_gap_pct": 4.931250594478542,
+        "improve_ratio_first_to_last_best": 0.08197919272402719
+      },
+      "events": {
+        "total_eval_events": 583,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 166,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1661.5720000000003,
+        "avg_elapsed_sec": 51.92412500000001
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 33050,
+          "response_chars": 15693,
+          "elapsed_sec": 157.64300000000003,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 9442.857142857143,
+              "output_tokens_est": 4483.714285714285,
+              "cost_input_miss_usd": 0.0026440000000000005,
+              "cost_input_hit_usd": 0.00026440000000000003,
+              "cost_output_usd": 0.0018831599999999998
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 8262.5,
+              "output_tokens_est": 3923.25,
+              "cost_input_miss_usd": 0.0023135,
+              "cost_input_hit_usd": 0.00023134999999999999,
+              "cost_output_usd": 0.0016477649999999998
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 7344.444444444444,
+              "output_tokens_est": 3487.3333333333335,
+              "cost_input_miss_usd": 0.002056444444444445,
+              "cost_input_hit_usd": 0.00020564444444444443,
+              "cost_output_usd": 0.00146468
+            }
+          }
+        },
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 39363,
+          "response_chars": 8018,
+          "elapsed_sec": 1503.929,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 11246.57142857143,
+              "output_tokens_est": 2290.8571428571427,
+              "cost_input_miss_usd": 0.006185614285714287,
+              "cost_input_hit_usd": 0.0015745200000000003,
+              "cost_output_usd": 0.0050169771428571425
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 9840.75,
+              "output_tokens_est": 2004.5,
+              "cost_input_miss_usd": 0.005412412500000001,
+              "cost_input_hit_usd": 0.0013777050000000001,
+              "cost_output_usd": 0.004389855
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 8747.333333333334,
+              "output_tokens_est": 1781.7777777777778,
+              "cost_input_miss_usd": 0.004811033333333334,
+              "cost_input_hit_usd": 0.0012246266666666667,
+              "cost_output_usd": 0.0039020933333333333
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 157.64300000000003
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 1503.929
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 128.895
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 232.20000000000002
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 193.687
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 209.206
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 211.437
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 229.89299999999997
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 199.519
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 256.735
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.008829614285714289,
+          "cost_input_hit_usd": 0.0018389200000000004,
+          "cost_output_usd": 0.0069001371428571425
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.007725912500000001,
+          "cost_input_hit_usd": 0.001609055,
+          "cost_output_usd": 0.00603762
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.006867477777777779,
+          "cost_input_hit_usd": 0.001430271111111111,
+          "cost_output_usd": 0.005366773333333333
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/5 ds-chat+ds-reasoner/260326091930_ds-chat+ds-reasoner_seed46",
+      "group": "5 ds-chat+ds-reasoner",
+      "run_name": "260326091930_ds-chat+ds-reasoner_seed46",
+      "seed": 46,
+      "provider_tag": "ds-chat+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T09:19:30",
+      "finished_at": "2026-03-26T11:11:09",
+      "wall_clock_sec": 6699.0,
+      "quality": {
+        "best_score_ratio": 0.04895192340395049,
+        "ours_gap_pct": 4.895192340395049,
+        "improve_ratio_first_to_last_best": 0.030230022302799697
+      },
+      "events": {
+        "total_eval_events": 563,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 133,
+        "eval_errors": 1
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 2196.518,
+        "avg_elapsed_sec": 68.6411875
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 31277,
+          "response_chars": 15628,
+          "elapsed_sec": 193.344,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 8936.285714285714,
+              "output_tokens_est": 4465.142857142857,
+              "cost_input_miss_usd": 0.0025021600000000002,
+              "cost_input_hit_usd": 0.000250216,
+              "cost_output_usd": 0.00187536
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 7819.25,
+              "output_tokens_est": 3907.0,
+              "cost_input_miss_usd": 0.0021893900000000003,
+              "cost_input_hit_usd": 0.000218939,
+              "cost_output_usd": 0.0016409399999999998
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6950.444444444444,
+              "output_tokens_est": 3472.8888888888887,
+              "cost_input_miss_usd": 0.0019461244444444446,
+              "cost_input_hit_usd": 0.00019461244444444442,
+              "cost_output_usd": 0.0014586133333333333
+            }
+          }
+        },
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 37436,
+          "response_chars": 7709,
+          "elapsed_sec": 2003.1739999999998,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 10696.0,
+              "output_tokens_est": 2202.5714285714284,
+              "cost_input_miss_usd": 0.0058828000000000005,
+              "cost_input_hit_usd": 0.00149744,
+              "cost_output_usd": 0.004823631428571428
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 9359.0,
+              "output_tokens_est": 1927.25,
+              "cost_input_miss_usd": 0.0051474500000000005,
+              "cost_input_hit_usd": 0.0013102600000000002,
+              "cost_output_usd": 0.0042206775
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 8319.111111111111,
+              "output_tokens_est": 1713.111111111111,
+              "cost_input_miss_usd": 0.004575511111111112,
+              "cost_input_hit_usd": 0.0011646755555555558,
+              "cost_output_usd": 0.003751713333333333
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 193.344
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 2003.1739999999998
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 214.627
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 212.462
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 272.379
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 245.762
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 442.898
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 256.158
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 248.82099999999997
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 303.411
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.00838496,
+          "cost_input_hit_usd": 0.001747656,
+          "cost_output_usd": 0.006698991428571428
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.007336840000000001,
+          "cost_input_hit_usd": 0.0015291990000000002,
+          "cost_output_usd": 0.005861617499999999
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.006521635555555556,
+          "cost_input_hit_usd": 0.0013592880000000002,
+          "cost_output_usd": 0.005210326666666666
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/5 ds-chat+ds-reasoner/260326111931_ds-chat+ds-reasoner_seed45",
+      "group": "5 ds-chat+ds-reasoner",
+      "run_name": "260326111931_ds-chat+ds-reasoner_seed45",
+      "seed": 45,
+      "provider_tag": "ds-chat+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T11:19:31",
+      "finished_at": "2026-03-26T13:16:31",
+      "wall_clock_sec": 7020.0,
+      "quality": {
+        "best_score_ratio": 0.054063513296696286,
+        "ours_gap_pct": 5.406351329669628,
+        "improve_ratio_first_to_last_best": 0.1284016454810681
+      },
+      "events": {
+        "total_eval_events": 630,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 185,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 2507.8920000000003,
+        "avg_elapsed_sec": 78.37162500000001
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 30514,
+          "response_chars": 14168,
+          "elapsed_sec": 193.24599999999998,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 8718.285714285714,
+              "output_tokens_est": 4048.0,
+              "cost_input_miss_usd": 0.0024411199999999997,
+              "cost_input_hit_usd": 0.000244112,
+              "cost_output_usd": 0.0017001599999999998
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 7628.5,
+              "output_tokens_est": 3542.0,
+              "cost_input_miss_usd": 0.00213598,
+              "cost_input_hit_usd": 0.000213598,
+              "cost_output_usd": 0.00148764
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6780.888888888889,
+              "output_tokens_est": 3148.4444444444443,
+              "cost_input_miss_usd": 0.0018986488888888889,
+              "cost_input_hit_usd": 0.00018986488888888888,
+              "cost_output_usd": 0.0013223466666666666
+            }
+          }
+        },
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 35869,
+          "response_chars": 6730,
+          "elapsed_sec": 2314.646,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 10248.285714285714,
+              "output_tokens_est": 1922.857142857143,
+              "cost_input_miss_usd": 0.005636557142857143,
+              "cost_input_hit_usd": 0.00143476,
+              "cost_output_usd": 0.004211057142857143
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 8967.25,
+              "output_tokens_est": 1682.5,
+              "cost_input_miss_usd": 0.0049319875,
+              "cost_input_hit_usd": 0.0012554150000000002,
+              "cost_output_usd": 0.0036846749999999997
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 7970.888888888889,
+              "output_tokens_est": 1495.5555555555557,
+              "cost_input_miss_usd": 0.004383988888888889,
+              "cost_input_hit_usd": 0.0011159244444444445,
+              "cost_output_usd": 0.003275266666666667
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 193.24599999999998
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 2314.646
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 277.735
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 302.813
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 397.61799999999994
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 443.376
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 341.25800000000004
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 274.818
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 290.91200000000003
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 179.36200000000002
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.008077677142857143,
+          "cost_input_hit_usd": 0.001678872,
+          "cost_output_usd": 0.005911217142857143
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0070679675,
+          "cost_input_hit_usd": 0.0014690130000000001,
+          "cost_output_usd": 0.005172314999999999
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.006282637777777778,
+          "cost_input_hit_usd": 0.0013057893333333333,
+          "cost_output_usd": 0.0045976133333333336
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/6 gpt5nano+gpt5mini/260326013725_gpt5nano+gpt5mini_seed42",
+      "group": "6 gpt5nano+gpt5mini",
+      "run_name": "260326013725_gpt5nano+gpt5mini_seed42",
+      "seed": 42,
+      "provider_tag": "gpt5nano+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T01:37:25",
+      "finished_at": "2026-03-26T03:10:26",
+      "wall_clock_sec": 5581.0,
+      "quality": {
+        "best_score_ratio": 0.04991815775393045,
+        "ours_gap_pct": 4.991815775393045,
+        "improve_ratio_first_to_last_best": 0.11796328359458336
+      },
+      "events": {
+        "total_eval_events": 615,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 179,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1050.6819999999998,
+        "avg_elapsed_sec": 32.83381249999999
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 34477,
+          "response_chars": 12574,
+          "elapsed_sec": 519.218,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 9850.57142857143,
+              "output_tokens_est": 3592.5714285714284,
+              "cost_input_usd": 0.0024626428571428573,
+              "cost_output_usd": 0.007185142857142857
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 8619.25,
+              "output_tokens_est": 3143.5,
+              "cost_input_usd": 0.0021548125,
+              "cost_output_usd": 0.006287
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 7661.555555555556,
+              "output_tokens_est": 2794.222222222222,
+              "cost_input_usd": 0.001915388888888889,
+              "cost_output_usd": 0.0055884444444444445
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 29431,
+          "response_chars": 7655,
+          "elapsed_sec": 531.4639999999999,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 8408.857142857143,
+              "output_tokens_est": 2187.1428571428573,
+              "cost_input_usd": 0.00042044285714285716,
+              "cost_output_usd": 0.000874857142857143
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 7357.75,
+              "output_tokens_est": 1913.75,
+              "cost_input_usd": 0.00036788750000000007,
+              "cost_output_usd": 0.0007655
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6540.222222222223,
+              "output_tokens_est": 1701.111111111111,
+              "cost_input_usd": 0.0003270111111111112,
+              "cost_output_usd": 0.0006804444444444445
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 531.4639999999999
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 519.218
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 131.462
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 112.42999999999999
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 143.62099999999998
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 135.519
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 104.8
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 141.615
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 117.803
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 163.432
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0028830857142857144,
+          "cost_output_usd": 0.00806
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.0025227,
+          "cost_output_usd": 0.0070525
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0022424000000000003,
+          "cost_output_usd": 0.006268888888888889
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/6 gpt5nano+gpt5mini/260326031105_gpt5nano+gpt5mini_seed43",
+      "group": "6 gpt5nano+gpt5mini",
+      "run_name": "260326031105_gpt5nano+gpt5mini_seed43",
+      "seed": 43,
+      "provider_tag": "gpt5nano+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T03:11:05",
+      "finished_at": "2026-03-26T04:47:45",
+      "wall_clock_sec": 5800.0,
+      "quality": {
+        "best_score_ratio": 0.04835013359602125,
+        "ours_gap_pct": 4.835013359602125,
+        "improve_ratio_first_to_last_best": 0.22507850994314552
+      },
+      "events": {
+        "total_eval_events": 689,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 210,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1177.442,
+        "avg_elapsed_sec": 36.7950625
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 27105,
+          "response_chars": 13837,
+          "elapsed_sec": 573.1840000000001,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 7744.285714285715,
+              "output_tokens_est": 3953.4285714285716,
+              "cost_input_usd": 0.0019360714285714287,
+              "cost_output_usd": 0.007906857142857143
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6776.25,
+              "output_tokens_est": 3459.25,
+              "cost_input_usd": 0.0016940625,
+              "cost_output_usd": 0.0069185
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6023.333333333333,
+              "output_tokens_est": 3074.8888888888887,
+              "cost_input_usd": 0.0015058333333333332,
+              "cost_output_usd": 0.0061497777777777774
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 24077,
+          "response_chars": 10610,
+          "elapsed_sec": 604.258,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 6879.142857142857,
+              "output_tokens_est": 3031.4285714285716,
+              "cost_input_usd": 0.0003439571428571429,
+              "cost_output_usd": 0.0012125714285714287
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6019.25,
+              "output_tokens_est": 2652.5,
+              "cost_input_usd": 0.00030096250000000006,
+              "cost_output_usd": 0.001061
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 5350.444444444444,
+              "output_tokens_est": 2357.777777777778,
+              "cost_input_usd": 0.00026752222222222225,
+              "cost_output_usd": 0.0009431111111111111
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 604.258
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 573.1840000000001
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 110.256
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 111.541
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 166.68200000000002
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 119.078
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 169.101
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 182.00600000000003
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 148.395
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 170.383
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0022800285714285715,
+          "cost_output_usd": 0.009119428571428572
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.001995025,
+          "cost_output_usd": 0.0079795
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0017733555555555554,
+          "cost_output_usd": 0.007092888888888888
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/6 gpt5nano+gpt5mini/260326044823_gpt5nano+gpt5mini_seed44",
+      "group": "6 gpt5nano+gpt5mini",
+      "run_name": "260326044823_gpt5nano+gpt5mini_seed44",
+      "seed": 44,
+      "provider_tag": "gpt5nano+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T04:48:23",
+      "finished_at": "2026-03-26T06:18:55",
+      "wall_clock_sec": 5432.0,
+      "quality": {
+        "best_score_ratio": 0.05024418227182807,
+        "ours_gap_pct": 5.0244182271828075,
+        "improve_ratio_first_to_last_best": 0.10132055118912939
+      },
+      "events": {
+        "total_eval_events": 584,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 144,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1049.837,
+        "avg_elapsed_sec": 32.80740625
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 32009,
+          "response_chars": 14242,
+          "elapsed_sec": 548.267,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 9145.42857142857,
+              "output_tokens_est": 4069.1428571428573,
+              "cost_input_usd": 0.0022863571428571425,
+              "cost_output_usd": 0.008138285714285714
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 8002.25,
+              "output_tokens_est": 3560.5,
+              "cost_input_usd": 0.0020005625,
+              "cost_output_usd": 0.007121
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 7113.111111111111,
+              "output_tokens_est": 3164.8888888888887,
+              "cost_input_usd": 0.001778277777777778,
+              "cost_output_usd": 0.006329777777777777
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 26863,
+          "response_chars": 10301,
+          "elapsed_sec": 501.57,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 7675.142857142857,
+              "output_tokens_est": 2943.1428571428573,
+              "cost_input_usd": 0.00038375714285714287,
+              "cost_output_usd": 0.001177257142857143
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6715.75,
+              "output_tokens_est": 2575.25,
+              "cost_input_usd": 0.0003357875,
+              "cost_output_usd": 0.0010301000000000002
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 5969.555555555556,
+              "output_tokens_est": 2289.1111111111113,
+              "cost_input_usd": 0.0002984777777777778,
+              "cost_output_usd": 0.0009156444444444446
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 501.57
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 548.267
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 142.073
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 154.849
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 138.159
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 110.30599999999998
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 109.573
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 138.328
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 115.087
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 141.462
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0026701142857142855,
+          "cost_output_usd": 0.009315542857142856
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.00233635,
+          "cost_output_usd": 0.0081511
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.0020767555555555556,
+          "cost_output_usd": 0.007245422222222222
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/6 gpt5nano+gpt5mini/260326091904_gpt5nano+gpt5mini_seed46",
+      "group": "6 gpt5nano+gpt5mini",
+      "run_name": "260326091904_gpt5nano+gpt5mini_seed46",
+      "seed": 46,
+      "provider_tag": "gpt5nano+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T09:19:04",
+      "finished_at": "2026-03-26T10:52:47",
+      "wall_clock_sec": 5623.0,
+      "quality": {
+        "best_score_ratio": 0.049162759477362795,
+        "ours_gap_pct": 4.916275947736279,
+        "improve_ratio_first_to_last_best": 0.02567001203382133
+      },
+      "events": {
+        "total_eval_events": 560,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 150,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1160.0680000000002,
+        "avg_elapsed_sec": 36.25212500000001
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 49011,
+          "response_chars": 16132,
+          "elapsed_sec": 552.648,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 14003.142857142857,
+              "output_tokens_est": 4609.142857142857,
+              "cost_input_usd": 0.003500785714285714,
+              "cost_output_usd": 0.009218285714285714
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 12252.75,
+              "output_tokens_est": 4033.0,
+              "cost_input_usd": 0.0030631875,
+              "cost_output_usd": 0.008066
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 10891.333333333334,
+              "output_tokens_est": 3584.8888888888887,
+              "cost_input_usd": 0.0027228333333333336,
+              "cost_output_usd": 0.0071697777777777775
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 38018,
+          "response_chars": 10271,
+          "elapsed_sec": 607.4200000000001,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 10862.285714285714,
+              "output_tokens_est": 2934.5714285714284,
+              "cost_input_usd": 0.0005431142857142857,
+              "cost_output_usd": 0.0011738285714285714
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 9504.5,
+              "output_tokens_est": 2567.75,
+              "cost_input_usd": 0.000475225,
+              "cost_output_usd": 0.0010271000000000002
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 8448.444444444445,
+              "output_tokens_est": 2282.4444444444443,
+              "cost_input_usd": 0.0004224222222222223,
+              "cost_output_usd": 0.0009129777777777778
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 607.4200000000001
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 552.648
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 150.63
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 132.077
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 139.26100000000002
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 196.471
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 126.114
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 101.61900000000001
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 160.544
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 153.35199999999998
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0040439,
+          "cost_output_usd": 0.010392114285714285
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.0035384125,
+          "cost_output_usd": 0.0090931
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.003145255555555556,
+          "cost_output_usd": 0.008082755555555555
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/6 gpt5nano+gpt5mini/260326111925_gpt5nano+gpt5mini_seed45",
+      "group": "6 gpt5nano+gpt5mini",
+      "run_name": "260326111925_gpt5nano+gpt5mini_seed45",
+      "seed": 45,
+      "provider_tag": "gpt5nano+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T11:19:25",
+      "finished_at": "2026-03-26T12:51:53",
+      "wall_clock_sec": 5548.0,
+      "quality": {
+        "best_score_ratio": 0.05092506949130708,
+        "ours_gap_pct": 5.0925069491307084,
+        "improve_ratio_first_to_last_best": 0.17899884661957652
+      },
+      "events": {
+        "total_eval_events": 643,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 193,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 901.4119999999999,
+        "avg_elapsed_sec": 28.169124999999998
+      },
+      "by_model": {
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 39252,
+          "response_chars": 14325,
+          "elapsed_sec": 414.969,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 11214.857142857143,
+              "output_tokens_est": 4092.8571428571427,
+              "cost_input_usd": 0.0028037142857142857,
+              "cost_output_usd": 0.008185714285714286
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 9813.0,
+              "output_tokens_est": 3581.25,
+              "cost_input_usd": 0.00245325,
+              "cost_output_usd": 0.0071625
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 8722.666666666666,
+              "output_tokens_est": 3183.3333333333335,
+              "cost_input_usd": 0.0021806666666666667,
+              "cost_output_usd": 0.006366666666666667
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 32194,
+          "response_chars": 8890,
+          "elapsed_sec": 486.443,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 9198.285714285714,
+              "output_tokens_est": 2540.0,
+              "cost_input_usd": 0.0004599142857142857,
+              "cost_output_usd": 0.001016
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 8048.5,
+              "output_tokens_est": 2222.5,
+              "cost_input_usd": 0.00040242500000000004,
+              "cost_output_usd": 0.000889
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 7154.222222222223,
+              "output_tokens_est": 1975.5555555555557,
+              "cost_input_usd": 0.0003577111111111112,
+              "cost_output_usd": 0.0007902222222222223
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 486.443
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 414.969
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 121.182
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 98.621
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 94.74900000000001
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 107.428
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 137.74699999999999
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 118.055
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 106.19200000000001
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 117.438
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_usd": 0.0032636285714285713,
+          "cost_output_usd": 0.009201714285714285
+        },
+        "default_4p0": {
+          "cost_input_usd": 0.0028556750000000002,
+          "cost_output_usd": 0.0080515
+        },
+        "optimistic_4p5": {
+          "cost_input_usd": 0.002538377777777778,
+          "cost_output_usd": 0.00715688888888889
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/7 ds-chat+gpt5mini/260326015431_ds-chat+gpt5mini_seed42",
+      "group": "7 ds-chat+gpt5mini",
+      "run_name": "260326015431_ds-chat+gpt5mini_seed42",
+      "seed": 42,
+      "provider_tag": "ds-chat+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T01:54:31",
+      "finished_at": "2026-03-26T03:19:37",
+      "wall_clock_sec": 5106.0,
+      "quality": {
+        "best_score_ratio": 0.051889271794223715,
+        "ours_gap_pct": 5.188927179422372,
+        "improve_ratio_first_to_last_best": 0.15337680264519943
+      },
+      "events": {
+        "total_eval_events": 577,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 150,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 715.896,
+        "avg_elapsed_sec": 22.37175
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 25053,
+          "response_chars": 12906,
+          "elapsed_sec": 143.053,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 7158.0,
+              "output_tokens_est": 3687.4285714285716,
+              "cost_input_miss_usd": 0.0020042400000000004,
+              "cost_input_hit_usd": 0.00020042400000000002,
+              "cost_output_usd": 0.00154872
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6263.25,
+              "output_tokens_est": 3226.5,
+              "cost_input_miss_usd": 0.0017537100000000003,
+              "cost_input_hit_usd": 0.000175371,
+              "cost_output_usd": 0.00135513
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 5567.333333333333,
+              "output_tokens_est": 2868.0,
+              "cost_input_miss_usd": 0.0015588533333333334,
+              "cost_input_hit_usd": 0.00015588533333333332,
+              "cost_output_usd": 0.00120456
+            }
+          }
+        },
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 29450,
+          "response_chars": 15278,
+          "elapsed_sec": 572.8430000000001,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 8414.285714285714,
+              "output_tokens_est": 4365.142857142857,
+              "cost_input_usd": 0.0021035714285714286,
+              "cost_output_usd": 0.008730285714285713
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 7362.5,
+              "output_tokens_est": 3819.5,
+              "cost_input_usd": 0.001840625,
+              "cost_output_usd": 0.007639
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6544.444444444444,
+              "output_tokens_est": 3395.1111111111113,
+              "cost_input_usd": 0.0016361111111111112,
+              "cost_output_usd": 0.006790222222222223
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 143.053
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 572.8430000000001
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 59.379999999999995
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 67.603
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 80.835
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 77.08699999999999
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 111.43700000000001
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 126.827
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 92.83500000000001
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 99.892
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.0020042400000000004,
+          "cost_input_hit_usd": 0.00020042400000000002,
+          "cost_output_usd": 0.010279005714285713,
+          "cost_input_usd": 0.0021035714285714286
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0017537100000000003,
+          "cost_input_hit_usd": 0.000175371,
+          "cost_output_usd": 0.00899413,
+          "cost_input_usd": 0.001840625
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0015588533333333334,
+          "cost_input_hit_usd": 0.00015588533333333332,
+          "cost_output_usd": 0.007994782222222222,
+          "cost_input_usd": 0.0016361111111111112
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/7 ds-chat+gpt5mini/260326032015_ds-chat+gpt5mini_seed43",
+      "group": "7 ds-chat+gpt5mini",
+      "run_name": "260326032015_ds-chat+gpt5mini_seed43",
+      "seed": 43,
+      "provider_tag": "ds-chat+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T03:20:15",
+      "finished_at": "2026-03-26T04:50:15",
+      "wall_clock_sec": 5400.0,
+      "quality": {
+        "best_score_ratio": 0.06135658970432291,
+        "ours_gap_pct": 6.135658970432291,
+        "improve_ratio_first_to_last_best": 0.017977348717663294
+      },
+      "events": {
+        "total_eval_events": 701,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 208,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 704.8610000000001,
+        "avg_elapsed_sec": 22.026906250000003
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 23364,
+          "response_chars": 13350,
+          "elapsed_sec": 141.98899999999998,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 6675.428571428572,
+              "output_tokens_est": 3814.285714285714,
+              "cost_input_miss_usd": 0.0018691200000000002,
+              "cost_input_hit_usd": 0.00018691200000000002,
+              "cost_output_usd": 0.001602
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 5841.0,
+              "output_tokens_est": 3337.5,
+              "cost_input_miss_usd": 0.0016354800000000004,
+              "cost_input_hit_usd": 0.00016354800000000001,
+              "cost_output_usd": 0.00140175
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 5192.0,
+              "output_tokens_est": 2966.6666666666665,
+              "cost_input_miss_usd": 0.0014537600000000001,
+              "cost_input_hit_usd": 0.000145376,
+              "cost_output_usd": 0.001246
+            }
+          }
+        },
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 25983,
+          "response_chars": 15650,
+          "elapsed_sec": 562.872,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 7423.714285714285,
+              "output_tokens_est": 4471.428571428572,
+              "cost_input_usd": 0.0018559285714285713,
+              "cost_output_usd": 0.008942857142857143
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6495.75,
+              "output_tokens_est": 3912.5,
+              "cost_input_usd": 0.0016239375,
+              "cost_output_usd": 0.007825
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 5774.0,
+              "output_tokens_est": 3477.777777777778,
+              "cost_input_usd": 0.0014435,
+              "cost_output_usd": 0.006955555555555556
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 141.98899999999998
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 562.872
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 72.36200000000001
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 59.906
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 72.458
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 81.307
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 117.91900000000001
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 94.251
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 108.63
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 98.028
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.0018691200000000002,
+          "cost_input_hit_usd": 0.00018691200000000002,
+          "cost_output_usd": 0.010544857142857142,
+          "cost_input_usd": 0.0018559285714285713
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0016354800000000004,
+          "cost_input_hit_usd": 0.00016354800000000001,
+          "cost_output_usd": 0.00922675,
+          "cost_input_usd": 0.0016239375
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0014537600000000001,
+          "cost_input_hit_usd": 0.000145376,
+          "cost_output_usd": 0.008201555555555556,
+          "cost_input_usd": 0.0014435
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/7 ds-chat+gpt5mini/260326045055_ds-chat+gpt5mini_seed44",
+      "group": "7 ds-chat+gpt5mini",
+      "run_name": "260326045055_ds-chat+gpt5mini_seed44",
+      "seed": 44,
+      "provider_tag": "ds-chat+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T04:50:55",
+      "finished_at": "2026-03-26T06:15:22",
+      "wall_clock_sec": 5067.0,
+      "quality": {
+        "best_score_ratio": 0.05283866598004676,
+        "ours_gap_pct": 5.283866598004676,
+        "improve_ratio_first_to_last_best": 0.05491499569145166
+      },
+      "events": {
+        "total_eval_events": 557,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 134,
+        "eval_errors": 1
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 728.428,
+        "avg_elapsed_sec": 22.763375
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 30681,
+          "response_chars": 13549,
+          "elapsed_sec": 138.126,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 8766.0,
+              "output_tokens_est": 3871.1428571428573,
+              "cost_input_miss_usd": 0.00245448,
+              "cost_input_hit_usd": 0.000245448,
+              "cost_output_usd": 0.0016258800000000001
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 7670.25,
+              "output_tokens_est": 3387.25,
+              "cost_input_miss_usd": 0.00214767,
+              "cost_input_hit_usd": 0.00021476699999999999,
+              "cost_output_usd": 0.001422645
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6818.0,
+              "output_tokens_est": 3010.8888888888887,
+              "cost_input_miss_usd": 0.00190904,
+              "cost_input_hit_usd": 0.000190904,
+              "cost_output_usd": 0.0012645733333333333
+            }
+          }
+        },
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 36635,
+          "response_chars": 19112,
+          "elapsed_sec": 590.302,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 10467.142857142857,
+              "output_tokens_est": 5460.571428571428,
+              "cost_input_usd": 0.0026167857142857143,
+              "cost_output_usd": 0.010921142857142857
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 9158.75,
+              "output_tokens_est": 4778.0,
+              "cost_input_usd": 0.0022896875,
+              "cost_output_usd": 0.009556
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 8141.111111111111,
+              "output_tokens_est": 4247.111111111111,
+              "cost_input_usd": 0.0020352777777777778,
+              "cost_output_usd": 0.008494222222222222
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 138.126
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 590.302
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 64.957
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 97.159
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 67.487
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 80.71000000000001
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 83.118
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 119.464
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 101.055
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 114.478
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.00245448,
+          "cost_input_hit_usd": 0.000245448,
+          "cost_output_usd": 0.012547022857142856,
+          "cost_input_usd": 0.0026167857142857143
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.00214767,
+          "cost_input_hit_usd": 0.00021476699999999999,
+          "cost_output_usd": 0.010978645,
+          "cost_input_usd": 0.0022896875
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.00190904,
+          "cost_input_hit_usd": 0.000190904,
+          "cost_output_usd": 0.009758795555555555,
+          "cost_input_usd": 0.0020352777777777778
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/7 ds-chat+gpt5mini/260326091928_ds-chat+gpt5mini_seed46",
+      "group": "7 ds-chat+gpt5mini",
+      "run_name": "260326091928_ds-chat+gpt5mini_seed46",
+      "seed": 46,
+      "provider_tag": "ds-chat+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T09:19:28",
+      "finished_at": "2026-03-26T10:48:16",
+      "wall_clock_sec": 5328.0,
+      "quality": {
+        "best_score_ratio": 0.048600301772587215,
+        "ours_gap_pct": 4.8600301772587216,
+        "improve_ratio_first_to_last_best": 0.03719587937017491
+      },
+      "events": {
+        "total_eval_events": 586,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 165,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 798.916,
+        "avg_elapsed_sec": 24.966125
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 36827,
+          "response_chars": 15931,
+          "elapsed_sec": 189.221,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 10522.0,
+              "output_tokens_est": 4551.714285714285,
+              "cost_input_miss_usd": 0.00294616,
+              "cost_input_hit_usd": 0.000294616,
+              "cost_output_usd": 0.0019117199999999998
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 9206.75,
+              "output_tokens_est": 3982.75,
+              "cost_input_miss_usd": 0.00257789,
+              "cost_input_hit_usd": 0.00025778899999999997,
+              "cost_output_usd": 0.001672755
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 8183.777777777777,
+              "output_tokens_est": 3540.222222222222,
+              "cost_input_miss_usd": 0.0022914577777777777,
+              "cost_input_hit_usd": 0.00022914577777777777,
+              "cost_output_usd": 0.0014868933333333331
+            }
+          }
+        },
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 45829,
+          "response_chars": 20127,
+          "elapsed_sec": 609.6949999999999,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 13094.0,
+              "output_tokens_est": 5750.571428571428,
+              "cost_input_usd": 0.0032735,
+              "cost_output_usd": 0.011501142857142857
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 11457.25,
+              "output_tokens_est": 5031.75,
+              "cost_input_usd": 0.0028643125,
+              "cost_output_usd": 0.0100635
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 10184.222222222223,
+              "output_tokens_est": 4472.666666666667,
+              "cost_input_usd": 0.0025460555555555557,
+              "cost_output_usd": 0.008945333333333335
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 189.221
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 609.6949999999999
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 94.33600000000001
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 115.93
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 97.17999999999999
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 89.328
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 80.91
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 103.03200000000001
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 73.403
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 144.797
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.00294616,
+          "cost_input_hit_usd": 0.000294616,
+          "cost_output_usd": 0.013412862857142858,
+          "cost_input_usd": 0.0032735
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.00257789,
+          "cost_input_hit_usd": 0.00025778899999999997,
+          "cost_output_usd": 0.011736255,
+          "cost_input_usd": 0.0028643125
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0022914577777777777,
+          "cost_input_hit_usd": 0.00022914577777777777,
+          "cost_output_usd": 0.010432226666666667,
+          "cost_input_usd": 0.0025460555555555557
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/7 ds-chat+gpt5mini/260326111944_ds-chat+gpt5mini_seed45",
+      "group": "7 ds-chat+gpt5mini",
+      "run_name": "260326111944_ds-chat+gpt5mini_seed45",
+      "seed": 45,
+      "provider_tag": "ds-chat+gpt5mini",
+      "status": "completed",
+      "started_at": "2026-03-26T11:19:44",
+      "finished_at": "2026-03-26T12:49:22",
+      "wall_clock_sec": 5378.0,
+      "quality": {
+        "best_score_ratio": 0.054704746713375496,
+        "ours_gap_pct": 5.470474671337549,
+        "improve_ratio_first_to_last_best": 0.11718907853011155
+      },
+      "events": {
+        "total_eval_events": 667,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 202,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 697.3290000000001,
+        "avg_elapsed_sec": 21.791531250000002
+      },
+      "by_model": {
+        "deepseek-chat": {
+          "requests": 16,
+          "prompt_chars": 27007,
+          "response_chars": 12901,
+          "elapsed_sec": 181.51100000000002,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 7716.285714285715,
+              "output_tokens_est": 3686.0,
+              "cost_input_miss_usd": 0.0021605600000000006,
+              "cost_input_hit_usd": 0.000216056,
+              "cost_output_usd": 0.0015481199999999998
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6751.75,
+              "output_tokens_est": 3225.25,
+              "cost_input_miss_usd": 0.0018904900000000003,
+              "cost_input_hit_usd": 0.000189049,
+              "cost_output_usd": 0.001354605
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6001.555555555556,
+              "output_tokens_est": 2866.8888888888887,
+              "cost_input_miss_usd": 0.0016804355555555559,
+              "cost_input_hit_usd": 0.00016804355555555557,
+              "cost_output_usd": 0.0012040933333333332
+            }
+          }
+        },
+        "gpt-5-mini": {
+          "requests": 16,
+          "prompt_chars": 30993,
+          "response_chars": 12810,
+          "elapsed_sec": 515.818,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 8855.142857142857,
+              "output_tokens_est": 3660.0,
+              "cost_input_usd": 0.002213785714285714,
+              "cost_output_usd": 0.00732
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 7748.25,
+              "output_tokens_est": 3202.5,
+              "cost_input_usd": 0.0019370625,
+              "cost_output_usd": 0.006405
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6887.333333333333,
+              "output_tokens_est": 2846.6666666666665,
+              "cost_input_usd": 0.0017218333333333332,
+              "cost_output_usd": 0.005693333333333333
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 181.51100000000002
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 515.818
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 77.95599999999999
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 85.781
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 86.59100000000001
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 85.56
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 79.286
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 103.14699999999999
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 81.124
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 97.884
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.0021605600000000006,
+          "cost_input_hit_usd": 0.000216056,
+          "cost_output_usd": 0.00886812,
+          "cost_input_usd": 0.002213785714285714
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0018904900000000003,
+          "cost_input_hit_usd": 0.000189049,
+          "cost_output_usd": 0.007759605,
+          "cost_input_usd": 0.0019370625
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0016804355555555559,
+          "cost_input_hit_usd": 0.00016804355555555557,
+          "cost_output_usd": 0.006897426666666666,
+          "cost_input_usd": 0.0017218333333333332
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/8 gpt5nano+ds-reasoner/260326015346_gpt5nano+ds-reasoner_seed42",
+      "group": "8 gpt5nano+ds-reasoner",
+      "run_name": "260326015346_gpt5nano+ds-reasoner_seed42",
+      "seed": 42,
+      "provider_tag": "gpt5nano+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T01:53:46",
+      "finished_at": "2026-03-26T03:44:57",
+      "wall_clock_sec": 6671.0,
+      "quality": {
+        "best_score_ratio": 0.04967241873943481,
+        "ours_gap_pct": 4.967241873943481,
+        "improve_ratio_first_to_last_best": 0.17379520335892687
+      },
+      "events": {
+        "total_eval_events": 568,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 139,
+        "eval_errors": 2
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 2245.522000000001,
+        "avg_elapsed_sec": 70.17256250000003
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 27581,
+          "response_chars": 6065,
+          "elapsed_sec": 1766.3690000000001,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 7880.285714285715,
+              "output_tokens_est": 1732.857142857143,
+              "cost_input_miss_usd": 0.004334157142857144,
+              "cost_input_hit_usd": 0.0011032400000000003,
+              "cost_output_usd": 0.003794957142857143
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6895.25,
+              "output_tokens_est": 1516.25,
+              "cost_input_miss_usd": 0.0037923875,
+              "cost_input_hit_usd": 0.000965335,
+              "cost_output_usd": 0.0033205875
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6129.111111111111,
+              "output_tokens_est": 1347.7777777777778,
+              "cost_input_miss_usd": 0.0033710111111111113,
+              "cost_input_hit_usd": 0.0008580755555555557,
+              "cost_output_usd": 0.002951633333333333
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 24336,
+          "response_chars": 9585,
+          "elapsed_sec": 479.153,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 6953.142857142857,
+              "output_tokens_est": 2738.5714285714284,
+              "cost_input_usd": 0.00034765714285714286,
+              "cost_output_usd": 0.0010954285714285714
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6084.0,
+              "output_tokens_est": 2396.25,
+              "cost_input_usd": 0.00030419999999999997,
+              "cost_output_usd": 0.0009585
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 5408.0,
+              "output_tokens_est": 2130.0,
+              "cost_input_usd": 0.0002704,
+              "cost_output_usd": 0.000852
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 479.153
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 1766.3690000000001
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 243.10000000000002
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 259.537
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 410.377
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 209.331
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 298.275
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 321.458
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 256.63
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 246.814
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.004334157142857144,
+          "cost_input_hit_usd": 0.0011032400000000003,
+          "cost_output_usd": 0.0048903857142857145,
+          "cost_input_usd": 0.00034765714285714286
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0037923875,
+          "cost_input_hit_usd": 0.000965335,
+          "cost_output_usd": 0.0042790875,
+          "cost_input_usd": 0.00030419999999999997
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0033710111111111113,
+          "cost_input_hit_usd": 0.0008580755555555557,
+          "cost_output_usd": 0.003803633333333333,
+          "cost_input_usd": 0.0002704
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/8 gpt5nano+ds-reasoner/260326034536_gpt5nano+ds-reasoner_seed43",
+      "group": "8 gpt5nano+ds-reasoner",
+      "run_name": "260326034536_gpt5nano+ds-reasoner_seed43",
+      "seed": 43,
+      "provider_tag": "gpt5nano+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T03:45:36",
+      "finished_at": "2026-03-26T05:38:14",
+      "wall_clock_sec": 6758.0,
+      "quality": {
+        "best_score_ratio": 0.049888298769475835,
+        "ours_gap_pct": 4.988829876947584,
+        "improve_ratio_first_to_last_best": 0.20042070915176732
+      },
+      "events": {
+        "total_eval_events": 696,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 203,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1997.5490000000002,
+        "avg_elapsed_sec": 62.423406250000006
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 36832,
+          "response_chars": 5507,
+          "elapsed_sec": 1432.6109999999999,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 10523.42857142857,
+              "output_tokens_est": 1573.4285714285713,
+              "cost_input_miss_usd": 0.005787885714285714,
+              "cost_input_hit_usd": 0.00147328,
+              "cost_output_usd": 0.0034458085714285714
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 9208.0,
+              "output_tokens_est": 1376.75,
+              "cost_input_miss_usd": 0.0050644,
+              "cost_input_hit_usd": 0.0012891200000000002,
+              "cost_output_usd": 0.0030150825
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 8184.888888888889,
+              "output_tokens_est": 1223.7777777777778,
+              "cost_input_miss_usd": 0.004501688888888889,
+              "cost_input_hit_usd": 0.0011458844444444446,
+              "cost_output_usd": 0.0026800733333333334
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 30661,
+          "response_chars": 11549,
+          "elapsed_sec": 564.938,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 8760.285714285714,
+              "output_tokens_est": 3299.714285714286,
+              "cost_input_usd": 0.00043801428571428575,
+              "cost_output_usd": 0.0013198857142857144
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 7665.25,
+              "output_tokens_est": 2887.25,
+              "cost_input_usd": 0.00038326250000000005,
+              "cost_output_usd": 0.0011549000000000002
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6813.555555555556,
+              "output_tokens_est": 2566.4444444444443,
+              "cost_input_usd": 0.0003406777777777778,
+              "cost_output_usd": 0.0010265777777777778
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 564.938
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 1432.6109999999999
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 324.231
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 266.18
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 220.56699999999998
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 233.666
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 214.065
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 205.577
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 245.785
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 287.478
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.005787885714285714,
+          "cost_input_hit_usd": 0.00147328,
+          "cost_output_usd": 0.004765694285714286,
+          "cost_input_usd": 0.00043801428571428575
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0050644,
+          "cost_input_hit_usd": 0.0012891200000000002,
+          "cost_output_usd": 0.0041699825,
+          "cost_input_usd": 0.00038326250000000005
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.004501688888888889,
+          "cost_input_hit_usd": 0.0011458844444444446,
+          "cost_output_usd": 0.0037066511111111112,
+          "cost_input_usd": 0.0003406777777777778
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/8 gpt5nano+ds-reasoner/260326053853_gpt5nano+ds-reasoner_seed44",
+      "group": "8 gpt5nano+ds-reasoner",
+      "run_name": "260326053853_gpt5nano+ds-reasoner_seed44",
+      "seed": 44,
+      "provider_tag": "gpt5nano+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T05:38:53",
+      "finished_at": "2026-03-26T07:19:24",
+      "wall_clock_sec": 6031.0,
+      "quality": {
+        "best_score_ratio": 0.04792585722997324,
+        "ours_gap_pct": 4.792585722997324,
+        "improve_ratio_first_to_last_best": 0.10779358500020564
+      },
+      "events": {
+        "total_eval_events": 573,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 155,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 1971.1680000000006,
+        "avg_elapsed_sec": 61.59900000000002
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 55010,
+          "response_chars": 6153,
+          "elapsed_sec": 1500.087,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 15717.142857142857,
+              "output_tokens_est": 1758.0,
+              "cost_input_miss_usd": 0.008644428571428572,
+              "cost_input_hit_usd": 0.0022004,
+              "cost_output_usd": 0.00385002
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 13752.5,
+              "output_tokens_est": 1538.25,
+              "cost_input_miss_usd": 0.007563875000000001,
+              "cost_input_hit_usd": 0.0019253500000000002,
+              "cost_output_usd": 0.0033687675
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 12224.444444444445,
+              "output_tokens_est": 1367.3333333333333,
+              "cost_input_miss_usd": 0.006723444444444445,
+              "cost_input_hit_usd": 0.0017114222222222224,
+              "cost_output_usd": 0.0029944599999999996
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 42942,
+          "response_chars": 12171,
+          "elapsed_sec": 471.0810000000001,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 12269.142857142857,
+              "output_tokens_est": 3477.4285714285716,
+              "cost_input_usd": 0.0006134571428571429,
+              "cost_output_usd": 0.0013909714285714287
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 10735.5,
+              "output_tokens_est": 3042.75,
+              "cost_input_usd": 0.000536775,
+              "cost_output_usd": 0.0012171
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 9542.666666666666,
+              "output_tokens_est": 2704.6666666666665,
+              "cost_input_usd": 0.00047713333333333335,
+              "cost_output_usd": 0.0010818666666666667
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 471.0810000000001
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 1500.087
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 252.44299999999998
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 242.45499999999998
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 191.782
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 229.673
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 293.38300000000004
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 258.164
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 241.69
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 261.578
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.008644428571428572,
+          "cost_input_hit_usd": 0.0022004,
+          "cost_output_usd": 0.005240991428571429,
+          "cost_input_usd": 0.0006134571428571429
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.007563875000000001,
+          "cost_input_hit_usd": 0.0019253500000000002,
+          "cost_output_usd": 0.0045858675,
+          "cost_input_usd": 0.000536775
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.006723444444444445,
+          "cost_input_hit_usd": 0.0017114222222222224,
+          "cost_output_usd": 0.004076326666666666,
+          "cost_input_usd": 0.00047713333333333335
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/8 gpt5nano+ds-reasoner/260326091944_gpt5nano+ds-reasoner_seed46",
+      "group": "8 gpt5nano+ds-reasoner",
+      "run_name": "260326091944_gpt5nano+ds-reasoner_seed46",
+      "seed": 46,
+      "provider_tag": "gpt5nano+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T09:19:44",
+      "finished_at": "2026-03-26T11:23:23",
+      "wall_clock_sec": 7419.0,
+      "quality": {
+        "best_score_ratio": 0.04889195526099286,
+        "ours_gap_pct": 4.889195526099286,
+        "improve_ratio_first_to_last_best": 0.03105245700447612
+      },
+      "events": {
+        "total_eval_events": 556,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 139,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 2904.2529999999997,
+        "avg_elapsed_sec": 90.75790624999999
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 56700,
+          "response_chars": 5358,
+          "elapsed_sec": 2296.247,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 16200.0,
+              "output_tokens_est": 1530.857142857143,
+              "cost_input_miss_usd": 0.00891,
+              "cost_input_hit_usd": 0.002268,
+              "cost_output_usd": 0.003352577142857143
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 14175.0,
+              "output_tokens_est": 1339.5,
+              "cost_input_miss_usd": 0.007796250000000001,
+              "cost_input_hit_usd": 0.0019845,
+              "cost_output_usd": 0.0029335050000000003
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 12600.0,
+              "output_tokens_est": 1190.6666666666667,
+              "cost_input_miss_usd": 0.006930000000000001,
+              "cost_input_hit_usd": 0.0017640000000000002,
+              "cost_output_usd": 0.00260756
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 43110,
+          "response_chars": 10500,
+          "elapsed_sec": 608.0060000000001,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 12317.142857142857,
+              "output_tokens_est": 3000.0,
+              "cost_input_usd": 0.0006158571428571429,
+              "cost_output_usd": 0.0012
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 10777.5,
+              "output_tokens_est": 2625.0,
+              "cost_input_usd": 0.000538875,
+              "cost_output_usd": 0.00105
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 9580.0,
+              "output_tokens_est": 2333.3333333333335,
+              "cost_input_usd": 0.000479,
+              "cost_output_usd": 0.0009333333333333334
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 608.0060000000001
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 2296.247
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 382.08500000000004
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 335.252
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 354.329
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 361.541
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 379.249
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 495.974
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 317.58799999999997
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 278.235
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.00891,
+          "cost_input_hit_usd": 0.002268,
+          "cost_output_usd": 0.004552577142857143,
+          "cost_input_usd": 0.0006158571428571429
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.007796250000000001,
+          "cost_input_hit_usd": 0.0019845,
+          "cost_output_usd": 0.003983505,
+          "cost_input_usd": 0.000538875
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.006930000000000001,
+          "cost_input_hit_usd": 0.0017640000000000002,
+          "cost_output_usd": 0.0035408933333333334,
+          "cost_input_usd": 0.000479
+        }
+      }
+    },
+    {
+      "run_dir": "runs/final/8 gpt5nano+ds-reasoner/260326112027_gpt5nano+ds-reasoner_seed45",
+      "group": "8 gpt5nano+ds-reasoner",
+      "run_name": "260326112027_gpt5nano+ds-reasoner_seed45",
+      "seed": 45,
+      "provider_tag": "gpt5nano+ds-reasoner",
+      "status": "completed",
+      "started_at": "2026-03-26T11:20:27",
+      "finished_at": "2026-03-26T13:14:48",
+      "wall_clock_sec": 6861.0,
+      "quality": {
+        "best_score_ratio": 0.05115179242619172,
+        "ours_gap_pct": 5.115179242619172,
+        "improve_ratio_first_to_last_best": 0.14380235681487183
+      },
+      "events": {
+        "total_eval_events": 613,
+        "total_llm_events": 64,
+        "llm_request_done": 32,
+        "llm_request_error": 0,
+        "accepted": 346,
+        "dedup_expr_hit": 171,
+        "eval_errors": 0
+      },
+      "llm_time": {
+        "sum_elapsed_sec": 2394.0319999999997,
+        "avg_elapsed_sec": 74.81349999999999
+      },
+      "by_model": {
+        "deepseek-reasoner": {
+          "requests": 16,
+          "prompt_chars": 30349,
+          "response_chars": 5482,
+          "elapsed_sec": 1939.2579999999996,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 8671.142857142857,
+              "output_tokens_est": 1566.2857142857142,
+              "cost_input_miss_usd": 0.004769128571428571,
+              "cost_input_hit_usd": 0.00121396,
+              "cost_output_usd": 0.0034301657142857137
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 7587.25,
+              "output_tokens_est": 1370.5,
+              "cost_input_miss_usd": 0.0041729875,
+              "cost_input_hit_usd": 0.0010622150000000003,
+              "cost_output_usd": 0.003001395
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 6744.222222222223,
+              "output_tokens_est": 1218.2222222222222,
+              "cost_input_miss_usd": 0.0037093222222222225,
+              "cost_input_hit_usd": 0.0009441911111111112,
+              "cost_output_usd": 0.002667906666666666
+            }
+          }
+        },
+        "gpt-5-nano": {
+          "requests": 16,
+          "prompt_chars": 26217,
+          "response_chars": 8983,
+          "elapsed_sec": 454.77399999999994,
+          "scenarios": {
+            "pessimistic_3p5": {
+              "chars_per_token": 3.5,
+              "input_tokens_est": 7490.571428571428,
+              "output_tokens_est": 2566.5714285714284,
+              "cost_input_usd": 0.00037452857142857146,
+              "cost_output_usd": 0.0010266285714285715
+            },
+            "default_4p0": {
+              "chars_per_token": 4.0,
+              "input_tokens_est": 6554.25,
+              "output_tokens_est": 2245.75,
+              "cost_input_usd": 0.00032771250000000003,
+              "cost_output_usd": 0.0008983000000000001
+            },
+            "optimistic_4p5": {
+              "chars_per_token": 4.5,
+              "input_tokens_est": 5826.0,
+              "output_tokens_est": 1996.2222222222222,
+              "cost_input_usd": 0.00029130000000000003,
+              "cost_output_usd": 0.0007984888888888889
+            }
+          }
+        }
+      },
+      "by_phase": {
+        "proposal": {
+          "requests": 16,
+          "elapsed_sec": 454.77399999999994
+        },
+        "refine": {
+          "requests": 16,
+          "elapsed_sec": 1939.2579999999996
+        }
+      },
+      "by_generation": {
+        "1": {
+          "requests": 4,
+          "elapsed_sec": 239.961
+        },
+        "2": {
+          "requests": 4,
+          "elapsed_sec": 274.005
+        },
+        "3": {
+          "requests": 4,
+          "elapsed_sec": 379.345
+        },
+        "4": {
+          "requests": 4,
+          "elapsed_sec": 382.024
+        },
+        "5": {
+          "requests": 4,
+          "elapsed_sec": 323.494
+        },
+        "6": {
+          "requests": 4,
+          "elapsed_sec": 307.226
+        },
+        "7": {
+          "requests": 4,
+          "elapsed_sec": 218.60500000000002
+        },
+        "8": {
+          "requests": 4,
+          "elapsed_sec": 269.37199999999996
+        }
+      },
+      "cost_totals": {
+        "pessimistic_3p5": {
+          "cost_input_miss_usd": 0.004769128571428571,
+          "cost_input_hit_usd": 0.00121396,
+          "cost_output_usd": 0.004456794285714286,
+          "cost_input_usd": 0.00037452857142857146
+        },
+        "default_4p0": {
+          "cost_input_miss_usd": 0.0041729875,
+          "cost_input_hit_usd": 0.0010622150000000003,
+          "cost_output_usd": 0.003899695,
+          "cost_input_usd": 0.00032771250000000003
+        },
+        "optimistic_4p5": {
+          "cost_input_miss_usd": 0.0037093222222222225,
+          "cost_input_hit_usd": 0.0009441911111111112,
+          "cost_output_usd": 0.0034663955555555553,
+          "cost_input_usd": 0.00029130000000000003
+        }
+      }
+    }
+  ]
+}

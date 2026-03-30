@@ -1,0 +1,303 @@
+{
+  "best_score": 0.04216867469879518,
+  "best_expression": "0.5 * (0.5 * max(-1.92 * item + 1.101 * item + 0.896 * bin_rank + -0.307 * slack_rank + 2.07 * stdev_remaining + 1.259 * exact_fit, -abs(after)) + 0.5 * (0.5 * max(-0.924 * global_tightness + -1.7 * item + 0.005 * slack_rank + -1.955 * exact_fit + 1.087 * mean_remaining + 0.539 * remaining, -after) + 0.5 * (-0.552 * bin_rank + 1.188 * stdev_remaining + 1.679 * remaining + 0.265 * fill + -0.387 * mean_remaining + -1.773 * slack_rank - abs(after)))) + 0.5 * (0.5 * max(-1.92 * item + 1.101 * item + 0.896 * bin_rank + -0.307 * slack_rank + 2.07 * stdev_remaining + 1.259 * exact_fit, -abs(after)) + 0.5 * max(0.5 * max(-1.92 * item + 1.101 * item + 0.896 * bin_rank + -0.307 * slack_rank + 2.07 * stdev_remaining + 1.259 * exact_fit, -abs(after)) + 0.5 * (0.5 * max(-0.924 * global_tightness + -1.7 * item + 0.005 * slack_rank + -1.955 * exact_fit + 1.087 * mean_remaining + 0.539 * remaining, -after) + 0.5 * (-0.552 * bin_rank + 1.188 * stdev_remaining + 1.679 * remaining + 0.265 * fill + -0.387 * mean_remaining + -1.773 * slack_rank - abs(after))), 0.5 * max(-0.924 * global_tightness + -1.7 * item + 0.005 * slack_rank + -1.955 * exact_fit + 1.087 * mean_remaining + 0.539 * remaining, -after) + 0.5 * (-0.552 * bin_rank + 1.188 * stdev_remaining + 1.679 * remaining + 0.265 * fill + -0.387 * mean_remaining + -1.773 * slack_rank - abs(after))))",
+  "history": {
+    "best_per_gen": [
+      0.04578313253012048,
+      0.04397590361445783,
+      0.04216867469879518,
+      0.04216867469879518,
+      0.04216867469879518,
+      0.04216867469879518,
+      0.04216867469879518,
+      0.04216867469879518
+    ],
+    "avg_per_gen": [
+      0.05871611445783133,
+      0.05506400602409639,
+      0.055421686746987955,
+      0.055421686746987955,
+      0.05135542168674699,
+      0.04952936746987952,
+      0.05056475903614458,
+      0.05436746987951807
+    ],
+    "dedup_expr_hits": [
+      53,
+      63,
+      68,
+      77,
+      91,
+      105,
+      120,
+      128
+    ],
+    "dedup_behavior_hits": [
+      90,
+      110,
+      128,
+      145,
+      163,
+      185,
+      205,
+      230
+    ]
+  },
+  "search_config": {
+    "generations": 8,
+    "population_size": 16,
+    "islands": 2,
+    "migration_interval": 5,
+    "mutation_rate": 0.7,
+    "crossover_rate": 0.2,
+    "llm_seed_per_generation": 2,
+    "llm_refine_top_k": 2,
+    "random_seed": 43,
+    "verbose": true,
+    "log_interval": 1,
+    "behavior_repeat_cap": 1,
+    "behavior_eval_cap": 1,
+    "behavior_signature_points": 120,
+    "oversample_ratio": 0.35,
+    "restart_interval": 1,
+    "restart_inject_ratio": 0.18,
+    "stagnation_window": 2,
+    "stagnation_score_anchor": 1567.0,
+    "stagnation_ratio_threshold": 0.4,
+    "stagnation_restart_boost": 1.5,
+    "stagnation_llm_boost": 0,
+    "anneal_enable": true,
+    "novelty_weight_final": 0.2,
+    "stability_weight_final": 1.0,
+    "behavior_eval_cap_final": 3,
+    "behavior_repeat_cap_final": 2,
+    "local_search_top_k": 2,
+    "local_search_steps": 2
+  },
+  "experiment_config": {
+    "dataset": "orlib",
+    "size": "small",
+    "bin_capacity": 1.0,
+    "output_dir": "runs\\260325122756_or_parts_ds\\subruns",
+    "provider_tag": "ds",
+    "orlib_source": "binpack7"
+  },
+  "local_search": {
+    "improved": false,
+    "start_best_score": 0.04216867469879518,
+    "end_best_score": 0.04216867469879518,
+    "top_k": 2,
+    "steps": 2
+  },
+  "instances": {
+    "count": 20,
+    "avg_items": 249.0
+  },
+  "evaluation": {
+    "avg_bins_used": 86.5,
+    "avg_gap": 3.5,
+    "avg_gap_ratio": 0.04216867469879518,
+    "per_instance": [
+      {
+        "name": "t249_00",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 87,
+        "optimal_bins": 83,
+        "gap": 4.0,
+        "gap_ratio": 0.04819277108433735
+      },
+      {
+        "name": "t249_01",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 86,
+        "optimal_bins": 83,
+        "gap": 3.0,
+        "gap_ratio": 0.03614457831325301
+      },
+      {
+        "name": "t249_02",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 86,
+        "optimal_bins": 83,
+        "gap": 3.0,
+        "gap_ratio": 0.03614457831325301
+      },
+      {
+        "name": "t249_03",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 87,
+        "optimal_bins": 83,
+        "gap": 4.0,
+        "gap_ratio": 0.04819277108433735
+      },
+      {
+        "name": "t249_04",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 87,
+        "optimal_bins": 83,
+        "gap": 4.0,
+        "gap_ratio": 0.04819277108433735
+      },
+      {
+        "name": "t249_05",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 85,
+        "optimal_bins": 83,
+        "gap": 2.0,
+        "gap_ratio": 0.024096385542168676
+      },
+      {
+        "name": "t249_06",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 87,
+        "optimal_bins": 83,
+        "gap": 4.0,
+        "gap_ratio": 0.04819277108433735
+      },
+      {
+        "name": "t249_07",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 87,
+        "optimal_bins": 83,
+        "gap": 4.0,
+        "gap_ratio": 0.04819277108433735
+      },
+      {
+        "name": "t249_08",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 86,
+        "optimal_bins": 83,
+        "gap": 3.0,
+        "gap_ratio": 0.03614457831325301
+      },
+      {
+        "name": "t249_09",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 85,
+        "optimal_bins": 83,
+        "gap": 2.0,
+        "gap_ratio": 0.024096385542168676
+      },
+      {
+        "name": "t249_10",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 85,
+        "optimal_bins": 83,
+        "gap": 2.0,
+        "gap_ratio": 0.024096385542168676
+      },
+      {
+        "name": "t249_11",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 87,
+        "optimal_bins": 83,
+        "gap": 4.0,
+        "gap_ratio": 0.04819277108433735
+      },
+      {
+        "name": "t249_12",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 86,
+        "optimal_bins": 83,
+        "gap": 3.0,
+        "gap_ratio": 0.03614457831325301
+      },
+      {
+        "name": "t249_13",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 88,
+        "optimal_bins": 83,
+        "gap": 5.0,
+        "gap_ratio": 0.060240963855421686
+      },
+      {
+        "name": "t249_14",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 86,
+        "optimal_bins": 83,
+        "gap": 3.0,
+        "gap_ratio": 0.03614457831325301
+      },
+      {
+        "name": "t249_15",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 86,
+        "optimal_bins": 83,
+        "gap": 3.0,
+        "gap_ratio": 0.03614457831325301
+      },
+      {
+        "name": "t249_16",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 88,
+        "optimal_bins": 83,
+        "gap": 5.0,
+        "gap_ratio": 0.060240963855421686
+      },
+      {
+        "name": "t249_17",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 87,
+        "optimal_bins": 83,
+        "gap": 4.0,
+        "gap_ratio": 0.04819277108433735
+      },
+      {
+        "name": "t249_18",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 86,
+        "optimal_bins": 83,
+        "gap": 3.0,
+        "gap_ratio": 0.03614457831325301
+      },
+      {
+        "name": "t249_19",
+        "source": "binpack7",
+        "capacity": 100.0,
+        "bins_used": 88,
+        "optimal_bins": 83,
+        "gap": 5.0,
+        "gap_ratio": 0.060240963855421686
+      }
+    ],
+    "per_source_summary": {
+      "binpack7": {
+        "instances": 20,
+        "avg_bins": 86.5,
+        "avg_gap": 3.5,
+        "avg_gap_ratio": 0.04216867469879518
+      }
+    },
+    "baselines": {
+      "ff": {
+        "avg_bins": 88.3,
+        "avg_gap": 5.3,
+        "avg_gap_ratio": 0.06385542168674699
+      },
+      "bf": {
+        "avg_bins": 88.3,
+        "avg_gap": 5.3,
+        "avg_gap_ratio": 0.06385542168674699
+      }
+    }
+  }
+}

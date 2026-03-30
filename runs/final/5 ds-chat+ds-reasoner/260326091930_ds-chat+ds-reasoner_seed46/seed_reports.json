@@ -1,0 +1,156 @@
+{
+  "run_dir": "runs/final/5 ds-chat+ds-reasoner/260326091930_ds-chat+ds-reasoner_seed46",
+  "group": "5 ds-chat+ds-reasoner",
+  "run_name": "260326091930_ds-chat+ds-reasoner_seed46",
+  "seed": 46,
+  "provider_tag": "ds-chat+ds-reasoner",
+  "status": "completed",
+  "started_at": "2026-03-26T09:19:30",
+  "finished_at": "2026-03-26T11:11:09",
+  "wall_clock_sec": 6699.0,
+  "quality": {
+    "best_score_ratio": 0.04895192340395049,
+    "ours_gap_pct": 4.895192340395049,
+    "improve_ratio_first_to_last_best": 0.030230022302799697
+  },
+  "events": {
+    "total_eval_events": 563,
+    "total_llm_events": 64,
+    "llm_request_done": 32,
+    "llm_request_error": 0,
+    "accepted": 346,
+    "dedup_expr_hit": 133,
+    "eval_errors": 1
+  },
+  "llm_time": {
+    "sum_elapsed_sec": 2196.518,
+    "avg_elapsed_sec": 68.6411875
+  },
+  "by_model": {
+    "deepseek-chat": {
+      "requests": 16,
+      "prompt_chars": 31277,
+      "response_chars": 15628,
+      "elapsed_sec": 193.344,
+      "scenarios": {
+        "pessimistic_3p5": {
+          "chars_per_token": 3.5,
+          "input_tokens_est": 8936.285714285714,
+          "output_tokens_est": 4465.142857142857,
+          "cost_input_miss_usd": 0.0025021600000000002,
+          "cost_input_hit_usd": 0.000250216,
+          "cost_output_usd": 0.00187536
+        },
+        "default_4p0": {
+          "chars_per_token": 4.0,
+          "input_tokens_est": 7819.25,
+          "output_tokens_est": 3907.0,
+          "cost_input_miss_usd": 0.0021893900000000003,
+          "cost_input_hit_usd": 0.000218939,
+          "cost_output_usd": 0.0016409399999999998
+        },
+        "optimistic_4p5": {
+          "chars_per_token": 4.5,
+          "input_tokens_est": 6950.444444444444,
+          "output_tokens_est": 3472.8888888888887,
+          "cost_input_miss_usd": 0.0019461244444444446,
+          "cost_input_hit_usd": 0.00019461244444444442,
+          "cost_output_usd": 0.0014586133333333333
+        }
+      }
+    },
+    "deepseek-reasoner": {
+      "requests": 16,
+      "prompt_chars": 37436,
+      "response_chars": 7709,
+      "elapsed_sec": 2003.1739999999998,
+      "scenarios": {
+        "pessimistic_3p5": {
+          "chars_per_token": 3.5,
+          "input_tokens_est": 10696.0,
+          "output_tokens_est": 2202.5714285714284,
+          "cost_input_miss_usd": 0.0058828000000000005,
+          "cost_input_hit_usd": 0.00149744,
+          "cost_output_usd": 0.004823631428571428
+        },
+        "default_4p0": {
+          "chars_per_token": 4.0,
+          "input_tokens_est": 9359.0,
+          "output_tokens_est": 1927.25,
+          "cost_input_miss_usd": 0.0051474500000000005,
+          "cost_input_hit_usd": 0.0013102600000000002,
+          "cost_output_usd": 0.0042206775
+        },
+        "optimistic_4p5": {
+          "chars_per_token": 4.5,
+          "input_tokens_est": 8319.111111111111,
+          "output_tokens_est": 1713.111111111111,
+          "cost_input_miss_usd": 0.004575511111111112,
+          "cost_input_hit_usd": 0.0011646755555555558,
+          "cost_output_usd": 0.003751713333333333
+        }
+      }
+    }
+  },
+  "by_phase": {
+    "proposal": {
+      "requests": 16,
+      "elapsed_sec": 193.344
+    },
+    "refine": {
+      "requests": 16,
+      "elapsed_sec": 2003.1739999999998
+    }
+  },
+  "by_generation": {
+    "1": {
+      "requests": 4,
+      "elapsed_sec": 214.627
+    },
+    "2": {
+      "requests": 4,
+      "elapsed_sec": 212.462
+    },
+    "3": {
+      "requests": 4,
+      "elapsed_sec": 272.379
+    },
+    "4": {
+      "requests": 4,
+      "elapsed_sec": 245.762
+    },
+    "5": {
+      "requests": 4,
+      "elapsed_sec": 442.898
+    },
+    "6": {
+      "requests": 4,
+      "elapsed_sec": 256.158
+    },
+    "7": {
+      "requests": 4,
+      "elapsed_sec": 248.82099999999997
+    },
+    "8": {
+      "requests": 4,
+      "elapsed_sec": 303.411
+    }
+  },
+  "cost_totals": {
+    "pessimistic_3p5": {
+      "cost_input_miss_usd": 0.00838496,
+      "cost_input_hit_usd": 0.001747656,
+      "cost_output_usd": 0.006698991428571428
+    },
+    "default_4p0": {
+      "cost_input_miss_usd": 0.007336840000000001,
+      "cost_input_hit_usd": 0.0015291990000000002,
+      "cost_output_usd": 0.005861617499999999
+    },
+    "optimistic_4p5": {
+      "cost_input_miss_usd": 0.006521635555555556,
+      "cost_input_hit_usd": 0.0013592880000000002,
+      "cost_output_usd": 0.005210326666666666
+    }
+  }
+}

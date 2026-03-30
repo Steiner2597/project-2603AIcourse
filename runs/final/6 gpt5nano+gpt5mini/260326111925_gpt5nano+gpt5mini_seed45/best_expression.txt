@@ -1,0 +1,1 @@
+max(1.8 * exact_fit + 0.18 * bin_rank + 0.35 * fill - 1.9 * global_tightness, -after)

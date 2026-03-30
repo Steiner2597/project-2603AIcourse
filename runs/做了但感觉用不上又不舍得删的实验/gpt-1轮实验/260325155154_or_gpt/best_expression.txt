@@ -1,0 +1,1 @@
+-abs(max(0.25 * stdev_remaining + 0.6 * after - 0.65 * item - 0.3309 * mean_remaining, -abs(after)))

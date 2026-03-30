@@ -1,0 +1,195 @@
+{
+  "source": "binpack7",
+  "summary": {
+    "instances": 20,
+    "avg_bins": 86.6,
+    "avg_gap": 3.6,
+    "avg_gap_ratio": 0.04337349397590362
+  },
+  "instances": [
+    {
+      "name": "t249_00",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_01",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_02",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 86,
+      "optimal_bins": 83,
+      "gap": 3.0,
+      "gap_ratio": 0.03614457831325301
+    },
+    {
+      "name": "t249_03",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_04",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_05",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 85,
+      "optimal_bins": 83,
+      "gap": 2.0,
+      "gap_ratio": 0.024096385542168676
+    },
+    {
+      "name": "t249_06",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 86,
+      "optimal_bins": 83,
+      "gap": 3.0,
+      "gap_ratio": 0.03614457831325301
+    },
+    {
+      "name": "t249_07",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 86,
+      "optimal_bins": 83,
+      "gap": 3.0,
+      "gap_ratio": 0.03614457831325301
+    },
+    {
+      "name": "t249_08",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 86,
+      "optimal_bins": 83,
+      "gap": 3.0,
+      "gap_ratio": 0.03614457831325301
+    },
+    {
+      "name": "t249_09",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 86,
+      "optimal_bins": 83,
+      "gap": 3.0,
+      "gap_ratio": 0.03614457831325301
+    },
+    {
+      "name": "t249_10",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_11",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_12",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 86,
+      "optimal_bins": 83,
+      "gap": 3.0,
+      "gap_ratio": 0.03614457831325301
+    },
+    {
+      "name": "t249_13",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_14",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 85,
+      "optimal_bins": 83,
+      "gap": 2.0,
+      "gap_ratio": 0.024096385542168676
+    },
+    {
+      "name": "t249_15",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_16",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_17",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 88,
+      "optimal_bins": 83,
+      "gap": 5.0,
+      "gap_ratio": 0.060240963855421686
+    },
+    {
+      "name": "t249_18",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 87,
+      "optimal_bins": 83,
+      "gap": 4.0,
+      "gap_ratio": 0.04819277108433735
+    },
+    {
+      "name": "t249_19",
+      "source": "binpack7",
+      "capacity": 100.0,
+      "bins_used": 88,
+      "optimal_bins": 83,
+      "gap": 5.0,
+      "gap_ratio": 0.060240963855421686
+    }
+  ],
+  "baselines": {
+    "ff_gap_ratio": 0.06385542168674699,
+    "bf_gap_ratio": 0.06385542168674699
+  }
+}

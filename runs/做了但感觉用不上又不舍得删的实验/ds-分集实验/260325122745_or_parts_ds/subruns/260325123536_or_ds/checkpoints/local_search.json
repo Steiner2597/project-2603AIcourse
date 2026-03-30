@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "top_k": 2,
+  "steps": 2,
+  "improved": true,
+  "start_best_score": 0.0515908755229158,
+  "end_best_score": 0.05067825577271219,
+  "records": [
+    {
+      "elite_rank": 0,
+      "step": 1,
+      "status": "new_global_best",
+      "candidate_score": 0.05067825577271219
+    },
+    {
+      "elite_rank": 0,
+      "step": 2,
+      "status": "evaluated",
+      "candidate_score": 0.051645003390870234
+    },
+    {
+      "elite_rank": 1,
+      "step": 1,
+      "status": "evaluated",
+      "candidate_score": 0.05211184744004631
+    },
+    {
+      "elite_rank": 1,
+      "step": 2,
+      "status": "accepted_local",
+      "candidate_score": 0.05163565696385584
+    }
+  ]
+}

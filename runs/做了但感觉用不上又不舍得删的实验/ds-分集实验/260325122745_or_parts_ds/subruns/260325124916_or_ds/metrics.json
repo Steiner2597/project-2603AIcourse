@@ -1,0 +1,303 @@
+{
+  "best_score": 0.04297013226107708,
+  "best_expression": "-abs(-abs(max(2.1 * after + -1.8 * fill + 1.7 * exact_fit - 0.7569 * remaining - abs(after), -after - 0.6 * stdev_remaining) + 0.1 * mean_remaining)) - 0.2 * mean_remaining",
+  "history": {
+    "best_per_gen": [
+      0.047967830657889704,
+      0.045441381780850255,
+      0.04444364880312047,
+      0.04344848447742818,
+      0.0434361008832138,
+      0.0434361008832138,
+      0.0434361008832138,
+      0.0434361008832138
+    ],
+    "avg_per_gen": [
+      0.05566865816935331,
+      0.0522870810166213,
+      0.05075726608676135,
+      0.05273670197929186,
+      0.049818381375123524,
+      0.048522506509599286,
+      0.049883016258014924,
+      0.04910210717737986
+    ],
+    "dedup_expr_hits": [
+      73,
+      93,
+      104,
+      117,
+      129,
+      139,
+      159,
+      171
+    ],
+    "dedup_behavior_hits": [
+      138,
+      164,
+      188,
+      208,
+      227,
+      250,
+      271,
+      291
+    ]
+  },
+  "search_config": {
+    "generations": 8,
+    "population_size": 16,
+    "islands": 2,
+    "migration_interval": 5,
+    "mutation_rate": 0.7,
+    "crossover_rate": 0.2,
+    "llm_seed_per_generation": 2,
+    "llm_refine_top_k": 2,
+    "random_seed": 42,
+    "verbose": true,
+    "log_interval": 1,
+    "behavior_repeat_cap": 1,
+    "behavior_eval_cap": 1,
+    "behavior_signature_points": 120,
+    "oversample_ratio": 0.35,
+    "restart_interval": 1,
+    "restart_inject_ratio": 0.18,
+    "stagnation_window": 2,
+    "stagnation_score_anchor": 1567.0,
+    "stagnation_ratio_threshold": 0.4,
+    "stagnation_restart_boost": 1.5,
+    "stagnation_llm_boost": 0,
+    "anneal_enable": true,
+    "novelty_weight_final": 0.2,
+    "stability_weight_final": 1.0,
+    "behavior_eval_cap_final": 3,
+    "behavior_repeat_cap_final": 2,
+    "local_search_top_k": 2,
+    "local_search_steps": 2
+  },
+  "experiment_config": {
+    "dataset": "orlib",
+    "size": "small",
+    "bin_capacity": 1.0,
+    "output_dir": "runs\\260325122745_or_parts_ds\\subruns",
+    "provider_tag": "ds",
+    "orlib_source": "binpack3"
+  },
+  "local_search": {
+    "improved": true,
+    "start_best_score": 0.0434361008832138,
+    "end_best_score": 0.04297013226107708,
+    "top_k": 2,
+    "steps": 2
+  },
+  "instances": {
+    "count": 20,
+    "avg_items": 500.0
+  },
+  "evaluation": {
+    "avg_bins_used": 209.85,
+    "avg_gap": 8.65,
+    "avg_gap_ratio": 0.04297013226107708,
+    "per_instance": [
+      {
+        "name": "u500_00",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 208,
+        "optimal_bins": 198,
+        "gap": 10.0,
+        "gap_ratio": 0.050505050505050504
+      },
+      {
+        "name": "u500_01",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 213,
+        "optimal_bins": 201,
+        "gap": 12.0,
+        "gap_ratio": 0.05970149253731343
+      },
+      {
+        "name": "u500_02",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 208,
+        "optimal_bins": 202,
+        "gap": 6.0,
+        "gap_ratio": 0.0297029702970297
+      },
+      {
+        "name": "u500_03",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 213,
+        "optimal_bins": 204,
+        "gap": 9.0,
+        "gap_ratio": 0.04411764705882353
+      },
+      {
+        "name": "u500_04",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 216,
+        "optimal_bins": 206,
+        "gap": 10.0,
+        "gap_ratio": 0.04854368932038835
+      },
+      {
+        "name": "u500_05",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 216,
+        "optimal_bins": 206,
+        "gap": 10.0,
+        "gap_ratio": 0.04854368932038835
+      },
+      {
+        "name": "u500_06",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 216,
+        "optimal_bins": 207,
+        "gap": 9.0,
+        "gap_ratio": 0.043478260869565216
+      },
+      {
+        "name": "u500_07",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 214,
+        "optimal_bins": 204,
+        "gap": 10.0,
+        "gap_ratio": 0.049019607843137254
+      },
+      {
+        "name": "u500_08",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 205,
+        "optimal_bins": 196,
+        "gap": 9.0,
+        "gap_ratio": 0.04591836734693878
+      },
+      {
+        "name": "u500_09",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 210,
+        "optimal_bins": 202,
+        "gap": 8.0,
+        "gap_ratio": 0.039603960396039604
+      },
+      {
+        "name": "u500_10",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 206,
+        "optimal_bins": 200,
+        "gap": 6.0,
+        "gap_ratio": 0.03
+      },
+      {
+        "name": "u500_11",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 209,
+        "optimal_bins": 200,
+        "gap": 9.0,
+        "gap_ratio": 0.045
+      },
+      {
+        "name": "u500_12",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 209,
+        "optimal_bins": 199,
+        "gap": 10.0,
+        "gap_ratio": 0.05025125628140704
+      },
+      {
+        "name": "u500_13",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 206,
+        "optimal_bins": 196,
+        "gap": 10.0,
+        "gap_ratio": 0.05102040816326531
+      },
+      {
+        "name": "u500_14",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 216,
+        "optimal_bins": 204,
+        "gap": 12.0,
+        "gap_ratio": 0.058823529411764705
+      },
+      {
+        "name": "u500_15",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 209,
+        "optimal_bins": 201,
+        "gap": 8.0,
+        "gap_ratio": 0.03980099502487562
+      },
+      {
+        "name": "u500_16",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 207,
+        "optimal_bins": 202,
+        "gap": 5.0,
+        "gap_ratio": 0.024752475247524754
+      },
+      {
+        "name": "u500_17",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 205,
+        "optimal_bins": 198,
+        "gap": 7.0,
+        "gap_ratio": 0.03535353535353535
+      },
+      {
+        "name": "u500_18",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 209,
+        "optimal_bins": 202,
+        "gap": 7.0,
+        "gap_ratio": 0.034653465346534656
+      },
+      {
+        "name": "u500_19",
+        "source": "binpack3",
+        "capacity": 150.0,
+        "bins_used": 202,
+        "optimal_bins": 196,
+        "gap": 6.0,
+        "gap_ratio": 0.030612244897959183
+      }
+    ],
+    "per_source_summary": {
+      "binpack3": {
+        "instances": 20,
+        "avg_bins": 209.85,
+        "avg_gap": 8.65,
+        "avg_gap_ratio": 0.04297013226107708
+      }
+    },
+    "baselines": {
+      "ff": {
+        "avg_bins": 212.75,
+        "avg_gap": 11.55,
+        "avg_gap_ratio": 0.057382355686119456
+      },
+      "bf": {
+        "avg_bins": 212.0,
+        "avg_gap": 10.8,
+        "avg_gap_ratio": 0.053679070394633474
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "top_k": 2,
+  "steps": 2,
+  "improved": false,
+  "start_best_score": 0.062479811055481005,
+  "end_best_score": 0.062479811055481005,
+  "records": [
+    {
+      "elite_rank": 0,
+      "step": 1,
+      "status": "accepted_local",
+      "candidate_score": 0.062479811055481005
+    },
+    {
+      "elite_rank": 0,
+      "step": 2,
+      "status": "accepted_local",
+      "candidate_score": 0.062479811055481005
+    },
+    {
+      "elite_rank": 1,
+      "step": 1,
+      "status": "accepted_local",
+      "candidate_score": 0.062479811055481005
+    },
+    {
+      "elite_rank": 1,
+      "step": 2,
+      "status": "accepted_local",
+      "candidate_score": 0.062479811055481005
+    }
+  ]
+}

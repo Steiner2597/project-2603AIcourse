@@ -1,0 +1,207 @@
+退火调度版本
+
+第1次 seed:42
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api ds --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 42 ^
+    --llm-seeds 2 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 0 ^
+    --anneal --compare
+
+第2次 seed:43
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api ds --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 43 ^
+    --llm-seeds 2 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 0 ^
+    --anneal --compare
+
+第3次 seed:44
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api ds --dataset orlib ^
+    --generations 8 --population 16 --islands 2 --seed 44 ^
+    --llm-seeds 2 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 0 ^
+    --anneal --compare
+
+-------------------------------
+分集训练启动命令
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli --api ds --dataset orlib --orlib-mode per-source --generations 8 --population 16 --islands 2 --seed 42 --llm-seeds 2 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 0 --anneal --compare
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli --api ds --dataset orlib --orlib-mode per-source --generations 8 --population 16 --islands 2 --seed 43 --llm-seeds 2 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 0 --anneal --compare
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli --api ds --dataset orlib --orlib-mode per-source --generations 8 --population 16 --islands 2 --seed 44 --llm-seeds 2 --llm-topk 2 --behavior-repeat-cap 1 --behavior-eval-cap 1 --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 --novelty-weight-final 0.2 --stability-weight-final 1.0 --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 --stagnation-restart-boost 1.5 --stagnation-llm-boost 0 --anneal --compare
+
+---------------------------------
+ChatGPT
+
+常规实验（ORLIB 整体 combined）
+第1次 seed=42
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+--api gpt --dataset orlib ^
+--generations 8 --population 16 --islands 2 --seed 42 ^
+--llm-seeds 1 --llm-topk 1 ^
+--behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+--behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+--novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+--restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+--stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+--anneal --compare
+
+第2次 seed=43
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+--api gpt --dataset orlib ^
+--generations 8 --population 16 --islands 2 --seed 43 ^
+--llm-seeds 1 --llm-topk 1 ^
+--behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+--behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+--novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+--restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+--stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+--anneal --compare
+
+第3次 seed=44
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+--api gpt --dataset orlib ^
+--generations 8 --population 16 --islands 2 --seed 44 ^
+--llm-seeds 1 --llm-topk 1 ^
+--behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+--behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+--novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+--restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+--stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+--anneal --compare
+
+分集测试实验（per-source）
+第1次 seed=42
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+--api gpt --dataset orlib ^ --orlib-mode per-source ^
+--generations 8 --population 16 --islands 2 --seed 42 ^
+--llm-seeds 1 --llm-topk 1 ^
+--behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+--behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+--novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+--restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+--stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+--anneal --compare
+
+第2次 seed=43
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+--api gpt --dataset orlib ^ --orlib-mode per-source ^
+--generations 8 --population 16 --islands 2 --seed 43 ^
+--llm-seeds 1 --llm-topk 1 ^
+--behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+--behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+--novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+--restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+--stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+--anneal --compare
+
+第3次 seed=44
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+--api gpt --dataset orlib ^ --orlib-mode per-source ^
+--generations 8 --population 16 --islands 2 --seed 44 ^
+--llm-seeds 1 --llm-topk 1 ^
+--behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+--behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+--novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+--restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+--stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+--anneal --compare
+
+---------------------------------
+多模型协作——ds-chat + gpt5nano
+
+
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+  --api gpt ^
+  --gen-provider ds ^
+  --ref-provider gpt ^
+  --dataset orlib ^
+  --generations 8 --population 16 --islands 2 --seed 42 ^
+  --llm-seeds 1 --llm-topk 1 ^
+  --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+  --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+  --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+  --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+  --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+  --anneal --compare
+
+
+-------------------------------------
+多模型协作--------------gpt5nano + gpt5mini
+
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api gpt --gen-provider gpt --ref-provider gpt ^
+    --gen-model gpt-5-nano --ref-model gpt-5-mini ^
+    --dataset orlib ^
+    --generations 3 --population 8 --islands 2 --seed 42 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+
+-------------------------------------
+多模型协作--------------ds-chat + ds-reasoner
+
+  DS 双模型协作（生成=chat，refine=reasoner）：
+
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+    --api ds --ds-dual-model ^
+    --dataset orlib ^
+    --generations 3 --population 8 --islands 2 --seed 42 ^
+    --llm-seeds 1 --llm-topk 2 ^
+    --behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+    --behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+    --novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+    --restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+    --stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+    --anneal --compare
+
+
+--------------------
+deepseek-reasoner
+
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+--api ds --gen-provider ds --ref-provider ds ^
+--gen-model deepseek-reasoner --ref-model deepseek-reasoner ^
+--dataset orlib ^
+--generations 8 --population 16 --islands 2 --seed 42 ^
+--llm-seeds 1 --llm-topk 2 ^
+--behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+--behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+--novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+--restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+--stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+--anneal --compare
+
+
+--------------------
+gpt5mini
+
+conda run --no-capture-output -n 5491project python -u -m funsearch_lite.cli ^
+--api gpt --gen-provider gpt --ref-provider gpt ^
+--gen-model gpt-5-mini --ref-model gpt-5-mini ^
+--dataset orlib ^
+--generations 8 --population 16 --islands 2 --seed 42 ^
+--llm-seeds 1 --llm-topk 2 ^
+--behavior-repeat-cap 1 --behavior-eval-cap 1 ^
+--behavior-repeat-cap-final 2 --behavior-eval-cap-final 3 ^
+--novelty-weight-final 0.2 --stability-weight-final 1.0 ^
+--restart-ratio 0.18 --stagnation-ratio-threshold 0.40 ^
+--stagnation-restart-boost 1.5 --stagnation-llm-boost 1 ^
+--anneal --compare

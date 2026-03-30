@@ -1,0 +1,1 @@
+max(1.269 * bin_rank + 1.162 * exact_fit + 1.405 * item + -2.142 * item + -1.655 * fill + 1.23 * global_tightness, -after) + 0.5 * remaining

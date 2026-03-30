@@ -1,0 +1,124 @@
+{
+  "run_dir": "runs/final/1 ds-chat/260326030020_ds-chat_seed43",
+  "group": "1 ds-chat",
+  "run_name": "260326030020_ds-chat_seed43",
+  "seed": 43,
+  "provider_tag": "ds-chat",
+  "status": "completed",
+  "started_at": "2026-03-26T03:00:20",
+  "finished_at": "2026-03-26T04:22:47",
+  "wall_clock_sec": 4947.0,
+  "quality": {
+    "best_score_ratio": 0.05119238554633217,
+    "ours_gap_pct": 5.119238554633217,
+    "improve_ratio_first_to_last_best": 0.1792811969331664
+  },
+  "events": {
+    "total_eval_events": 677,
+    "total_llm_events": 64,
+    "llm_request_done": 32,
+    "llm_request_error": 0,
+    "accepted": 346,
+    "dedup_expr_hit": 191,
+    "eval_errors": 0
+  },
+  "llm_time": {
+    "sum_elapsed_sec": 303.535,
+    "avg_elapsed_sec": 9.48546875
+  },
+  "by_model": {
+    "deepseek-chat": {
+      "requests": 32,
+      "prompt_chars": 53932,
+      "response_chars": 26948,
+      "elapsed_sec": 303.535,
+      "scenarios": {
+        "pessimistic_3p5": {
+          "chars_per_token": 3.5,
+          "input_tokens_est": 15409.142857142857,
+          "output_tokens_est": 7699.428571428572,
+          "cost_input_miss_usd": 0.00431456,
+          "cost_input_hit_usd": 0.00043145600000000004,
+          "cost_output_usd": 0.0032337599999999996
+        },
+        "default_4p0": {
+          "chars_per_token": 4.0,
+          "input_tokens_est": 13483.0,
+          "output_tokens_est": 6737.0,
+          "cost_input_miss_usd": 0.0037752400000000005,
+          "cost_input_hit_usd": 0.000377524,
+          "cost_output_usd": 0.00282954
+        },
+        "optimistic_4p5": {
+          "chars_per_token": 4.5,
+          "input_tokens_est": 11984.888888888889,
+          "output_tokens_est": 5988.444444444444,
+          "cost_input_miss_usd": 0.0033557688888888894,
+          "cost_input_hit_usd": 0.0003355768888888889,
+          "cost_output_usd": 0.0025151466666666665
+        }
+      }
+    }
+  },
+  "by_phase": {
+    "proposal": {
+      "requests": 16,
+      "elapsed_sec": 171.858
+    },
+    "refine": {
+      "requests": 16,
+      "elapsed_sec": 131.677
+    }
+  },
+  "by_generation": {
+    "1": {
+      "requests": 4,
+      "elapsed_sec": 28.841
+    },
+    "2": {
+      "requests": 4,
+      "elapsed_sec": 29.207
+    },
+    "3": {
+      "requests": 4,
+      "elapsed_sec": 35.997
+    },
+    "4": {
+      "requests": 4,
+      "elapsed_sec": 39.085
+    },
+    "5": {
+      "requests": 4,
+      "elapsed_sec": 43.197
+    },
+    "6": {
+      "requests": 4,
+      "elapsed_sec": 43.626
+    },
+    "7": {
+      "requests": 4,
+      "elapsed_sec": 32.981
+    },
+    "8": {
+      "requests": 4,
+      "elapsed_sec": 50.601
+    }
+  },
+  "cost_totals": {
+    "pessimistic_3p5": {
+      "cost_input_miss_usd": 0.00431456,
+      "cost_input_hit_usd": 0.00043145600000000004,
+      "cost_output_usd": 0.0032337599999999996
+    },
+    "default_4p0": {
+      "cost_input_miss_usd": 0.0037752400000000005,
+      "cost_input_hit_usd": 0.000377524,
+      "cost_output_usd": 0.00282954
+    },
+    "optimistic_4p5": {
+      "cost_input_miss_usd": 0.0033557688888888894,
+      "cost_input_hit_usd": 0.0003355768888888889,
+      "cost_output_usd": 0.0025151466666666665
+    }
+  }
+}
